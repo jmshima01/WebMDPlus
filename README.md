@@ -1,1 +1,2 @@
-# CSCI403
+# CSCI403 - Group 6
+Project Description:
