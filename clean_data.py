@@ -8,50 +8,60 @@ Created on Thu Nov 10 09:36:20 2022
 @author: James Shima
 """
 import csv
-import pandas as pd
 
 file_path = input("Please enter dataset filepath: ")
-
+nums = ['0','1','2','3','4','5','6','7','8','9']
 final_data = []
 symptoms = []
 meds = []
 diseases = []
 desc = []
+flag = False
 
 
 with open(file_path, 'r') as dataset:
     data = csv.reader(x.replace('\0', '') for x in dataset)
     
     for line in data:
+        symptoms = []
+        i = 0
         for string in line:
-            if('"symptoms":' in string):
+            if(i==1):
+                disease = string
+            
+            if('"symptoms":' in string and (string[13] not in nums)):
+                flag = True
+                symptoms.append(disease)
                 symptoms.append(string[13:len(string)-2].replace('"',''))
-    #print(symptoms)
-    temp = symptoms
-    symptoms = []
-    for i in range(0,len(temp),2):
-        if(temp[i] not in symptoms):
-            symptoms.append(temp[i])
-        
-    print("++++++++++++++++++++++++++++++++++++++")
-    print(symptoms)
-    tocsv = []
-    tocsv.append(['Symptoms'])
-    tocsv.append(symptoms)
-with open("symptoms_cleaned.csv", 'w', newline='') as f:
-    w = csv.writer(f)
-    w.writerow(['Symptoms'])
-    for i in symptoms:
-        w.writerow([i])
-    
-    
-    print('\ndone')
-    
                 
-        
+            i+=1
+                
+        if(flag):
+            diseases.append(symptoms)
+            flag = False
+    #print(symptoms)
     
+    
+    
+    print(diseases)
+    
+    
+with open("symptoms_disease_mapping.csv",'w',newline='') as f:
+    w = csv.writer(f)
+    w.writerow(["Disease","Symptom"])
+    for i in range(len(diseases)):
+        for j in range(1,len(diseases[i]),2):
+            w.writerow([diseases[i][0],diseases[i][j]])
+            
     
 
+# with open("symptoms_cleaned.csv", 'w', newline='') as f:
+#     w = csv.writer(f)
+#     w.writerow(['Symptoms'])
+#     for i in symptoms:
+#         w.writerow([i])
+    
+#     print('\ndone')
     
     # Cleaning extra spaces and weird inconsistencies:
 #     for line in reader:
