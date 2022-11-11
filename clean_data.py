@@ -5,18 +5,22 @@ Created on Thu Nov 10 09:36:20 2022
 ::: 403 Database Management :::
 ::: Dataset scrubing script :::
 
-@author: James Shima
+@author: James Shima, Michael Maggiore
 """
 import csv
 
 file_path = input("Please enter dataset filepath: ")
+
 nums = ['0','1','2','3','4','5','6','7','8','9']
+
 final_data = []
 symptoms = []
 meds = []
 diseases = []
 desc = []
 flag = False
+
+
 
 
 with open(file_path, 'r') as dataset:
@@ -82,6 +86,7 @@ with open("symptoms_disease_mapping.csv",'w',newline='') as f:
                 
 #         data.append(temp)
         
+
     
 #     # Taking only unique rows:
 #     for l in data:
@@ -91,8 +96,12 @@ with open("symptoms_disease_mapping.csv",'w',newline='') as f:
 #     # uncomment to see data in terminal:
 #     # for i in final_data:
 #     #     print(i)
-    
 
+# Writes cleaned data into new file. REMEMBER to change file name below to not overwrite previous file
+with open("new_disease_symptom_dataset2.csv", 'w+', encoding='utf-8', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerows(final_data)
+    print('\n done.')
 # with open("symptoms_to_disease_dataset.csv", 'w+', encoding='utf-8', newline='') as file:
 #     writer = csv.writer(file)
 #     writer.writerows(final_data)
