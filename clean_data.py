@@ -5,20 +5,19 @@ Created on Thu Nov 10 09:36:20 2022
 ::: 403 Database Management :::
 ::: Dataset scrubing script :::
 
-@author: James Shima
+@author: James Shima, Michael Maggiore
 """
 import csv
 
 unique_lines = set()
 file_path = input("Please enter dataset filepath: ")
 
-
 data = []
 final_data = []
 
-with open(file_path, 'r+', encoding='utf-8') as dataset:
+# removed encoding='utf-8' from below line
+with open(file_path, 'r', encoding='utf-16', errors='ignore') as dataset:
     reader = csv.reader(dataset)
-    
     
     # Cleaning extra spaces and weird inconsistencies:
     for line in reader:
@@ -35,10 +34,9 @@ with open(file_path, 'r+', encoding='utf-8') as dataset:
             else:
                 no_spaces = string.replace(' ', '')
                 temp.append(no_spaces)
-            
                 
         data.append(temp)
-        
+
     
     # Taking only unique rows:
     for l in data:
@@ -49,8 +47,8 @@ with open(file_path, 'r+', encoding='utf-8') as dataset:
     # for i in final_data:
     #     print(i)
     
-
-with open("symptoms_to_disease_dataset.csv", 'w+', encoding='utf-8', newline='') as file:
+# Writes cleaned data into new file. REMEMBER to change file name below to not overwrite previous file
+with open("new_disease_symptom_dataset2.csv", 'w+', encoding='utf-8', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(final_data)
     print('\n done.')
