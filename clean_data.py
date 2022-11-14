@@ -22,40 +22,85 @@ flag = False
 
 
 
-
+# meds:
 with open(file_path, 'r') as dataset:
     data = csv.reader(x.replace('\0', '') for x in dataset)
-    
     for line in data:
-        symptoms = []
+        medications = []
         i = 0
         for string in line:
             if(i==1):
-                disease = string
-            
-            if('"symptoms":' in string and (string[13] not in nums)):
+                disease = string    
+            if('"commonMedications":' in string):
                 flag = True
-                symptoms.append(disease)
-                symptoms.append(string[13:len(string)-2].replace('"',''))
+                medications.append(disease)
+                medications.append(string[21:len(string)-2].replace('"','').replace(':',''))
                 
             i+=1
                 
-        if(flag):
-            diseases.append(symptoms)
-            flag = False
-    #print(symptoms)
+            if(flag):
+                if(medications not in meds):
+                    meds.append(medications)
+                flag = False
+    print(meds)
     
-    
-    
-    print(diseases)
-    
-    
-with open("symptoms_disease_mapping.csv",'w',newline='') as f:
+
+
+with open("medication_disease_mapping.csv",'w',newline='') as f:
     w = csv.writer(f)
-    w.writerow(["Disease","Symptom"])
-    for i in range(len(diseases)):
-        for j in range(1,len(diseases[i]),2):
-            w.writerow([diseases[i][0],diseases[i][j]])
+    w.writerow(["Disease","Medication"])
+    for i in range(len(meds)):
+        for j in range(1,len(meds[i]),2):
+            w.writerow([meds[i][0],meds[i][j]])       
+        
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Disease Map Generated via this:
+#     for line in data:
+#         symptoms = []
+#         i = 0
+#         for string in line:
+#             if(i==1):
+#                 disease = string
+            
+#             if('"symptoms":' in string and (string[13] not in nums)):
+#                 flag = True
+#                 symptoms.append(disease)
+#                 symptoms.append(string[13:len(string)-2].replace('"',''))
+                
+#             i+=1
+                
+#         if(flag):
+#             diseases.append(symptoms)
+#             flag = False
+#     #print(symptoms)
+    
+    
+    
+#     print(diseases)
+    
+    
+# with open("symptoms_disease_mapping.csv",'w',newline='') as f:
+#     w = csv.writer(f)
+#     w.writerow(["Disease","Symptom"])
+#     for i in range(len(diseases)):
+#         for j in range(1,len(diseases[i]),2):
+#             w.writerow([diseases[i][0],diseases[i][j]])
             
     
 
