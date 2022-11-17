@@ -1,0 +1,7 @@
+column,type,label,description
+YEAR,text,,
+HOSPITAL,text,,
+Procedure/Condition,text,Procedure/Condition,Procedure that was performed or condition that was treated
+Risk Adjuested Mortality Rate,text,,
+# of Deaths,numeric,# of Deaths,Number of patients that died in California for the Procedure/Condition
+# of Cases,numeric,# of Cases,Number of patients that had this medical procedure or condition in California
