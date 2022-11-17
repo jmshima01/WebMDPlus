@@ -14,6 +14,8 @@ file_path = input("Please enter dataset filepath: ")
 nums = ['0','1','2','3','4','5','6','7','8','9']
 
 final_data = []
+proc =[]
+proc_final = []
 symptoms = []
 meds = []
 diseases = []
@@ -26,41 +28,34 @@ flag = False
 with open(file_path, 'r') as dataset:
     data = csv.reader(x.replace('\0', '') for x in dataset)
     for line in data:
-        medications = []
+        proc = []
         i = 0
         for string in line:
             if(i==1):
                 disease = string    
-            if('"commonMedications":' in string):
+            if('"commonTestsAndProcedures":' in string):
                 flag = True
-                medications.append(disease)
-                medications.append(string[21:len(string)-2].replace('"','').replace(':',''))
+                proc.append(disease)
+                proc.append(string[27:len(string)-2].replace('"','').replace(':',''))
                 
             i+=1
                 
             if(flag):
-                if(medications not in meds):
-                    meds.append(medications)
+                if(proc not in proc_final):
+                    proc_final.append(proc)
                 flag = False
-    print(meds)
+    print(proc_final)
     
 
 
-with open("medication_disease_mapping.csv",'w',newline='') as f:
+with open("commonTests_disease_mapping.csv",'w',newline='') as f:
     w = csv.writer(f)
-    w.writerow(["Disease","Medication"])
-    for i in range(len(meds)):
-        for j in range(1,len(meds[i]),2):
-            w.writerow([meds[i][0],meds[i][j]])       
+    w.writerow(["Disease","CommonTestAndProcedure"])
+    for i in range(len(proc_final)):
+        for j in range(1,len(proc_final[i]),2):
+            w.writerow([proc_final[i][0],proc_final[i][j]])       
         
     
-
-    
-
-
-
-
-
 
 
 
