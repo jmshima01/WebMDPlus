@@ -10,14 +10,14 @@ CREATE TABLE disease(
     name TEXT,
     description TEXT,
     symptoms_name TEXT,
-    death_rate double precision,
+    death_rate double precision
 );
 
 DROP TABLE IF EXISTS medication CASCADE;
 CREATE TABLE medication(
     disease_name TEXT,
     name TEXT PRIMARY KEY,
-    cost DOUBLE PRECISION,
+    cost DOUBLE PRECISION
 );
 
 DROP TABLE IF EXISTS patient CASCADE;
@@ -26,14 +26,14 @@ CREATE TABLE patient(
     disease_name TEXT,
     symptoms_name TEXT,
     death TEXT,
-    user_medication_name TEXT,
+    user_medication_name TEXT
 
 );
 
 DROP TABLE IF EXISTS commonTestAndProcedures CASCADE;
 CREATE TABLE commonTestAndProcedures(
     name TEXT,
-    disease_name TEXT,
+    disease_name TEXT
 
 );
 
