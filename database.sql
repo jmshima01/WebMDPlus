@@ -17,7 +17,6 @@ DROP TABLE IF EXISTS medication CASCADE;
 CREATE TABLE medication(
     disease_name TEXT,
     name TEXT,
-    cost DOUBLE PRECISION
 );
 
 DROP TABLE IF EXISTS patient CASCADE;
