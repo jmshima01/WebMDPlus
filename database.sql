@@ -16,7 +16,7 @@ CREATE TABLE disease(
 DROP TABLE IF EXISTS medication CASCADE;
 CREATE TABLE medication(
     disease_name TEXT,
-    name TEXT,
+    name TEXT
 );
 
 DROP TABLE IF EXISTS patient CASCADE;
