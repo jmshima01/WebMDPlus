@@ -1,18 +1,16 @@
 DROP TABLE IF EXISTS symptoms CASCADE;
 CREATE TABLE symptoms(
     disease_name TEXT,
-    name TEXT PRIMARY KEY
+    name TEXT
     );
 
 DROP TABLE IF EXISTS disease CASCADE;
 CREATE TABLE disease(
     code SERIAL,
-    name TEXT PRIMARY KEY,
+    name TEXT,
     description TEXT,
     symptoms_name TEXT,
     death_rate double precision,
-
-    FOREIGN KEY (symptoms_name) REFERENCES symptoms(name)
 );
 
 DROP TABLE IF EXISTS medication CASCADE;
@@ -20,29 +18,23 @@ CREATE TABLE medication(
     disease_name TEXT,
     name TEXT PRIMARY KEY,
     cost DOUBLE PRECISION,
-
-    FOREIGN KEY (disease_name) REFERENCES disease(name)
 );
 
 DROP TABLE IF EXISTS patient CASCADE;
 CREATE TABLE patient(
-    user_id SERIAL PRIMARY KEY,
+    user_id SERIAL,
     disease_name TEXT,
     symptoms_name TEXT,
     death TEXT,
     user_medication_name TEXT,
 
-    FOREIGN KEY (user_medication_name) REFERENCES medication(name),
-    FOREIGN KEY (disease_name) REFERENCES disease(name),
-    FOREIGN KEY (symptoms_name) REFERENCEs symptoms(name)
 );
 
 DROP TABLE IF EXISTS commonTestAndProcedures CASCADE;
 CREATE TABLE commonTestAndProcedures(
-    name TEXT PRIMARY KEY,
+    name TEXT,
     disease_name TEXT,
 
-    FOREIGN KEY (disease_name) REFERENCES disease(name)
 );
 
 
