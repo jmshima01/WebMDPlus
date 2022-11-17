@@ -30,7 +30,7 @@ CREATE TABLE patient(
 );
 
 DROP TABLE IF EXISTS commonTestAndProcedures CASCADE;
-CREATE TABLE commonTestAndProcedures(
+CREATE TABLE commonTestsAndProcedures(
     name TEXT,
     disease_name TEXT
 );
