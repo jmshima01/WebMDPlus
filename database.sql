@@ -1,10 +1,10 @@
---DROP TABLE IF EXISTS symptoms CASCADE;
+DROP TABLE IF EXISTS symptoms CASCADE;
 CREATE TABLE symptoms(
     disease_name TEXT,
     name TEXT
     );
 
---DROP TABLE IF EXISTS disease CASCADE;
+DROP TABLE IF EXISTS disease CASCADE;
 CREATE TABLE disease(
     code SERIAL,
     name TEXT,
@@ -13,7 +13,7 @@ CREATE TABLE disease(
     death_rate double precision
 );
 
---DROP TABLE IF EXISTS medication CASCADE;
+DROP TABLE IF EXISTS medication CASCADE;
 CREATE TABLE medication(
     disease_name TEXT,
     name TEXT PRIMARY KEY,
@@ -34,7 +34,6 @@ DROP TABLE IF EXISTS commonTestAndProcedures CASCADE;
 CREATE TABLE commonTestAndProcedures(
     name TEXT,
     disease_name TEXT
-
 );
 
 
