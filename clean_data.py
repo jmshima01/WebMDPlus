@@ -18,48 +18,59 @@ proc =[]
 proc_final = []
 symptoms = []
 meds = []
-diseases = []
+dis = []
 desc = []
 flag = False
 
 
-with open(file_path,'r')as f:
-    r = csv.reader(f)
-    for i in r:
-        print(i)
+# with open(file_path,'r')as f:
+#     r = csv.reader(f)
+#     for i in r:
+#         print(i)
 
+#diseases
 
+# meds:
+with open(file_path, 'r') as dataset:
+    data = csv.reader(x.replace('\0', '') for x in dataset)
+    
+    
 
-# # meds:
-# with open(file_path, 'r') as dataset:
-#     data = csv.reader(x.replace('\0', '') for x in dataset)
-#     for line in data:
-#         proc = []
-#         i = 0
-#         for string in line:
-#             if(i==1):
-#                 disease = string    
-#             if('"commonTestsAndProcedures":' in string):
-#                 flag = True
-#                 proc.append(disease)
-#                 proc.append(string[27:len(string)-2].replace('"','').replace(':',''))
+    
+        for line in data:
+            
                 
-#             i+=1
+    
+    
+    
+    
+    # for line in data:
+    #     proc = []
+    #     i = 0
+    #     for string in line:
+    #         if(i==1):
+    #             disease = string    
+    #         if('"commonTestsAndProcedures":' in string):
+    #             flag = True
+    #             proc.append(disease)
+    #             proc.append(string[27:len(string)-2].replace('"','').replace(':',''))
                 
-#             if(flag):
-#                 if(proc not in proc_final):
-#                     proc_final.append(proc)
-#                 flag = False
-#     print(proc_final)
+    #         i+=1
+                
+    #         if(flag):
+    #             if(proc not in proc_final):
+    #                 proc_final.append(proc)
+    #             flag = False
+    # print(proc_final)
     
 
 
-# with open("commonTests_disease_mapping.csv",'w',newline='') as f:
-#     w = csv.writer(f)
-#     w.writerow(["Disease","CommonTestAndProcedure"])
-#     for i in range(len(proc_final)):
-#         for j in range(1,len(proc_final[i]),2):
-#             w.writerow([proc_final[i][0],proc_final[i][j]])       
+with open("commonTests_disease_mapping.csv",'w',newline='') as f:
+    w = csv.writer(f)
+    w.writerow(["Disease","CommonTestAndProcedure"])
+    for i in range(len(proc_final)):
+        for j in range(1,len(proc_final[i]),2):
+            w.writerow([proc_final[i][0],proc_final[i][j]])       
         
     
 
