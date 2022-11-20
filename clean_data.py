@@ -29,15 +29,34 @@ flag = False
 #         print(i)
 
 #diseases
+big_lis = []
+big_lis.append(['Disease','Desciption'])
 
-# meds:
 with open(file_path, 'r') as dataset:
-    data = csv.reader(x.replace('\0', '') for x in dataset)
+    data = csv.reader(x.replace('\0', '') for x in dataset)    
+    for line in data:
+        dis = []
+        for i,string in enumerate(line):
+            if(i!=0):  
+                if('"symptoms":' in line[i-1]) and ('"symptoms":' not in string):
+                    dis.append(line[1])
+                    if("We will add more content to this page if enough people like you show interest." in string):
+                        dis.append("None")
+                    else:
+                        dis.append(string.replace('\t', '').replace("   ", ' ').replace("  "," "))
+                    
+                    big_lis.append(dis)
+    print(big_lis)
     
-    
-
-    
-        for line in data:
+with open("disease_table.csv", 'w',newline='') as f:
+    w = csv.writer(f)
+    w.writerows(big_lis)
+    print('\ndone')
+            
+            
+                
+                
+                
             
                 
     
