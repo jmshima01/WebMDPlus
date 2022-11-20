@@ -32,6 +32,8 @@ flag = False
 big_lis = []
 big_lis.append(['Disease','Desciption'])
 
+repeats = []
+
 with open(file_path, 'r') as dataset:
     data = csv.reader(x.replace('\0', '') for x in dataset)    
     for line in data:
@@ -40,12 +42,14 @@ with open(file_path, 'r') as dataset:
             if(i!=0):  
                 if('"symptoms":' in line[i-1]) and ('"symptoms":' not in string):
                     dis.append(line[1])
+                    
                     if("We will add more content to this page if enough people like you show interest." in string):
                         dis.append("None")
                     else:
                         dis.append(string.replace('\t', '').replace("   ", ' ').replace("  "," ").replace(',',''))
-                    if(dis not in big_lis):
+                    if(dis not in repeats):
                         big_lis.append(dis)
+                    repeats.append(dis)
     print(big_lis)
     
 with open("disease_table.csv", 'w',newline='') as f:
