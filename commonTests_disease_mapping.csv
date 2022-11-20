@@ -1,1 +1,2468 @@
 Disease,CommonTestAndProcedure
+Intestinal obstruction,Radiographic imaging procedure
+Intestinal obstruction,Hematologic tests (Blood test)
+Intestinal obstruction,Complete blood count (Cbc)
+Intestinal obstruction,Urinalysis
+Intestinal obstruction,Plain x-ray (X ray)
+Intestinal obstruction,Intravenous fluid replacement
+Intestinal obstruction,Kidney function tests (Kidney function test)
+Intestinal obstruction,Electrolytes panel
+Heart contusion,Radiographic imaging procedure
+Heart contusion,Plain x-ray (X ray)
+Heart contusion,Wound care management
+Heart contusion,X-ray computed tomography (Scan ct)
+Heart contusion,Intravenous fluid replacement
+Heart contusion,Cardiopulmonary resuscitation (Cpr)
+Heart contusion,CAT scan of head (Head ct)
+Heart contusion,Cardiac enzymes measurement (Cardiac enzymes test)
+Congenital malformation syndrome,Complete physical skin exam performed (ML)
+Congenital malformation syndrome,Other diagnostic procedures (interview; evaluation; consultation)
+Congenital malformation syndrome,Occupational therapy assessment (Speech therapy)
+Congenital malformation syndrome,Physical therapy exercises (Exercises)
+Congenital malformation syndrome,Examination of foot
+Congenital malformation syndrome,Other therapeutic ear procedures
+Congenital malformation syndrome,Psychological and psychiatric evaluation and therapy
+Congenital malformation syndrome,Ophthalmologic and otologic diagnosis and treatment
+Sporotrichosis,Bone density scan
+Sporotrichosis,Complete physical skin exam performed (ML)
+Sporotrichosis,Complete blood count (Cbc)
+Sporotrichosis,Radiographic imaging procedure
+Sporotrichosis,Hematologic tests (Blood test)
+Sporotrichosis,Corneal transplant
+Sporotrichosis,Transurethral resection of prostate (TURP) (Turp)
+Sporotrichosis,Coronary thrombolysis
+Lymphangitis,Complete blood count (Cbc)
+Lymphangitis,Hematologic tests (Blood test)
+Lymphangitis,Intravenous fluid replacement
+Lymphangitis,Wound care management
+Lymphangitis,Blood culture
+Lymphangitis,Culture wound
+Lymphangitis,Incision and drainage (I d)
+Lymphangitis,Examination of foot
+Wernicke Korsakoff syndrome,Complete blood count (Cbc)
+Wernicke Korsakoff syndrome,Hematologic tests (Blood test)
+Wernicke Korsakoff syndrome,Urinalysis
+Wernicke Korsakoff syndrome,Electrolytes panel
+Wernicke Korsakoff syndrome,Kidney function tests (Kidney function test)
+Wernicke Korsakoff syndrome,Intravenous fluid replacement
+Wernicke Korsakoff syndrome,Glucose measurement (Glucose level)
+Wernicke Korsakoff syndrome,Blood alcohol
+Intestinal disease,Hematologic tests (Blood test)
+Intestinal disease,Complete blood count (Cbc)
+Intestinal disease,Radiographic imaging procedure
+Intestinal disease,X-ray computed tomography (Scan ct)
+Intestinal disease,Intravenous fluid replacement
+Intestinal disease,Urinalysis
+Intestinal disease,Glucose measurement (Glucose level)
+Intestinal disease,Plain x-ray (X ray)
+Acute bronchitis,Radiographic imaging procedure
+Acute bronchitis,Plain x-ray (X ray)
+Acute bronchitis,Nebulizer therapy
+Acute bronchitis,Kidney function tests (Kidney function test)
+Acute bronchitis,Electrocardiogram
+Acute bronchitis,Cardiac enzymes measurement (Cardiac enzymes test)
+Acute bronchitis,Cardiac monitoring (Cardiac monitor)
+Acute bronchitis,Blood culture
+Persistent vomiting of unknown cause,Hematologic tests (Blood test)
+Persistent vomiting of unknown cause,Intravenous fluid replacement
+Persistent vomiting of unknown cause,Complete blood count (Cbc)
+Persistent vomiting of unknown cause,Urinalysis
+Persistent vomiting of unknown cause,Electrolytes panel
+Persistent vomiting of unknown cause,Glucose measurement (Glucose level)
+Persistent vomiting of unknown cause,Kidney function tests (Kidney function test)
+Persistent vomiting of unknown cause,Radiographic imaging procedure
+Open wound of the foot,Wound care management
+Open wound of the foot,Plain x-ray (X ray)
+Open wound of the foot,Complete physical skin exam performed (ML)
+Open wound of the foot,Suturing of wound
+Open wound of the foot,Examination of foot
+Open wound of the foot,Application of splint (Splinting)
+Open wound of the foot,Excision (Removal)
+Open wound of the foot,Referral to home health care service
+Myocarditis,Radiographic imaging procedure
+Myocarditis,Hematologic tests (Blood test)
+Myocarditis,Complete blood count (Cbc)
+Myocarditis,Electrocardiogram
+Myocarditis,Plain x-ray (X ray)
+Myocarditis,Echocardiography
+Myocarditis,Ultrasonography (Ultrasound)
+Myocarditis,Cardiac monitoring (Cardiac monitor)
+Preeclampsia,Urinalysis
+Preeclampsia,Hematologic tests (Blood test)
+Preeclampsia,Ultrasonography (Ultrasound)
+Preeclampsia,Pelvis exam
+Preeclampsia,Glucose measurement (Glucose level)
+Preeclampsia,Electrolytes panel
+Preeclampsia,Other diagnostic procedures (interview; evaluation; consultation)
+Preeclampsia,Examination of breast
+Ischemic heart disease,Hematologic tests (Blood test)
+Ischemic heart disease,Electrocardiogram
+Ischemic heart disease,Complete blood count (Cbc)
+Ischemic heart disease,Glucose measurement (Glucose level)
+Ischemic heart disease,Lipid panel
+Ischemic heart disease,Ultrasonography (Ultrasound)
+Ischemic heart disease,Electrolytes panel
+Ischemic heart disease,Echocardiography
+Neurofibromatosis,Magnetic resonance imaging (Mri)
+Neurofibromatosis,Complete physical skin exam performed (ML)
+Neurofibromatosis,Other diagnostic procedures (interview; evaluation; consultation)
+Neurofibromatosis,Ophthalmologic and otologic diagnosis and treatment
+Neurofibromatosis,Physical therapy exercises (Exercises)
+Neurofibromatosis,Bone density scan
+Neurofibromatosis,Biopsy
+Neurofibromatosis,Electroencephalogram (EEG) (Eeg)
+Chickenpox,Complete physical skin exam performed (ML)
+Chickenpox,HIV screen (Hiv test)
+Chickenpox,Human papillomavirus DNA detection
+Pancreatic cancer,Hematologic tests (Blood test)
+Pancreatic cancer,Complete blood count (Cbc)
+Pancreatic cancer,Glucose measurement (Glucose level)
+Pancreatic cancer,Electrolytes panel
+Pancreatic cancer,X-ray computed tomography (Scan ct)
+Pancreatic cancer,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Pancreatic cancer,Therapeutic radiology for cancer treatment (Irradiation)
+Pancreatic cancer,Cancer chemotherapy (Chemotherapy)
+Neuropathy due to drugs,Glucose measurement (Glucose level)
+Neuropathy due to drugs,Other diagnostic procedures (interview; evaluation; consultation)
+Neuropathy due to drugs,Examination of foot
+Neuropathy due to drugs,Physical therapy exercises (Exercises)
+Neuropathy due to drugs,Other non-OR therapeutic procedures on skin and breast
+Neuropathy due to drugs,Blood alcohol
+Neuropathy due to drugs,Toxicology screen
+Neuropathy due to drugs,Corneal transplant
+Croup,Nebulizer therapy
+Croup,Influenzavirus antibody assay
+Croup,Other respiratory therapy
+Croup,Diagnostic bronchoscopy and biopsy of bronchus
+Croup,Tracheoscopy and laryngoscopy with biopsy
+Croup,Nonoperative urinary system measurements
+Idiopathic excessive menstruation,Pelvis exam
+Idiopathic excessive menstruation,Hematologic tests (Blood test)
+Idiopathic excessive menstruation,Complete blood count (Cbc)
+Idiopathic excessive menstruation,Urinalysis
+Idiopathic excessive menstruation,Examination of breast
+Idiopathic excessive menstruation,Ultrasonography (Ultrasound)
+Idiopathic excessive menstruation,Standard pregnancy test
+Idiopathic excessive menstruation,Biopsy
+Amblyopia,Ophthalmologic and otologic diagnosis and treatment
+Amblyopia,Ophthalmic examination and evaluation (Eye exam)
+Amblyopia,Other therapeutic procedures on eyelids; conjunctiva; cornea
+Amblyopia,Other therapeutic procedures
+Amblyopia,Diagnostic procedures on eye
+Amblyopia,Referral to home health care service
+Meckel diverticulum,Excision (Removal)
+Meckel diverticulum,X-ray computed tomography (Scan ct)
+Meckel diverticulum,Intravenous fluid replacement
+Meckel diverticulum,Complete blood count (Cbc)
+Meckel diverticulum,Corneal transplant
+Meckel diverticulum,Transurethral resection of prostate (TURP) (Turp)
+Meckel diverticulum,Coronary thrombolysis
+Meckel diverticulum,Control of epistaxis
+Dislocation of the wrist,Plain x-ray (X ray)
+Dislocation of the wrist,Radiographic imaging procedure
+Dislocation of the wrist,Application of splint (Splinting)
+Dislocation of the wrist,Arterial blood gases (ABGs)
+Dislocation of the wrist,Physical therapy exercises (Exercises)
+Dislocation of the wrist,Corneal transplant
+Dislocation of the wrist,Procedures on spleen (Spleen operation)
+Dislocation of the wrist,Removal of ectopic pregnancy
+Ear drum damage,Ophthalmologic and otologic diagnosis and treatment
+Ear drum damage,Other diagnostic procedures (interview; evaluation; consultation)
+Ear drum damage,Excision (Removal)
+Ear drum damage,Tympanoplasty
+Ear drum damage,Nonoperative removal of foreign body
+Ear drum damage,Other therapeutic procedures
+Ear drum damage,Diagnostic procedures on ear
+Ear drum damage,Occupational therapy assessment (Speech therapy)
+Erectile dysfunction,Hematologic tests (Blood test)
+Erectile dysfunction,Urinalysis
+Erectile dysfunction,Prostate specific antigen measurement (Prostate specific antigen test)
+Erectile dysfunction,Rectal examination
+Erectile dysfunction,Lipid panel
+Erectile dysfunction,Ultrasonography (Ultrasound)
+Erectile dysfunction,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Erectile dysfunction,Other diagnostic procedures (interview; evaluation; consultation)
+Temporary or benign blood in urine,Urinalysis
+Temporary or benign blood in urine,Hematologic tests (Blood test)
+Temporary or benign blood in urine,Radiographic imaging procedure
+Temporary or benign blood in urine,Complete blood count (Cbc)
+Temporary or benign blood in urine,X-ray computed tomography (Scan ct)
+Temporary or benign blood in urine,Endoscopy and endoscopic biopsy of the urinary tract
+Temporary or benign blood in urine,Glucose measurement (Glucose level)
+Temporary or benign blood in urine,Electrolytes panel
+Kidney disease due to longstanding hypertension,Hematologic tests (Blood test)
+Kidney disease due to longstanding hypertension,Complete blood count (Cbc)
+Kidney disease due to longstanding hypertension,Glucose measurement (Glucose level)
+Kidney disease due to longstanding hypertension,Urinalysis
+Kidney disease due to longstanding hypertension,Electrolytes panel
+Kidney disease due to longstanding hypertension,Electrocardiogram
+Kidney disease due to longstanding hypertension,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Kidney disease due to longstanding hypertension,Lipid panel
+Chondromalacia of the patella,Radiographic imaging procedure
+Chondromalacia of the patella,Plain x-ray (X ray)
+Chondromalacia of the patella,Physical therapy exercises (Exercises)
+Chondromalacia of the patella,Magnetic resonance imaging (Mri)
+Chondromalacia of the patella,Other therapeutic procedures
+Chondromalacia of the patella,Excision (Removal)
+Chondromalacia of the patella,Examination of foot
+Chondromalacia of the patella,Other non-OR therapeutic procedures on musculoskeletal system
+Onychomycosis,Complete physical skin exam performed (ML)
+Onychomycosis,Excision (Removal)
+Onychomycosis,Examination of foot
+Onychomycosis,Lipid panel
+Onychomycosis,Wound care management
+Onychomycosis,Other non-OR therapeutic procedures on skin and breast
+Onychomycosis,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Onychomycosis,Microscopic examination (bacterial smear; culture; toxicology)
+Urethral disorder,Urinalysis
+Urethral disorder,Pelvis exam
+Urethral disorder,X-ray computed tomography (Scan ct)
+Urethral disorder,Endoscopy and endoscopic biopsy of the urinary tract
+Urethral disorder,Ultrasonography (Ultrasound)
+Urethral disorder,Blood culture
+Urethral disorder,Rectal examination
+Urethral disorder,Biopsy
+Lyme disease,Complete physical skin exam performed (ML)
+Lyme disease,Magnetic resonance imaging (Mri)
+Lyme disease,Diagnostic spinal tap (Spinal tap)
+Lyme disease,Culture wound
+Lyme disease,Incision and drainage (I d)
+Lyme disease,Ophthalmologic and otologic diagnosis and treatment
+Iron deficiency anemia,Hematologic tests (Blood test)
+Iron deficiency anemia,Complete blood count (Cbc)
+Iron deficiency anemia,Glucose measurement (Glucose level)
+Iron deficiency anemia,Electrolytes panel
+Iron deficiency anemia,Electrocardiogram
+Iron deficiency anemia,Kidney function tests (Kidney function test)
+Iron deficiency anemia,Complete physical skin exam performed (ML)
+Iron deficiency anemia,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Acute respiratory distress syndrome (ARDS),Radiographic imaging procedure
+Acute respiratory distress syndrome (ARDS),Hematologic tests (Blood test)
+Acute respiratory distress syndrome (ARDS),Complete blood count (Cbc)
+Acute respiratory distress syndrome (ARDS),Plain x-ray (X ray)
+Acute respiratory distress syndrome (ARDS),Electrocardiogram
+Acute respiratory distress syndrome (ARDS),Intravenous fluid replacement
+Acute respiratory distress syndrome (ARDS),Kidney function tests (Kidney function test)
+Acute respiratory distress syndrome (ARDS),Electrolytes panel
+Toxic multinodular goiter,Hematologic tests (Blood test)
+Toxic multinodular goiter,Complete physical skin exam performed (ML)
+Toxic multinodular goiter,Lipid panel
+Toxic multinodular goiter,Ultrasonography (Ultrasound)
+Toxic multinodular goiter,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Toxic multinodular goiter,Examination of breast
+Toxic multinodular goiter,Thyroidectomy; partial or complete
+Toxic multinodular goiter,Excision (Removal)
+Open wound of the finger,Suturing of wound
+Open wound of the finger,Plain x-ray (X ray)
+Open wound of the finger,Wound care management
+Open wound of the finger,Application of splint (Splinting)
+Open wound of the finger,Culture wound
+Open wound of the finger,Nonoperative removal of foreign body
+Open wound of the finger,Suture of skin and subcutaneous tissue
+Open wound of the finger,Incision and drainage (I d)
+Autonomic nervous system disorder,Complete physical skin exam performed (ML)
+Autonomic nervous system disorder,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Autonomic nervous system disorder,Other diagnostic procedures (interview; evaluation; consultation)
+Autonomic nervous system disorder,Lipid panel
+Autonomic nervous system disorder,Ultrasonography (Ultrasound)
+Autonomic nervous system disorder,Wound care management
+Autonomic nervous system disorder,Echocardiography
+Autonomic nervous system disorder,Physical therapy exercises (Exercises)
+Psychosexual disorder,Complete physical skin exam performed (ML)
+Psychosexual disorder,Prostate specific antigen measurement (Prostate specific antigen test)
+Psychosexual disorder,Psychotherapy
+Psychosexual disorder,Lipid panel
+Psychosexual disorder,Rectal examination
+Psychosexual disorder,Examination of breast
+Psychosexual disorder,Other diagnostic procedures (interview; evaluation; consultation)
+Psychosexual disorder,Pelvis exam
+Anemia,Hematologic tests (Blood test)
+Anemia,Complete blood count (Cbc)
+Anemia,Glucose measurement (Glucose level)
+Anemia,Electrolytes panel
+Anemia,Urinalysis
+Anemia,Kidney function tests (Kidney function test)
+Anemia,Electrocardiogram
+Anemia,Intravenous fluid replacement
+Tendinitis,Radiographic imaging procedure
+Tendinitis,Plain x-ray (X ray)
+Tendinitis,Physical therapy exercises (Exercises)
+Tendinitis,Application of splint (Splinting)
+Tendinitis,Magnetic resonance imaging (Mri)
+Tendinitis,Examination of foot
+Tendinitis,Other non-OR therapeutic procedures on musculoskeletal system
+Tendinitis,Other therapeutic procedures
+Common cold,Influenzavirus antibody assay
+Common cold,Nebulizer therapy
+Common cold,Other respiratory therapy
+Common cold,Other therapeutic ear procedures
+Common cold,Diagnostic procedures on ear
+Amyotrophic lateral sclerosis (ALS),Occupational therapy assessment (Speech therapy)
+Amyotrophic lateral sclerosis (ALS),Magnetic resonance imaging (Mri)
+Amyotrophic lateral sclerosis (ALS),Complete physical skin exam performed (ML)
+Amyotrophic lateral sclerosis (ALS),Other diagnostic procedures (interview; evaluation; consultation)
+Amyotrophic lateral sclerosis (ALS),Physical therapy exercises (Exercises)
+Amyotrophic lateral sclerosis (ALS),Mental health counseling
+Amyotrophic lateral sclerosis (ALS),Referral to home health care service
+Amyotrophic lateral sclerosis (ALS),Examination of foot
+Central retinal artery or vein occlusion,Ophthalmic examination and evaluation (Eye exam)
+Central retinal artery or vein occlusion,Ultrasonography (Ultrasound)
+Central retinal artery or vein occlusion,Ophthalmologic and otologic diagnosis and treatment
+Central retinal artery or vein occlusion,Other therapeutic procedures on eyelids; conjunctiva; cornea
+Central retinal artery or vein occlusion,Echocardiography
+Central retinal artery or vein occlusion,Diagnostic procedures on eye
+Central retinal artery or vein occlusion,Other intraocular therapeutic procedures
+Central retinal artery or vein occlusion,Other extraocular muscle and orbit therapeutic procedures
+Paroxysmal supraventricular tachycardia,Hematologic tests (Blood test)
+Paroxysmal supraventricular tachycardia,Electrocardiogram
+Paroxysmal supraventricular tachycardia,Complete blood count (Cbc)
+Paroxysmal supraventricular tachycardia,Radiographic imaging procedure
+Paroxysmal supraventricular tachycardia,Intravenous fluid replacement
+Paroxysmal supraventricular tachycardia,Plain x-ray (X ray)
+Paroxysmal supraventricular tachycardia,Cardiac enzymes measurement (Cardiac enzymes test)
+Paroxysmal supraventricular tachycardia,Kidney function tests (Kidney function test)
+Venous insufficiency,Wound care management
+Venous insufficiency,Complete physical skin exam performed (ML)
+Venous insufficiency,Traction; splints; and other wound care
+Venous insufficiency,Debridement of wound; infection or burn
+Venous insufficiency,Ultrasonography (Ultrasound)
+Venous insufficiency,Excision (Removal)
+Venous insufficiency,Other diagnostic procedures (interview; evaluation; consultation)
+Venous insufficiency,Examination of foot
+Trichomonas infection,Urinalysis
+Trichomonas infection,Hematologic tests (Blood test)
+Trichomonas infection,Pelvis exam
+Trichomonas infection,Complete blood count (Cbc)
+Trichomonas infection,Standard pregnancy test
+Trichomonas infection,Kidney function tests (Kidney function test)
+Trichomonas infection,Glucose measurement (Glucose level)
+Trichomonas infection,Electrolytes panel
+Acne,Complete physical skin exam performed (ML)
+Acne,Lipid panel
+Acne,Excision (Removal)
+Acne,Excision of skin lesion
+Acne,Biopsy
+Acne,Other therapeutic procedures
+Acne,Depression screen (Depression screening)
+Acne,Other non-OR therapeutic procedures on skin and breast
+Depression,Psychotherapy
+Depression,Mental health counseling
+Depression,Depression screen (Depression screening)
+Depression,Toxicology screen
+Depression,Blood alcohol
+Depression,Psychological and psychiatric evaluation and therapy
+Depression,Diagnostic spinal tap (Spinal tap)
+Depression,Alcohol and drug rehabilitation/detoxification
+Drug abuse,Hematologic tests (Blood test)
+Drug abuse,Complete blood count (Cbc)
+Drug abuse,Urinalysis
+Drug abuse,Mental health counseling
+Drug abuse,Glucose measurement (Glucose level)
+Drug abuse,Psychotherapy
+Drug abuse,Kidney function tests (Kidney function test)
+Drug abuse,Electrolytes panel
+Urinary tract obstruction,Urinalysis
+Urinary tract obstruction,Hematologic tests (Blood test)
+Urinary tract obstruction,Radiographic imaging procedure
+Urinary tract obstruction,Rectal examination
+Urinary tract obstruction,Prostate specific antigen measurement (Prostate specific antigen test)
+Urinary tract obstruction,X-ray computed tomography (Scan ct)
+Urinary tract obstruction,Ultrasonography (Ultrasound)
+Urinary tract obstruction,Endoscopy and endoscopic biopsy of the urinary tract
+Diabetes insipidus,Hematologic tests (Blood test)
+Diabetes insipidus,Complete physical skin exam performed (ML)
+Diabetes insipidus,Cancer chemotherapy (Chemotherapy)
+Diabetes insipidus,Ophthalmic examination and evaluation (Eye exam)
+Diabetes insipidus,Depression screen (Depression screening)
+Diabetes insipidus,Examination of foot
+Diabetes insipidus,Rectal examination
+Diabetes insipidus,Magnetic resonance imaging (Mri)
+Iridocyclitis,Ophthalmic examination and evaluation (Eye exam)
+Iridocyclitis,Other therapeutic procedures on eyelids; conjunctiva; cornea
+Iridocyclitis,Ophthalmologic and otologic diagnosis and treatment
+Iridocyclitis,Nonoperative removal of foreign body
+Iridocyclitis,Repair of retinal tear; detachment
+Iridocyclitis,Other extraocular muscle and orbit therapeutic procedures
+Iridocyclitis,Diagnostic procedures on eye
+Iridocyclitis,Other intraocular therapeutic procedures
+Varicocele of the testicles,Urinalysis
+Varicocele of the testicles,Ultrasonography (Ultrasound)
+Varicocele of the testicles,Complete physical skin exam performed (ML)
+Varicocele of the testicles,Prostate specific antigen measurement (Prostate specific antigen test)
+Varicocele of the testicles,Rectal examination
+Varicocele of the testicles,Other diagnostic procedures (interview; evaluation; consultation)
+Varicocele of the testicles,Excision (Removal)
+Varicocele of the testicles,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Irritable bowel syndrome,Hematologic tests (Blood test)
+Irritable bowel syndrome,Complete blood count (Cbc)
+Irritable bowel syndrome,Lipid panel
+Irritable bowel syndrome,X-ray computed tomography (Scan ct)
+Irritable bowel syndrome,Sigmoidoscopy or colonoscopy
+Irritable bowel syndrome,Rectal examination
+Irritable bowel syndrome,Pelvis exam
+Irritable bowel syndrome,Liver function tests (Liver test)
+Fracture of the foot,Radiographic imaging procedure
+Fracture of the foot,Plain x-ray (X ray)
+Fracture of the foot,Application of splint (Splinting)
+Fracture of the foot,Examination of foot
+Fracture of the foot,Wound care management
+Fracture of the foot,Orthopedic casting
+Fracture of the foot,Physical therapy exercises (Exercises)
+Fracture of the foot,Traction; splints; and other wound care
+Ovarian cyst,Radiographic imaging procedure
+Ovarian cyst,Hematologic tests (Blood test)
+Ovarian cyst,Urinalysis
+Ovarian cyst,Complete blood count (Cbc)
+Ovarian cyst,Standard pregnancy test
+Ovarian cyst,Pelvis exam
+Ovarian cyst,Intravenous fluid replacement
+Ovarian cyst,X-ray computed tomography (Scan ct)
+Chlamydia,Urinalysis
+Chlamydia,Standard pregnancy test
+Chlamydia,Pelvis exam
+Chlamydia,Chlamydia test
+Chlamydia,HIV screen (Hiv test)
+Chlamydia,Microscopic examination (bacterial smear; culture; toxicology)
+Chlamydia,Examination of breast
+Chlamydia,Human papillomavirus DNA detection
+Parasitic disease,Intravenous fluid replacement
+Parasitic disease,Wound care management
+Parasitic disease,Blood culture
+Parasitic disease,Magnetic resonance imaging (Mri)
+Parasitic disease,Incision and drainage (I d)
+Parasitic disease,Other diagnostic procedures on skin and subcutaneous tissue
+Parasitic disease,Culture wound
+Parasitic disease,Diagnostic spinal tap (Spinal tap)
+Fracture of the jaw,Radiographic imaging procedure
+Fracture of the jaw,Plain x-ray (X ray)
+Fracture of the jaw,X-ray computed tomography (Scan ct)
+Fracture of the jaw,Intravenous fluid replacement
+Fracture of the jaw,CAT scan of head (Head ct)
+Fracture of the jaw,Kidney function tests (Kidney function test)
+Fracture of the jaw,Electrolytes panel
+Fracture of the jaw,Wound care management
+Cytomegalovirus infection,Corneal transplant
+Cytomegalovirus infection,Transurethral resection of prostate (TURP) (Turp)
+Cytomegalovirus infection,Coronary thrombolysis
+Cytomegalovirus infection,Control of epistaxis
+Cytomegalovirus infection,CT scan abdomen (Ct of abdomen)
+Cytomegalovirus infection,Procedures on spleen (Spleen operation)
+Cytomegalovirus infection,Bone marrow transplant (Bmt)
+Cytomegalovirus infection,Removal of ectopic pregnancy
+Lipoma,Complete physical skin exam performed (ML)
+Lipoma,Excision (Removal)
+Lipoma,Wound care management
+Lipoma,Excision of skin lesion
+Lipoma,Biopsy
+Lipoma,Examination of breast
+Lipoma,Lipid panel
+Lipoma,Ultrasonography (Ultrasound)
+Female genitalia infection,Incision and drainage (I d)
+Female genitalia infection,Pelvis exam
+Female genitalia infection,Urinalysis
+Female genitalia infection,Standard pregnancy test
+Female genitalia infection,Wound care management
+Female genitalia infection,Culture wound
+Female genitalia infection,Excision (Removal)
+Female genitalia infection,Other OR therapeutic procedures; female organs
+Pulmonary hypertension,Radiographic imaging procedure
+Pulmonary hypertension,Hematologic tests (Blood test)
+Pulmonary hypertension,Electrocardiogram
+Pulmonary hypertension,Ultrasonography (Ultrasound)
+Pulmonary hypertension,Echocardiography
+Pulmonary hypertension,Other diagnostic procedures (interview; evaluation; consultation)
+Pulmonary hypertension,Cardiac enzymes measurement (Cardiac enzymes test)
+Pulmonary hypertension,Lipid panel
+Thyroid nodule,Radiographic imaging procedure
+Thyroid nodule,Ultrasonography (Ultrasound)
+Thyroid nodule,Complete physical skin exam performed (ML)
+Thyroid nodule,Biopsy
+Thyroid nodule,Lipid panel
+Thyroid nodule,Examination of breast
+Thyroid nodule,Excision (Removal)
+Thyroid nodule,Mammography (Mammogram)
+Broken tooth,CAT scan of head (Head ct)
+Broken tooth,Wound care management
+Broken tooth,Suturing of wound
+Broken tooth,Culture wound
+Dumping syndrome,Radiographic imaging procedure
+Dumping syndrome,Cardiac enzymes measurement (Cardiac enzymes test)
+Dumping syndrome,X-ray computed tomography (Scan ct)
+Dumping syndrome,Kidney function tests (Kidney function test)
+Dumping syndrome,Glucose measurement (Glucose level)
+Dumping syndrome,Urinalysis
+Dumping syndrome,Plain x-ray (X ray)
+Dumping syndrome,Biopsy
+Lymphadenitis,Hematologic tests (Blood test)
+Lymphadenitis,Complete blood count (Cbc)
+Lymphadenitis,X-ray computed tomography (Scan ct)
+Lymphadenitis,Urinalysis
+Lymphadenitis,Intravenous fluid replacement
+Lymphadenitis,Kidney function tests (Kidney function test)
+Lymphadenitis,Electrolytes panel
+Lymphadenitis,Liver function tests (Liver test)
+Injury to the face,Radiographic imaging procedure
+Injury to the face,Plain x-ray (X ray)
+Injury to the face,X-ray computed tomography (Scan ct)
+Injury to the face,CAT scan of head (Head ct)
+Injury to the face,Wound care management
+Injury to the face,Suturing of wound
+Injury to the face,Application of splint (Splinting)
+Injury to the face,Blood alcohol
+Aortic valve disease,Radiographic imaging procedure
+Aortic valve disease,Electrocardiogram
+Aortic valve disease,Ultrasonography (Ultrasound)
+Aortic valve disease,Echocardiography
+Aortic valve disease,Lipid panel
+Aortic valve disease,Other diagnostic procedures (interview; evaluation; consultation)
+Aortic valve disease,Diagnostic cardiac catheterization; coronary arteriography
+Aortic valve disease,Cardiac stress tests
+Rheumatoid arthritis,Hematologic tests (Blood test)
+Rheumatoid arthritis,Complete blood count (Cbc)
+Rheumatoid arthritis,Complete physical skin exam performed (ML)
+Rheumatoid arthritis,Lipid panel
+Rheumatoid arthritis,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Rheumatoid arthritis,Magnetic resonance imaging (Mri)
+Rheumatoid arthritis,Physical therapy exercises (Exercises)
+Rheumatoid arthritis,Mammography (Mammogram)
+Spermatocele,Urinalysis
+Spermatocele,Prostate specific antigen measurement (Prostate specific antigen test)
+Spermatocele,Ultrasonography (Ultrasound)
+Spermatocele,Rectal examination
+Spermatocele,Other diagnostic procedures (interview; evaluation; consultation)
+Spermatocele,Other non-OR therapeutic procedures of urinary tract
+Spermatocele,Nonoperative urinary system measurements
+Spermatocele,Biopsy
+Impetigo,Complete physical skin exam performed (ML)
+Impetigo,Microscopic examination (bacterial smear; culture; toxicology)
+Impetigo,Culture wound
+Impetigo,Referral to home health care service
+Impetigo,Other therapeutic ear procedures
+Anal fistula,Rectal examination
+Anal fistula,Wound care management
+Anal fistula,Pelvis exam
+Anal fistula,Sigmoidoscopy or colonoscopy
+Anal fistula,Other OR lower GI therapeutic procedures
+Anal fistula,Incision and drainage (I d)
+Anal fistula,Colonoscopy and biopsy
+Anal fistula,Other bowel diagnostic procedures
+Hypothermia,Hematologic tests (Blood test)
+Hypothermia,Electrocardiogram
+Hypothermia,Complete blood count (Cbc)
+Hypothermia,Urinalysis
+Hypothermia,Plain x-ray (X ray)
+Hypothermia,Radiographic imaging procedure
+Hypothermia,Cardiac monitoring (Cardiac monitor)
+Hypothermia,Intravenous fluid replacement
+Oppositional disorder,Psychotherapy
+Oppositional disorder,Mental health counseling
+Oppositional disorder,Depression screen (Depression screening)
+Oppositional disorder,Psychological and psychiatric evaluation and therapy
+Oppositional disorder,Occupational therapy assessment (Speech therapy)
+Oppositional disorder,Toxicology screen
+Migraine,Intravenous fluid replacement
+Migraine,X-ray computed tomography (Scan ct)
+Migraine,CAT scan of head (Head ct)
+Migraine,Magnetic resonance imaging (Mri)
+Migraine,Other diagnostic procedures (interview; evaluation; consultation)
+Migraine,Electroencephalogram (EEG) (Eeg)
+Migraine,Other diagnostic nervous system procedures
+Migraine,Other OR Rx procedures on respiratory system and mediastinum
+Diabetic peripheral neuropathy,Hematologic tests (Blood test)
+Diabetic peripheral neuropathy,Wound care management
+Diabetic peripheral neuropathy,Glucose measurement (Glucose level)
+Diabetic peripheral neuropathy,Complete physical skin exam performed (ML)
+Diabetic peripheral neuropathy,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Diabetic peripheral neuropathy,Examination of foot
+Diabetic peripheral neuropathy,Lipid panel
+Diabetic peripheral neuropathy,Other diagnostic procedures (interview; evaluation; consultation)
+Testicular disorder,Hematologic tests (Blood test)
+Testicular disorder,Prostate specific antigen measurement (Prostate specific antigen test)
+Testicular disorder,Urinalysis
+Testicular disorder,Lipid panel
+Testicular disorder,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Testicular disorder,Rectal examination
+Testicular disorder,Ultrasonography (Ultrasound)
+Testicular disorder,Depression screen (Depression screening)
+Gestational diabetes,Hematologic tests (Blood test)
+Gestational diabetes,Urinalysis
+Gestational diabetes,Glucose measurement (Glucose level)
+Gestational diabetes,Ultrasonography (Ultrasound)
+Gestational diabetes,Pelvis exam
+Gestational diabetes,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Gestational diabetes,Examination of breast
+Gestational diabetes,Fetal monitoring
+Hidradenitis suppurativa,Complete physical skin exam performed (ML)
+Hidradenitis suppurativa,Wound care management
+Hidradenitis suppurativa,Examination of breast
+Hidradenitis suppurativa,Excision (Removal)
+Hidradenitis suppurativa,Incision and drainage (I d)
+Hidradenitis suppurativa,Rectal examination
+Hidradenitis suppurativa,Culture wound
+Hidradenitis suppurativa,Other therapeutic procedures
+Valley fever,Plain x-ray (X ray)
+Valley fever,Radiographic imaging procedure
+Valley fever,Hematologic tests (Blood test)
+Valley fever,Complete blood count (Cbc)
+Valley fever,Cardiac enzymes measurement (Cardiac enzymes test)
+Valley fever,Kidney function tests (Kidney function test)
+Valley fever,Intravenous fluid replacement
+Valley fever,Electrolytes panel
+Conjunctivitis due to bacteria,Nebulizer therapy
+Conjunctivitis due to bacteria,Other OR therapeutic nervous system procedures
+Lewy body dementia,Radiographic imaging procedure
+Lewy body dementia,X-ray computed tomography (Scan ct)
+Lewy body dementia,Other diagnostic procedures (interview; evaluation; consultation)
+Lewy body dementia,Cardiac enzymes measurement (Cardiac enzymes test)
+Lewy body dementia,Blood culture
+Lewy body dementia,CAT scan of head (Head ct)
+Lewy body dementia,Cardiac monitoring (Cardiac monitor)
+Lewy body dementia,Magnetic resonance imaging (Mri)
+Marfan syndrome,Radiographic imaging procedure
+Marfan syndrome,Electrocardiogram
+Marfan syndrome,Ultrasonography (Ultrasound)
+Marfan syndrome,Echocardiography
+Marfan syndrome,Aortic resection; replacement or anastomosis
+Marfan syndrome,Conversion of cardiac rhythm (Defibrillation)
+Marfan syndrome,HIV screen (Hiv test)
+Marfan syndrome,Colonoscopy and biopsy
+Multiple myeloma,Hematologic tests (Blood test)
+Multiple myeloma,Complete blood count (Cbc)
+Multiple myeloma,Glucose measurement (Glucose level)
+Multiple myeloma,Electrolytes panel
+Multiple myeloma,Complete physical skin exam performed (ML)
+Multiple myeloma,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Multiple myeloma,Biopsy
+Multiple myeloma,Examination of foot
+Head injury,Radiographic imaging procedure
+Head injury,X-ray computed tomography (Scan ct)
+Head injury,CAT scan of head (Head ct)
+Head injury,Plain x-ray (X ray)
+Head injury,Suturing of wound
+Head injury,Intravenous fluid replacement
+Head injury,Wound care management
+Head injury,Cardiac monitoring (Cardiac monitor)
+Ascending cholangitis,Hematologic tests (Blood test)
+Ascending cholangitis,Complete blood count (Cbc)
+Ascending cholangitis,Intravenous fluid replacement
+Ascending cholangitis,Radiographic imaging procedure
+Ascending cholangitis,Plain x-ray (X ray)
+Ascending cholangitis,Kidney function tests (Kidney function test)
+Ascending cholangitis,Electrolytes panel
+Ascending cholangitis,Urinalysis
+Idiopathic irregular menstrual cycle,Hematologic tests (Blood test)
+Idiopathic irregular menstrual cycle,Complete blood count (Cbc)
+Idiopathic irregular menstrual cycle,Pelvis exam
+Idiopathic irregular menstrual cycle,Urinalysis
+Idiopathic irregular menstrual cycle,Standard pregnancy test
+Idiopathic irregular menstrual cycle,Examination of breast
+Idiopathic irregular menstrual cycle,Ultrasonography (Ultrasound)
+Idiopathic irregular menstrual cycle,Chlamydia test
+Interstitial lung disease,Other diagnostic procedures (interview; evaluation; consultation)
+Interstitial lung disease,Nebulizer therapy
+Interstitial lung disease,Excision (Removal)
+Interstitial lung disease,Tonsillectomy and/or adenoidectomy
+Interstitial lung disease,Influenzavirus antibody assay
+Interstitial lung disease,Other non-OR therapeutic procedures on nose; mouth and pharynx
+Interstitial lung disease,Tracheoscopy and laryngoscopy with biopsy
+Interstitial lung disease,Other therapeutic procedures on eyelids; conjunctiva; cornea
+Mononeuritis,Other diagnostic procedures (interview; evaluation; consultation)
+Mononeuritis,Physical therapy exercises (Exercises)
+Mononeuritis,Magnetic resonance imaging (Mri)
+Mononeuritis,Examination of foot
+Mononeuritis,Application of splint (Splinting)
+Mononeuritis,Other therapeutic procedures
+Mononeuritis,Decompression peripheral nerve (Peripheral nerve decompression)
+Mononeuritis,Occupational therapy assessment (Speech therapy)
+Malaria,Intravenous fluid replacement
+Malaria,Complete blood count (Cbc)
+Malaria,Hematologic tests (Blood test)
+Malaria,Electrolytes panel
+Malaria,Urinalysis
+Malaria,Cardiac enzymes measurement (Cardiac enzymes test)
+Malaria,X-ray computed tomography (Scan ct)
+Malaria,Electrocardiogram
+Somatization disorder,Psychotherapy
+Somatization disorder,Mental health counseling
+Somatization disorder,Depression screen (Depression screening)
+Somatization disorder,Liver function tests (Liver test)
+Somatization disorder,Standard pregnancy test
+Somatization disorder,Corneal transplant
+Somatization disorder,Procedures on spleen (Spleen operation)
+Somatization disorder,Removal of ectopic pregnancy
+Hypovolemia,Hematologic tests (Blood test)
+Hypovolemia,Complete blood count (Cbc)
+Hypovolemia,Intravenous fluid replacement
+Hypovolemia,Kidney function tests (Kidney function test)
+Hypovolemia,Urinalysis
+Hypovolemia,Glucose measurement (Glucose level)
+Hypovolemia,Electrolytes panel
+Hypovolemia,Radiographic imaging procedure
+Schizophrenia,Psychotherapy
+Schizophrenia,Mental health counseling
+Schizophrenia,Toxicology screen
+Schizophrenia,Blood alcohol
+Schizophrenia,Liver function tests (Liver test)
+Schizophrenia,Arterial blood gases (ABGs)
+Schizophrenia,Prothrombin time assay (Prothrombin time)
+Schizophrenia,Blood culture
+Knee ligament or meniscus tear,Radiographic imaging procedure
+Knee ligament or meniscus tear,Plain x-ray (X ray)
+Knee ligament or meniscus tear,Magnetic resonance imaging (Mri)
+Knee ligament or meniscus tear,Physical therapy exercises (Exercises)
+Knee ligament or meniscus tear,Application of splint (Splinting)
+Knee ligament or meniscus tear,Excision (Removal)
+Knee ligament or meniscus tear,Wound care management
+Knee ligament or meniscus tear,Other non-OR therapeutic procedures on musculoskeletal system
+Endocarditis,Radiographic imaging procedure
+Endocarditis,Hematologic tests (Blood test)
+Endocarditis,Electrocardiogram
+Endocarditis,Complete blood count (Cbc)
+Endocarditis,Ultrasonography (Ultrasound)
+Endocarditis,Echocardiography
+Endocarditis,Glucose measurement (Glucose level)
+Endocarditis,Electrolytes panel
+Sepsis,Hematologic tests (Blood test)
+Sepsis,Complete blood count (Cbc)
+Sepsis,Intravenous fluid replacement
+Sepsis,Radiographic imaging procedure
+Sepsis,Urinalysis
+Sepsis,Plain x-ray (X ray)
+Sepsis,Kidney function tests (Kidney function test)
+Sepsis,Electrolytes panel
+Heat stroke,Hematologic tests (Blood test)
+Heat stroke,Glucose measurement (Glucose level)
+Heat stroke,Complete blood count (Cbc)
+Heat stroke,Kidney function tests (Kidney function test)
+Heat stroke,Intravenous fluid replacement
+Heat stroke,Electrolytes panel
+Heat stroke,Electrocardiogram
+Heat stroke,Urinalysis
+Cholecystitis,Hematologic tests (Blood test)
+Cholecystitis,Complete blood count (Cbc)
+Cholecystitis,Radiographic imaging procedure
+Cholecystitis,Intravenous fluid replacement
+Cholecystitis,Glucose measurement (Glucose level)
+Cholecystitis,Kidney function tests (Kidney function test)
+Cholecystitis,Electrolytes panel
+Cholecystitis,Urinalysis
+Cardiac arrest,Intravenous fluid replacement
+Cardiac arrest,Electrocardiogram
+Cardiac arrest,Hematologic tests (Blood test)
+Cardiac arrest,Complete blood count (Cbc)
+Cardiac arrest,Cardiac monitoring (Cardiac monitor)
+Cardiac arrest,Radiographic imaging procedure
+Cardiac arrest,Cardiopulmonary resuscitation (Cpr)
+Cardiac arrest,Plain x-ray (X ray)
+Cardiomyopathy,Hematologic tests (Blood test)
+Cardiomyopathy,Electrocardiogram
+Cardiomyopathy,Ultrasonography (Ultrasound)
+Cardiomyopathy,Echocardiography
+Cardiomyopathy,Lipid panel
+Cardiomyopathy,Other diagnostic procedures (interview; evaluation; consultation)
+Cardiomyopathy,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Cardiomyopathy,Cardiac stress tests
+Social phobia,Psychotherapy
+Social phobia,Mental health counseling
+Social phobia,Depression screen (Depression screening)
+Social phobia,Psychological and psychiatric evaluation and therapy
+Meningitis,Hematologic tests (Blood test)
+Meningitis,Complete blood count (Cbc)
+Meningitis,Radiographic imaging procedure
+Meningitis,Intravenous fluid replacement
+Meningitis,Glucose measurement (Glucose level)
+Meningitis,Urinalysis
+Meningitis,Kidney function tests (Kidney function test)
+Meningitis,X-ray computed tomography (Scan ct)
+Spherocytosis,Hematologic tests (Blood test)
+Spherocytosis,Complete blood count (Cbc)
+Spherocytosis,Blood culture
+Spherocytosis,Psychotherapy
+Spherocytosis,Corneal transplant
+Spherocytosis,Procedures on spleen (Spleen operation)
+Spherocytosis,Removal of ectopic pregnancy
+Spherocytosis,Tracheostomy; temporary and permanent
+Hormone disorder,Hematologic tests (Blood test)
+Hormone disorder,Complete physical skin exam performed (ML)
+Hormone disorder,Examination of breast
+Hormone disorder,Pelvis exam
+Hormone disorder,Lipid panel
+Hormone disorder,Ultrasonography (Ultrasound)
+Hormone disorder,Other diagnostic procedures (interview; evaluation; consultation)
+Hormone disorder,Magnetic resonance imaging (Mri)
+Raynaud disease,Hematologic tests (Blood test)
+Raynaud disease,Complete blood count (Cbc)
+Raynaud disease,Complete physical skin exam performed (ML)
+Raynaud disease,Ultrasonography (Ultrasound)
+Raynaud disease,Lipid panel
+Raynaud disease,Echocardiography
+Raynaud disease,Examination of breast
+Raynaud disease,Bone density scan
+Reactive arthritis,Physical therapy exercises (Exercises)
+Reactive arthritis,Corneal transplant
+Reactive arthritis,Transurethral resection of prostate (TURP) (Turp)
+Reactive arthritis,Coronary thrombolysis
+Reactive arthritis,Control of epistaxis
+Reactive arthritis,CT scan abdomen (Ct of abdomen)
+Reactive arthritis,Procedures on spleen (Spleen operation)
+Reactive arthritis,Bone marrow transplant (Bmt)
+Scabies,Complete physical skin exam performed (ML)
+Scabies,Diagnostic cardiac catheterization; coronary arteriography
+Ear wax impaction,Other therapeutic ear procedures
+Ear wax impaction,Other diagnostic procedures (interview; evaluation; consultation)
+Ear wax impaction,Ophthalmologic and otologic diagnosis and treatment
+Ear wax impaction,Nonoperative removal of foreign body
+Ear wax impaction,Tracheoscopy and laryngoscopy with biopsy
+Ear wax impaction,Diagnostic procedures on ear
+Ear wax impaction,Diagnostic procedures on nose; mouth and pharynx
+Ear wax impaction,Other OR therapeutic procedures on nose; mouth and pharynx
+Hypertension of pregnancy,Urinalysis
+Hypertension of pregnancy,Ultrasonography (Ultrasound)
+Hypertension of pregnancy,Pelvis exam
+Hypertension of pregnancy,Fetal monitoring
+Hypertension of pregnancy,Other diagnostic procedures (interview; evaluation; consultation)
+Hypertension of pregnancy,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Hypertension of pregnancy,Examination of breast
+Hypertension of pregnancy,Pap smear
+Peripheral arterial embolism,Hematologic tests (Blood test)
+Peripheral arterial embolism,Radiographic imaging procedure
+Peripheral arterial embolism,Complete blood count (Cbc)
+Peripheral arterial embolism,Glucose measurement (Glucose level)
+Peripheral arterial embolism,Electrocardiogram
+Peripheral arterial embolism,Kidney function tests (Kidney function test)
+Peripheral arterial embolism,Intravenous fluid replacement
+Peripheral arterial embolism,Electrolytes panel
+Rosacea,Complete physical skin exam performed (ML)
+Rosacea,Excision (Removal)
+Rosacea,Excision of skin lesion
+Rosacea,Biopsy
+Rosacea,Other diagnostic procedures on skin and subcutaneous tissue
+Rosacea,Injections and aspirations of muscles; tendons; bursa; joints and soft tissue
+Rosacea,Other non-OR therapeutic procedures on skin and breast
+Rosacea,Other OR therapeutic procedures on skin and breast
+Fracture of the skull,Radiographic imaging procedure
+Fracture of the skull,X-ray computed tomography (Scan ct)
+Fracture of the skull,CAT scan of head (Head ct)
+Fracture of the skull,Plain x-ray (X ray)
+Fracture of the skull,Intravenous fluid replacement
+Fracture of the skull,Complete blood count (Cbc)
+Fracture of the skull,Kidney function tests (Kidney function test)
+Fracture of the skull,Electrolytes panel
+Uveitis,Ophthalmic examination and evaluation (Eye exam)
+Uveitis,Lens and cataract procedures
+Uveitis,Depression screen (Depression screening)
+Uveitis,Mental health counseling
+Uveitis,Corneal transplant
+Uveitis,Procedures on spleen (Spleen operation)
+Uveitis,Removal of ectopic pregnancy
+Uveitis,Tracheostomy; temporary and permanent
+Fracture of the facial bones,Radiographic imaging procedure
+Fracture of the facial bones,X-ray computed tomography (Scan ct)
+Fracture of the facial bones,Plain x-ray (X ray)
+Fracture of the facial bones,CAT scan of head (Head ct)
+Fracture of the facial bones,Intravenous fluid replacement
+Fracture of the facial bones,Suturing of wound
+Fracture of the facial bones,Wound care management
+Fracture of the facial bones,Blood alcohol
+Tracheitis,Nebulizer therapy
+Tracheitis,Tracheoscopy and laryngoscopy with biopsy
+Tracheitis,Other diagnostic nervous system procedures
+Tracheitis,Other non-OR therapeutic procedures on nose; mouth and pharynx
+Tracheitis,Diagnostic procedures on ear
+Tracheitis,Other respiratory therapy
+Tracheitis,Cardiac stress tests
+Tracheitis,Occupational therapy assessment (Speech therapy)
+Jaw disorder,Wound care management
+Jaw disorder,Traction; splints; and other wound care
+Jaw disorder,Incision and drainage (I d)
+Jaw disorder,Physical therapy exercises; manipulation; and other procedures
+Perirectal infection,Rectal examination
+Perirectal infection,Wound care management
+Perirectal infection,Intravenous fluid replacement
+Perirectal infection,Kidney function tests (Kidney function test)
+Perirectal infection,Complete physical skin exam performed (ML)
+Perirectal infection,Incision and drainage (I d)
+Perirectal infection,X-ray computed tomography (Scan ct)
+Perirectal infection,Culture wound
+Breast cyst,Examination of breast
+Breast cyst,Radiographic imaging procedure
+Breast cyst,Mammography (Mammogram)
+Breast cyst,Ultrasonography (Ultrasound)
+Breast cyst,Biopsy
+Breast cyst,Complete physical skin exam performed (ML)
+Breast cyst,Excision (Removal)
+Breast cyst,Lipid panel
+Post-traumatic stress disorder (PTSD),Psychotherapy
+Post-traumatic stress disorder (PTSD),Mental health counseling
+Post-traumatic stress disorder (PTSD),Depression screen (Depression screening)
+Post-traumatic stress disorder (PTSD),Psychological and psychiatric evaluation and therapy
+Post-traumatic stress disorder (PTSD),Occupational therapy assessment (Speech therapy)
+Kidney cancer,Hematologic tests (Blood test)
+Kidney cancer,Complete blood count (Cbc)
+Kidney cancer,Radiographic imaging procedure
+Kidney cancer,Urinalysis
+Kidney cancer,X-ray computed tomography (Scan ct)
+Kidney cancer,Complete physical skin exam performed (ML)
+Kidney cancer,Ultrasonography (Ultrasound)
+Kidney cancer,Magnetic resonance imaging (Mri)
+Vulvar cancer,Pelvis exam
+Vulvar cancer,Excision (Removal)
+Vulvar cancer,Other OR therapeutic procedures; female organs
+Vulvar cancer,Examination of breast
+Vulvar cancer,Complete physical skin exam performed (ML)
+Vulvar cancer,Depression screen (Depression screening)
+Vulvar cancer,Examination of foot
+Vulvar cancer,Rectal examination
+Blepharitis,Ophthalmic examination and evaluation (Eye exam)
+Blepharitis,Other therapeutic procedures on eyelids; conjunctiva; cornea
+Blepharitis,Ophthalmologic and otologic diagnosis and treatment
+Blepharitis,Lens and cataract procedures
+Blepharitis,Diagnostic procedures on eye
+Blepharitis,Physical therapy exercises; manipulation; and other procedures
+Celiac disease,Hematologic tests (Blood test)
+Celiac disease,Complete blood count (Cbc)
+Celiac disease,Complete physical skin exam performed (ML)
+Celiac disease,Biopsy
+Celiac disease,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Celiac disease,Lipid panel
+Celiac disease,Upper gastrointestinal endoscopy; biopsy
+Celiac disease,Examination of foot
+Cystitis,Urinalysis
+Cystitis,Kidney function tests (Kidney function test)
+Cystitis,Standard pregnancy test
+Cystitis,Pelvis exam
+Cystitis,Liver function tests (Liver test)
+Cystitis,Insertion of catheter into urinary bladder
+Cystitis,Rectal examination
+Cystitis,Endoscopy and endoscopic biopsy of the urinary tract
+Sickle cell anemia,Hematologic tests (Blood test)
+Sickle cell anemia,Complete blood count (Cbc)
+Sickle cell anemia,Urinalysis
+Sickle cell anemia,Glucose measurement (Glucose level)
+Sickle cell anemia,Other diagnostic procedures (interview; evaluation; consultation)
+Sickle cell anemia,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Sickle cell anemia,Pelvis exam
+Sickle cell anemia,Ultrasonography (Ultrasound)
+Subconjunctival hemorrhage,X-ray computed tomography (Scan ct)
+Subconjunctival hemorrhage,CAT scan of head (Head ct)
+Subconjunctival hemorrhage,Prothrombin time assay (Prothrombin time)
+Subconjunctival hemorrhage,Ophthalmic examination and evaluation (Eye exam)
+Subconjunctival hemorrhage,Suturing of wound
+Subconjunctival hemorrhage,Blood alcohol
+Subconjunctival hemorrhage,Nonoperative removal of foreign body
+Subconjunctival hemorrhage,Culture wound
+Hemorrhoids,Rectal examination
+Hemorrhoids,Sigmoidoscopy or colonoscopy
+Hemorrhoids,Colonoscopy and biopsy
+Hemorrhoids,Excision (Removal)
+Hemorrhoids,Biopsy
+Hemorrhoids,Prothrombin time assay (Prothrombin time)
+Hemorrhoids,Hemorrhoid procedures (Hemorrhoid operation)
+Hemorrhoids,Proctoscopy and anorectal biopsy
+Contact dermatitis,Complete physical skin exam performed (ML)
+Contact dermatitis,Biopsy
+Contact dermatitis,Other diagnostic procedures on skin and subcutaneous tissue
+Contact dermatitis,Excision of skin lesion
+Contact dermatitis,Referral to home health care service
+Contact dermatitis,Other non-OR therapeutic procedures on skin and breast
+Contact dermatitis,Other gastrointestinal diagnostic procedures
+Contact dermatitis,Other diagnostic procedures on musculoskeletal system
+Sinus bradycardia,Electrocardiogram
+Sinus bradycardia,Hematologic tests (Blood test)
+Sinus bradycardia,Complete blood count (Cbc)
+Sinus bradycardia,Radiographic imaging procedure
+Sinus bradycardia,Glucose measurement (Glucose level)
+Sinus bradycardia,Plain x-ray (X ray)
+Sinus bradycardia,Kidney function tests (Kidney function test)
+Sinus bradycardia,Electrolytes panel
+High blood pressure,Hematologic tests (Blood test)
+High blood pressure,Complete blood count (Cbc)
+High blood pressure,Lipid panel
+High blood pressure,Glucose measurement (Glucose level)
+High blood pressure,Electrocardiogram
+High blood pressure,Hemoglobin A1c measurement (Hemoglobin a1c test)
+High blood pressure,Ultrasonography (Ultrasound)
+High blood pressure,Other diagnostic procedures (interview; evaluation; consultation)
+Pelvic inflammatory disease,Urinalysis
+Pelvic inflammatory disease,Hematologic tests (Blood test)
+Pelvic inflammatory disease,Complete blood count (Cbc)
+Pelvic inflammatory disease,Standard pregnancy test
+Pelvic inflammatory disease,Radiographic imaging procedure
+Pelvic inflammatory disease,Pelvis exam
+Pelvic inflammatory disease,Kidney function tests (Kidney function test)
+Pelvic inflammatory disease,Glucose measurement (Glucose level)
+Liver disease,Hematologic tests (Blood test)
+Liver disease,Complete blood count (Cbc)
+Liver disease,Radiographic imaging procedure
+Liver disease,Glucose measurement (Glucose level)
+Liver disease,Electrolytes panel
+Liver disease,Kidney function tests (Kidney function test)
+Liver disease,Urinalysis
+Liver disease,Intravenous fluid replacement
+Chronic constipation,Radiographic imaging procedure
+Chronic constipation,Hematologic tests (Blood test)
+Chronic constipation,Complete blood count (Cbc)
+Chronic constipation,Plain x-ray (X ray)
+Chronic constipation,Urinalysis
+Chronic constipation,Glucose measurement (Glucose level)
+Chronic constipation,Kidney function tests (Kidney function test)
+Chronic constipation,Electrolytes panel
+Thyroid cancer,Hematologic tests (Blood test)
+Thyroid cancer,Complete physical skin exam performed (ML)
+Thyroid cancer,Ultrasonography (Ultrasound)
+Thyroid cancer,Biopsy
+Thyroid cancer,Therapeutic radiology for cancer treatment (Irradiation)
+Thyroid cancer,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Thyroid cancer,Excision (Removal)
+Thyroid cancer,Depression screen (Depression screening)
+Flu,Plain x-ray (X ray)
+Flu,Influenzavirus antibody assay
+Flu,Intravenous fluid replacement
+Flu,Blood culture
+Flu,Nebulizer therapy
+Flu,Other respiratory therapy
+Friedrich ataxia,Echocardiography
+Friedrich ataxia,Ultrasonography (Ultrasound)
+Friedrich ataxia,Pelvis exam
+Friedrich ataxia,Electrocardiogram
+Friedrich ataxia,Corneal transplant
+Friedrich ataxia,Transurethral resection of prostate (TURP) (Turp)
+Friedrich ataxia,Coronary thrombolysis
+Friedrich ataxia,Control of epistaxis
+Tic (movement) disorder,Psychotherapy
+Tic (movement) disorder,Mental health counseling
+Tic (movement) disorder,Other diagnostic procedures (interview; evaluation; consultation)
+Tic (movement) disorder,Magnetic resonance imaging (Mri)
+Tic (movement) disorder,Electroencephalogram (EEG) (Eeg)
+Tic (movement) disorder,Ophthalmic examination and evaluation (Eye exam)
+Tic (movement) disorder,Other diagnostic radiology and related techniques
+Tic (movement) disorder,Other diagnostic procedures on skin and subcutaneous tissue
+Skin polyp,Complete physical skin exam performed (ML)
+Skin polyp,Excision (Removal)
+Skin polyp,Biopsy
+Skin polyp,Excision of skin lesion
+Skin polyp,Wound care management
+Skin polyp,Other diagnostic procedures on skin and subcutaneous tissue
+Skin polyp,Other therapeutic procedures
+Skin polyp,Other non-OR therapeutic procedures on skin and breast
+Brachial neuritis,Radiographic imaging procedure
+Brachial neuritis,Plain x-ray (X ray)
+Brachial neuritis,Magnetic resonance imaging (Mri)
+Brachial neuritis,Physical therapy exercises (Exercises)
+Brachial neuritis,Insertion of catheter or spinal stimulator and injection into spinal canal
+Brachial neuritis,Other diagnostic procedures (interview; evaluation; consultation)
+Brachial neuritis,Other therapeutic procedures
+Brachial neuritis,Other diagnostic radiology and related techniques
+Cervical cancer,Pelvis exam
+Cervical cancer,Biopsy
+Cervical cancer,Examination of breast
+Cervical cancer,Other diagnostic procedures; female organs
+Cervical cancer,Other excision of cervix and uterus
+Cervical cancer,Rectal examination
+Cervical cancer,Pap smear
+Cervical cancer,Standard pregnancy test
+Adrenal adenoma,Urinalysis
+Adrenal adenoma,Magnetic resonance imaging (Mri)
+Adrenal adenoma,X-ray computed tomography (Scan ct)
+Adrenal adenoma,Other diagnostic procedures (interview; evaluation; consultation)
+Adrenal adenoma,Other OR therapeutic nervous system procedures
+Adrenal adenoma,Other therapeutic procedures
+Adrenal adenoma,Echocardiography
+Adrenal adenoma,Corneal transplant
+Esophagitis,Hematologic tests (Blood test)
+Esophagitis,Complete blood count (Cbc)
+Esophagitis,Plain x-ray (X ray)
+Esophagitis,Electrocardiogram
+Esophagitis,Intravenous fluid replacement
+Esophagitis,Glucose measurement (Glucose level)
+Esophagitis,Electrolytes panel
+Esophagitis,Kidney function tests (Kidney function test)
+Gas gangrene,Corneal transplant
+Gas gangrene,Transurethral resection of prostate (TURP) (Turp)
+Gas gangrene,Coronary thrombolysis
+Gas gangrene,Control of epistaxis
+Gas gangrene,CT scan abdomen (Ct of abdomen)
+Gas gangrene,Procedures on spleen (Spleen operation)
+Gas gangrene,Bone marrow transplant (Bmt)
+Gas gangrene,Removal of ectopic pregnancy
+Yeast infection,Urinalysis
+Yeast infection,Pelvis exam
+Yeast infection,Complete physical skin exam performed (ML)
+Yeast infection,Examination of breast
+Yeast infection,Standard pregnancy test
+Yeast infection,Chlamydia test
+Yeast infection,Microscopic examination (bacterial smear; culture; toxicology)
+Yeast infection,Rectal examination
+Spina bifida,Radiographic imaging procedure
+Spina bifida,Complete physical skin exam performed (ML)
+Spina bifida,Plain x-ray (X ray)
+Spina bifida,Wound care management
+Spina bifida,Physical therapy exercises (Exercises)
+Spina bifida,Magnetic resonance imaging (Mri)
+Spina bifida,Ultrasonography (Ultrasound)
+Spina bifida,Rectal examination
+Drug poisoning due to medication,Hematologic tests (Blood test)
+Drug poisoning due to medication,Complete blood count (Cbc)
+Drug poisoning due to medication,Electrocardiogram
+Drug poisoning due to medication,Intravenous fluid replacement
+Drug poisoning due to medication,Urinalysis
+Drug poisoning due to medication,Kidney function tests (Kidney function test)
+Drug poisoning due to medication,Glucose measurement (Glucose level)
+Drug poisoning due to medication,Electrolytes panel
+Alcoholic liver disease,Hematologic tests (Blood test)
+Alcoholic liver disease,Complete blood count (Cbc)
+Alcoholic liver disease,Radiographic imaging procedure
+Alcoholic liver disease,Glucose measurement (Glucose level)
+Alcoholic liver disease,Intravenous fluid replacement
+Alcoholic liver disease,Electrolytes panel
+Alcoholic liver disease,Urinalysis
+Alcoholic liver disease,Plain x-ray (X ray)
+Malignant hypertension,Hematologic tests (Blood test)
+Malignant hypertension,Complete blood count (Cbc)
+Malignant hypertension,Electrocardiogram
+Malignant hypertension,Radiographic imaging procedure
+Malignant hypertension,Plain x-ray (X ray)
+Malignant hypertension,Intravenous fluid replacement
+Malignant hypertension,Glucose measurement (Glucose level)
+Malignant hypertension,Kidney function tests (Kidney function test)
+Diverticulitis,Hematologic tests (Blood test)
+Diverticulitis,Complete blood count (Cbc)
+Diverticulitis,Radiographic imaging procedure
+Diverticulitis,Urinalysis
+Diverticulitis,X-ray computed tomography (Scan ct)
+Diverticulitis,Intravenous fluid replacement
+Diverticulitis,Kidney function tests (Kidney function test)
+Diverticulitis,Glucose measurement (Glucose level)
+Moyamoya disease,Hematologic tests (Blood test)
+Moyamoya disease,Psychotherapy
+Moyamoya disease,Other diagnostic procedures (interview; evaluation; consultation)
+Moyamoya disease,Other therapeutic procedures
+Moyamoya disease,Magnetic resonance imaging (Mri)
+Moyamoya disease,Corneal transplant
+Moyamoya disease,Procedures on spleen (Spleen operation)
+Moyamoya disease,Removal of ectopic pregnancy
+Heat exhaustion,Hematologic tests (Blood test)
+Heat exhaustion,Complete blood count (Cbc)
+Heat exhaustion,Intravenous fluid replacement
+Heat exhaustion,Kidney function tests (Kidney function test)
+Heat exhaustion,Electrolytes panel
+Heat exhaustion,Electrocardiogram
+Heat exhaustion,Glucose measurement (Glucose level)
+Heat exhaustion,Urinalysis
+Psychotic disorder,Psychotherapy
+Psychotic disorder,Mental health counseling
+Psychotic disorder,Urinalysis
+Psychotic disorder,Glucose measurement (Glucose level)
+Psychotic disorder,Kidney function tests (Kidney function test)
+Psychotic disorder,Electrolytes panel
+Psychotic disorder,Toxicology screen
+Psychotic disorder,Blood alcohol
+Frostbite,Wound care management
+Frostbite,Complete physical skin exam performed (ML)
+Frostbite,Cardiac enzymes measurement (Cardiac enzymes test)
+Frostbite,Debridement of wound; infection or burn
+Frostbite,Prophylactic vaccinations and inoculations
+Frostbite,Insertion of catheter into urinary bladder
+Frostbite,Excision (Removal)
+Frostbite,CAT scan of head (Head ct)
+Atrophy of the corpus cavernosum,Complete physical skin exam performed (ML)
+Atrophy of the corpus cavernosum,Urinalysis
+Atrophy of the corpus cavernosum,Excision (Removal)
+Atrophy of the corpus cavernosum,Procedures on the urethra
+Atrophy of the corpus cavernosum,Other OR therapeutic procedures; male genital
+Atrophy of the corpus cavernosum,Other therapeutic procedures
+Atrophy of the corpus cavernosum,Indwelling catheter
+Atrophy of the corpus cavernosum,Nonoperative removal of foreign body
+Smoking or tobacco addiction,Mental health counseling
+Smoking or tobacco addiction,Psychotherapy
+Smoking or tobacco addiction,Lipid panel
+Smoking or tobacco addiction,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Smoking or tobacco addiction,Nebulizer therapy
+Smoking or tobacco addiction,Depression screen (Depression screening)
+Smoking or tobacco addiction,Prostate specific antigen measurement (Prostate specific antigen test)
+Smoking or tobacco addiction,Mammography (Mammogram)
+Sprain or strain,Radiographic imaging procedure
+Sprain or strain,Plain x-ray (X ray)
+Sprain or strain,Application of splint (Splinting)
+Sprain or strain,Physical therapy exercises (Exercises)
+Sprain or strain,CAT scan of head (Head ct)
+Sprain or strain,Magnetic resonance imaging (Mri)
+Sprain or strain,Orthopedic casting
+Sprain or strain,Traction; splints; and other wound care
+Essential tremor,Other diagnostic procedures (interview; evaluation; consultation)
+Essential tremor,Magnetic resonance imaging (Mri)
+Essential tremor,Physical therapy exercises (Exercises)
+Essential tremor,Ophthalmic examination and evaluation (Eye exam)
+Essential tremor,Depression screen (Depression screening)
+Essential tremor,Other physical therapy and rehabilitation
+Essential tremor,Other non-OR therapeutic procedures on musculoskeletal system
+Essential tremor,Psychological and psychiatric evaluation and therapy
+Open wound of the ear,Suturing of wound
+Open wound of the ear,Wound care management
+Open wound of the ear,X-ray computed tomography (Scan ct)
+Open wound of the ear,CAT scan of head (Head ct)
+Open wound of the ear,Application of splint (Splinting)
+Open wound of the ear,Other therapeutic ear procedures
+Open wound of the ear,Nonoperative removal of foreign body
+Foreign body in the nose,Nonoperative removal of foreign body
+Foreign body in the nose,Wound care management
+Idiopathic painful menstruation,Hematologic tests (Blood test)
+Idiopathic painful menstruation,Urinalysis
+Idiopathic painful menstruation,Pelvis exam
+Idiopathic painful menstruation,Complete blood count (Cbc)
+Idiopathic painful menstruation,Standard pregnancy test
+Idiopathic painful menstruation,Examination of breast
+Idiopathic painful menstruation,Ultrasonography (Ultrasound)
+Idiopathic painful menstruation,Chlamydia test
+Down syndrome,Complete physical skin exam performed (ML)
+Down syndrome,Other diagnostic procedures (interview; evaluation; consultation)
+Down syndrome,Mental health counseling
+Down syndrome,Occupational therapy assessment (Speech therapy)
+Down syndrome,Physical therapy exercises (Exercises)
+Down syndrome,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Down syndrome,Echocardiography
+Down syndrome,Upper gastrointestinal endoscopy; biopsy
+Idiopathic infrequent menstruation,Hematologic tests (Blood test)
+Idiopathic infrequent menstruation,Pelvis exam
+Idiopathic infrequent menstruation,Examination of breast
+Idiopathic infrequent menstruation,Complete physical skin exam performed (ML)
+Idiopathic infrequent menstruation,Ultrasonography (Ultrasound)
+Idiopathic infrequent menstruation,Standard pregnancy test
+Idiopathic infrequent menstruation,Chlamydia test
+Idiopathic infrequent menstruation,Lipid panel
+Pneumothorax,Radiographic imaging procedure
+Pneumothorax,Plain x-ray (X ray)
+Pneumothorax,Hematologic tests (Blood test)
+Pneumothorax,Complete blood count (Cbc)
+Pneumothorax,Intravenous fluid replacement
+Pneumothorax,Kidney function tests (Kidney function test)
+Pneumothorax,X-ray computed tomography (Scan ct)
+Pneumothorax,Electrocardiogram
+De Quervain disease,Application of splint (Splinting)
+De Quervain disease,Other therapeutic procedures
+De Quervain disease,Physical therapy exercises (Exercises)
+De Quervain disease,Occupational therapy assessment (Speech therapy)
+De Quervain disease,Injections and aspirations of muscles; tendons; bursa; joints and soft tissue
+De Quervain disease,Other non-OR therapeutic procedures on musculoskeletal system
+De Quervain disease,Bone density scan
+De Quervain disease,Culture wound
+Fracture of the vertebra,Radiographic imaging procedure
+Fracture of the vertebra,Plain x-ray (X ray)
+Fracture of the vertebra,X-ray computed tomography (Scan ct)
+Fracture of the vertebra,Complete blood count (Cbc)
+Fracture of the vertebra,Intravenous fluid replacement
+Fracture of the vertebra,Urinalysis
+Fracture of the vertebra,Kidney function tests (Kidney function test)
+Fracture of the vertebra,Electrolytes panel
+Human immunodeficiency virus infection (HIV),Hematologic tests (Blood test)
+Human immunodeficiency virus infection (HIV),Complete blood count (Cbc)
+Human immunodeficiency virus infection (HIV),Glucose measurement (Glucose level)
+Human immunodeficiency virus infection (HIV),Complete physical skin exam performed (ML)
+Human immunodeficiency virus infection (HIV),Lipid panel
+Human immunodeficiency virus infection (HIV),Electrolytes panel
+Human immunodeficiency virus infection (HIV),Mental health counseling
+Human immunodeficiency virus infection (HIV),Psychotherapy
+Mumps,Hematologic tests (Blood test)
+Mumps,Complete blood count (Cbc)
+Mumps,Corneal transplant
+Mumps,Transurethral resection of prostate (TURP) (Turp)
+Mumps,Coronary thrombolysis
+Mumps,Control of epistaxis
+Mumps,CT scan abdomen (Ct of abdomen)
+Mumps,Procedures on spleen (Spleen operation)
+Subarachnoid hemorrhage,Radiographic imaging procedure
+Subarachnoid hemorrhage,Hematologic tests (Blood test)
+Subarachnoid hemorrhage,X-ray computed tomography (Scan ct)
+Subarachnoid hemorrhage,Complete blood count (Cbc)
+Subarachnoid hemorrhage,Intravenous fluid replacement
+Subarachnoid hemorrhage,CAT scan of head (Head ct)
+Subarachnoid hemorrhage,Kidney function tests (Kidney function test)
+Subarachnoid hemorrhage,Glucose measurement (Glucose level)
+Acute fatty liver of pregnancy (AFLP),Urinalysis
+Acute fatty liver of pregnancy (AFLP),Pelvis exam
+Acute fatty liver of pregnancy (AFLP),Ultrasonography (Ultrasound)
+Acute fatty liver of pregnancy (AFLP),Chlamydia test
+Acute fatty liver of pregnancy (AFLP),Examination of breast
+Acute fatty liver of pregnancy (AFLP),Liver function tests (Liver test)
+Acute fatty liver of pregnancy (AFLP),Corneal transplant
+Acute fatty liver of pregnancy (AFLP),Procedures on spleen (Spleen operation)
+Ectropion,Physical therapy exercises; manipulation; and other procedures
+Ectropion,Other therapeutic procedures on eyelids; conjunctiva; cornea
+Ectropion,Ophthalmic examination and evaluation (Eye exam)
+Ectropion,Physical therapy exercises (Exercises)
+Ectropion,Corneal transplant
+Ectropion,Procedures on spleen (Spleen operation)
+Ectropion,Removal of ectopic pregnancy
+Ectropion,Tracheostomy; temporary and permanent
+Scar,Complete physical skin exam performed (ML)
+Scar,Wound care management
+Scar,Excision (Removal)
+Scar,Other therapeutic procedures
+Scar,Examination of breast
+Scar,Other diagnostic procedures (interview; evaluation; consultation)
+Scar,Excision of skin lesion
+Scar,Physical therapy exercises (Exercises)
+Lactose intolerance,Hematologic tests (Blood test)
+Lactose intolerance,Glucose measurement (Glucose level)
+Lactose intolerance,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Lactose intolerance,Lipid panel
+Lactose intolerance,Complete physical skin exam performed (ML)
+Lactose intolerance,Other diagnostic procedures (interview; evaluation; consultation)
+Lactose intolerance,Prostate specific antigen measurement (Prostate specific antigen test)
+Lactose intolerance,Rectal examination
+Eustachian tube dysfunction (ear disorder),Ophthalmologic and otologic diagnosis and treatment
+Eustachian tube dysfunction (ear disorder),Other diagnostic procedures (interview; evaluation; consultation)
+Eustachian tube dysfunction (ear disorder),Excision (Removal)
+Eustachian tube dysfunction (ear disorder),Diagnostic procedures on ear
+Eustachian tube dysfunction (ear disorder),Tonsillectomy and/or adenoidectomy
+Eustachian tube dysfunction (ear disorder),Diagnostic procedures on nose; mouth and pharynx
+Eustachian tube dysfunction (ear disorder),Other therapeutic procedures
+Eustachian tube dysfunction (ear disorder),Occupational therapy assessment (Speech therapy)
+Appendicitis,Hematologic tests (Blood test)
+Appendicitis,Complete blood count (Cbc)
+Appendicitis,Radiographic imaging procedure
+Appendicitis,Intravenous fluid replacement
+Appendicitis,X-ray computed tomography (Scan ct)
+Appendicitis,Urinalysis
+Appendicitis,Kidney function tests (Kidney function test)
+Appendicitis,Glucose measurement (Glucose level)
+Graves disease,Hematologic tests (Blood test)
+Graves disease,Complete blood count (Cbc)
+Graves disease,Glucose measurement (Glucose level)
+Graves disease,Lipid panel
+Graves disease,Electrocardiogram
+Graves disease,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Graves disease,Ultrasonography (Ultrasound)
+Graves disease,Other diagnostic procedures (interview; evaluation; consultation)
+Dissociative disorder,Psychotherapy
+Dissociative disorder,Mental health counseling
+Dissociative disorder,Depression screen (Depression screening)
+Dissociative disorder,Psychological and psychiatric evaluation and therapy
+Dissociative disorder,Laparoscopy (GI only) (Laparoscopy)
+Dissociative disorder,Orthopedic casting
+Dissociative disorder,Colonoscopy and biopsy
+Dissociative disorder,Sigmoidoscopy or colonoscopy
+Open wound of the face,Suturing of wound
+Open wound of the face,X-ray computed tomography (Scan ct)
+Open wound of the face,Wound care management
+Open wound of the face,CAT scan of head (Head ct)
+Open wound of the face,Blood alcohol
+Open wound of the face,Application of splint (Splinting)
+Open wound of the face,Prothrombin time assay (Prothrombin time)
+Open wound of the face,Toxicology screen
+Dislocation of the vertebra,Radiographic imaging procedure
+Dislocation of the vertebra,Plain x-ray (X ray)
+Dislocation of the vertebra,Magnetic resonance imaging (Mri)
+Dislocation of the vertebra,Physical therapy exercises (Exercises)
+Dislocation of the vertebra,Other diagnostic procedures (interview; evaluation; consultation)
+Dislocation of the vertebra,X-ray computed tomography (Scan ct)
+Dislocation of the vertebra,Intubation
+Dislocation of the vertebra,Insertion of catheter or spinal stimulator and injection into spinal canal
+Phimosis,Excision (Removal)
+Phimosis,Complete physical skin exam performed (ML)
+Phimosis,Other diagnostic procedures (interview; evaluation; consultation)
+Phimosis,Nonoperative urinary system measurements
+Phimosis,Ophthalmologic and otologic diagnosis and treatment
+Phimosis,Ureteral catheterization
+Phimosis,Procedures on the urethra
+Phimosis,Other non-OR therapeutic procedures; male genital
+Hyperemesis gravidarum,Hematologic tests (Blood test)
+Hyperemesis gravidarum,Urinalysis
+Hyperemesis gravidarum,Complete blood count (Cbc)
+Hyperemesis gravidarum,Intravenous fluid replacement
+Hyperemesis gravidarum,Glucose measurement (Glucose level)
+Hyperemesis gravidarum,Kidney function tests (Kidney function test)
+Hyperemesis gravidarum,Electrolytes panel
+Hyperemesis gravidarum,Standard pregnancy test
+Pregnancy,Urinalysis
+Pregnancy,Pelvis exam
+Pregnancy,Ultrasonography (Ultrasound)
+Pregnancy,Examination of breast
+Pregnancy,Chlamydia test
+Pregnancy,Other diagnostic procedures (interview; evaluation; consultation)
+Pregnancy,Standard pregnancy test
+Pregnancy,Fetal monitoring
+Thalassemia,Hematologic tests (Blood test)
+Thalassemia,Complete blood count (Cbc)
+Thalassemia,Complete physical skin exam performed (ML)
+Thalassemia,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Thalassemia,Lipid panel
+Thalassemia,Other diagnostic procedures (interview; evaluation; consultation)
+Thalassemia,HIV screen (Hiv test)
+Thalassemia,Other diagnostic procedures on skin and subcutaneous tissue
+Placenta previa,Radiographic imaging procedure
+Placenta previa,Ultrasonography (Ultrasound)
+Placenta previa,Urinalysis
+Placenta previa,Pelvis exam
+Placenta previa,Echocardiography
+Placenta previa,Examination of breast
+Placenta previa,Fetal monitoring
+Placenta previa,Blood alcohol
+Epidural hemorrhage,Radiographic imaging procedure
+Epidural hemorrhage,Intravenous fluid replacement
+Epidural hemorrhage,X-ray computed tomography (Scan ct)
+Epidural hemorrhage,Plain x-ray (X ray)
+Epidural hemorrhage,CAT scan of head (Head ct)
+Epidural hemorrhage,Complete blood count (Cbc)
+Epidural hemorrhage,Cardiac monitoring (Cardiac monitor)
+Epidural hemorrhage,Kidney function tests (Kidney function test)
+Septic arthritis,Hematologic tests (Blood test)
+Septic arthritis,Complete blood count (Cbc)
+Septic arthritis,Radiographic imaging procedure
+Septic arthritis,Plain x-ray (X ray)
+Septic arthritis,Kidney function tests (Kidney function test)
+Septic arthritis,Intravenous fluid replacement
+Septic arthritis,Electrolytes panel
+Septic arthritis,Glucose measurement (Glucose level)
+Athlete's foot,Complete physical skin exam performed (ML)
+Athlete's foot,Examination of foot
+Athlete's foot,Lipid panel
+Athlete's foot,Wound care management
+Athlete's foot,Excision (Removal)
+Athlete's foot,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Athlete's foot,Depression screen (Depression screening)
+Athlete's foot,Prostate specific antigen measurement (Prostate specific antigen test)
+Pleural effusion,Radiographic imaging procedure
+Pleural effusion,Plain x-ray (X ray)
+Pleural effusion,Hematologic tests (Blood test)
+Pleural effusion,Complete blood count (Cbc)
+Pleural effusion,Electrocardiogram
+Pleural effusion,Kidney function tests (Kidney function test)
+Pleural effusion,Glucose measurement (Glucose level)
+Pleural effusion,Electrolytes panel
+Aphakia,Other therapeutic procedures on eyelids; conjunctiva; cornea
+Aphakia,Ophthalmic examination and evaluation (Eye exam)
+Aphakia,Other extraocular muscle and orbit therapeutic procedures
+Aphakia,Lens and cataract procedures
+Aphakia,Ophthalmologic and otologic diagnosis and treatment
+Vulvar disorder,Pelvis exam
+Vulvar disorder,Urinalysis
+Vulvar disorder,Biopsy
+Vulvar disorder,Complete physical skin exam performed (ML)
+Vulvar disorder,Excision (Removal)
+Vulvar disorder,Examination of breast
+Vulvar disorder,Rectal examination
+Vulvar disorder,Other diagnostic procedures; female organs
+Vitamin B deficiency,Hematologic tests (Blood test)
+Vitamin B deficiency,Complete blood count (Cbc)
+Vitamin B deficiency,Glucose measurement (Glucose level)
+Vitamin B deficiency,Intravenous fluid replacement
+Vitamin B deficiency,Electrolytes panel
+Vitamin B deficiency,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Vitamin B deficiency,Other diagnostic procedures (interview; evaluation; consultation)
+Vitamin B deficiency,Liver function tests (Liver test)
+Sialoadenitis,X-ray computed tomography (Scan ct)
+Sialoadenitis,Intravenous fluid replacement
+Sialoadenitis,CAT scan of head (Head ct)
+Sialoadenitis,Blood culture
+Sialoadenitis,Ophthalmic examination and evaluation (Eye exam)
+Sialoadenitis,Tracheoscopy and laryngoscopy with biopsy
+Sialoadenitis,Other OR therapeutic procedures on nose; mouth and pharynx
+Sialoadenitis,Psychological and psychiatric evaluation and therapy
+Gynecomastia,Examination of breast
+Gynecomastia,Complete physical skin exam performed (ML)
+Gynecomastia,Mammography (Mammogram)
+Gynecomastia,Other OR therapeutic procedures on skin and breast
+Gynecomastia,Biopsy
+Gynecomastia,Excision (Removal)
+Gynecomastia,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Gynecomastia,Ultrasonography (Ultrasound)
+Urinary tract infection,Urinalysis
+Urinary tract infection,Hematologic tests (Blood test)
+Urinary tract infection,Complete blood count (Cbc)
+Urinary tract infection,Intravenous fluid replacement
+Urinary tract infection,Glucose measurement (Glucose level)
+Urinary tract infection,Kidney function tests (Kidney function test)
+Urinary tract infection,Electrolytes panel
+Urinary tract infection,Standard pregnancy test
+Histoplasmosis,Plain x-ray (X ray)
+Histoplasmosis,Excision (Removal)
+Histoplasmosis,Examination of breast
+Histoplasmosis,Lipid panel
+Histoplasmosis,X-ray computed tomography (Scan ct)
+Histoplasmosis,Ophthalmologic and otologic diagnosis and treatment
+Histoplasmosis,Ophthalmic examination and evaluation (Eye exam)
+Histoplasmosis,Mental health counseling
+Erythema multiforme,Complete physical skin exam performed (ML)
+Erythema multiforme,Glucose measurement (Glucose level)
+Erythema multiforme,Electrolytes panel
+Erythema multiforme,Kidney function tests (Kidney function test)
+Erythema multiforme,Intravenous fluid replacement
+Erythema multiforme,Liver function tests (Liver test)
+Erythema multiforme,Insertion of catheter into urinary bladder
+Erythema multiforme,Blood culture
+Scoliosis,Radiographic imaging procedure
+Scoliosis,Plain x-ray (X ray)
+Scoliosis,Physical therapy exercises (Exercises)
+Scoliosis,Magnetic resonance imaging (Mri)
+Scoliosis,Other diagnostic procedures (interview; evaluation; consultation)
+Scoliosis,Other therapeutic procedures
+Scoliosis,Other physical therapy and rehabilitation
+Scoliosis,Echocardiography
+Bunion,Plain x-ray (X ray)
+Bunion,Examination of foot
+Bunion,Excision (Removal)
+Bunion,Complete physical skin exam performed (ML)
+Bunion,Bunionectomy or repair of toe deformities
+Bunion,Wound care management
+Bunion,Traction; splints; and other wound care
+Bunion,Other therapeutic procedures
+Arrhythmia,Electrocardiogram
+Arrhythmia,Hematologic tests (Blood test)
+Arrhythmia,Complete blood count (Cbc)
+Arrhythmia,Radiographic imaging procedure
+Arrhythmia,Glucose measurement (Glucose level)
+Arrhythmia,Plain x-ray (X ray)
+Arrhythmia,Intravenous fluid replacement
+Arrhythmia,Kidney function tests (Kidney function test)
+Paget disease,Hematologic tests (Blood test)
+Paget disease,Complete blood count (Cbc)
+Paget disease,Bone density scan
+Paget disease,Sigmoidoscopy or colonoscopy
+Paget disease,Lipid panel
+Paget disease,Pelvis exam
+Paget disease,Microscopic examination (bacterial smear; culture; toxicology)
+Paget disease,Depression screen (Depression screening)
+Trigeminal neuralgia,Magnetic resonance imaging (Mri)
+Trigeminal neuralgia,Other OR therapeutic nervous system procedures
+Trigeminal neuralgia,Ophthalmologic and otologic diagnosis and treatment
+Trigeminal neuralgia,Other non-OR or closed therapeutic nervous system procedures
+Trigeminal neuralgia,Other diagnostic radiology and related techniques
+Trigeminal neuralgia,Electroencephalogram (EEG) (Eeg)
+Trigeminal neuralgia,Psychological and psychiatric evaluation and therapy
+Ankylosing spondylitis,Physical therapy exercises (Exercises)
+Ankylosing spondylitis,Magnetic resonance imaging (Mri)
+Ankylosing spondylitis,Insertion of catheter or spinal stimulator and injection into spinal canal
+Ankylosing spondylitis,Other non-OR therapeutic procedures on musculoskeletal system
+Ankylosing spondylitis,Other therapeutic procedures
+Ankylosing spondylitis,Bone density scan
+Ankylosing spondylitis,Other non-OR or closed therapeutic nervous system procedures
+Ankylosing spondylitis,Arthroplasty knee (Knee replacement)
+Peripheral nerve disorder,Other diagnostic procedures (interview; evaluation; consultation)
+Peripheral nerve disorder,Magnetic resonance imaging (Mri)
+Peripheral nerve disorder,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Peripheral nerve disorder,Physical therapy exercises (Exercises)
+Peripheral nerve disorder,Lipid panel
+Peripheral nerve disorder,Examination of foot
+Peripheral nerve disorder,Depression screen (Depression screening)
+Peripheral nerve disorder,Debridement of wound; infection or burn
+Sebaceous cyst,Complete physical skin exam performed (ML)
+Sebaceous cyst,Excision (Removal)
+Sebaceous cyst,Wound care management
+Sebaceous cyst,Excision of skin lesion
+Sebaceous cyst,Biopsy
+Sebaceous cyst,Other diagnostic procedures on skin and subcutaneous tissue
+Sebaceous cyst,Incision and drainage (I d)
+Sebaceous cyst,Other therapeutic procedures
+Poisoning due to antipsychotics,Hematologic tests (Blood test)
+Poisoning due to antipsychotics,Complete blood count (Cbc)
+Poisoning due to antipsychotics,Electrocardiogram
+Poisoning due to antipsychotics,Urinalysis
+Poisoning due to antipsychotics,Intravenous fluid replacement
+Poisoning due to antipsychotics,Toxicology screen
+Poisoning due to antipsychotics,Kidney function tests (Kidney function test)
+Poisoning due to antipsychotics,Glucose measurement (Glucose level)
+Behcet disease,Diagnostic procedures on nose; mouth and pharynx
+Behcet disease,Other therapeutic procedures
+Behcet disease,Biopsy
+Behcet disease,Excision (Removal)
+Behcet disease,Psychotherapy
+Behcet disease,Corneal transplant
+Behcet disease,Procedures on spleen (Spleen operation)
+Behcet disease,Removal of ectopic pregnancy
+Neurosis,Hematologic tests (Blood test)
+Neurosis,Complete blood count (Cbc)
+Neurosis,Urinalysis
+Neurosis,Kidney function tests (Kidney function test)
+Neurosis,Glucose measurement (Glucose level)
+Neurosis,Electrolytes panel
+Neurosis,Toxicology screen
+Neurosis,Electrocardiogram
+Prostate cancer,Hematologic tests (Blood test)
+Prostate cancer,Prostate specific antigen measurement (Prostate specific antigen test)
+Prostate cancer,Urinalysis
+Prostate cancer,Rectal examination
+Prostate cancer,Ultrasonography (Ultrasound)
+Prostate cancer,Other diagnostic procedures (interview; evaluation; consultation)
+Prostate cancer,Biopsy
+Prostate cancer,Therapeutic radiology for cancer treatment (Irradiation)
+Cerebral edema,Radiographic imaging procedure
+Cerebral edema,Magnetic resonance imaging (Mri)
+Cerebral edema,Kidney function tests (Kidney function test)
+Cerebral edema,Intravenous fluid replacement
+Cerebral edema,Glucose measurement (Glucose level)
+Cerebral edema,CAT scan of head (Head ct)
+Cerebral edema,X-ray computed tomography (Scan ct)
+Cerebral edema,Electrolytes panel
+Dislocation of the finger,Radiographic imaging procedure
+Dislocation of the finger,Plain x-ray (X ray)
+Dislocation of the finger,Application of splint (Splinting)
+Dislocation of the finger,Suturing of wound
+Dislocation of the finger,Occupational therapy assessment (Speech therapy)
+Dislocation of the finger,Other non-OR therapeutic procedures on musculoskeletal system
+Dislocation of the finger,Orthopedic casting
+Dislocation of the finger,Culture wound
+Birth trauma,Physical therapy exercises (Exercises)
+Birth trauma,Other diagnostic procedures (interview; evaluation; consultation)
+Birth trauma,Complete physical skin exam performed (ML)
+Birth trauma,Other physical therapy and rehabilitation
+Birth trauma,Referral to home health care service
+Birth trauma,Occupational therapy assessment (Speech therapy)
+Birth trauma,Ophthalmologic and otologic diagnosis and treatment
+Birth trauma,Corneal transplant
+Chronic pancreatitis,Hematologic tests (Blood test)
+Chronic pancreatitis,Complete blood count (Cbc)
+Chronic pancreatitis,Glucose measurement (Glucose level)
+Chronic pancreatitis,Intravenous fluid replacement
+Chronic pancreatitis,Electrolytes panel
+Chronic pancreatitis,Kidney function tests (Kidney function test)
+Chronic pancreatitis,Liver function tests (Liver test)
+Chronic pancreatitis,Urinalysis
+Hematoma,Wound care management
+Hematoma,Complete physical skin exam performed (ML)
+Hematoma,X-ray computed tomography (Scan ct)
+Hematoma,Examination of breast
+Hematoma,Ultrasonography (Ultrasound)
+Hematoma,Blood culture
+Hematoma,Prothrombin time assay (Prothrombin time)
+Hematoma,Other non-OR therapeutic procedures on skin and breast
+Carcinoid syndrome,Radiographic imaging procedure
+Carcinoid syndrome,X-ray computed tomography (Scan ct)
+Carcinoid syndrome,Electrolytes panel
+Carcinoid syndrome,Glucose measurement (Glucose level)
+Carcinoid syndrome,Complete blood count (Cbc)
+Carcinoid syndrome,Hematologic tests (Blood test)
+Carcinoid syndrome,Echocardiography
+Carcinoid syndrome,Blood culture
+Open wound of the head,Suturing of wound
+Open wound of the head,Radiographic imaging procedure
+Open wound of the head,X-ray computed tomography (Scan ct)
+Open wound of the head,Wound care management
+Open wound of the head,CAT scan of head (Head ct)
+Open wound of the head,Blood alcohol
+Open wound of the head,Prothrombin time assay (Prothrombin time)
+Open wound of the head,Application of splint (Splinting)
+Seborrheic keratosis,Complete physical skin exam performed (ML)
+Seborrheic keratosis,Excision (Removal)
+Seborrheic keratosis,Excision of skin lesion
+Seborrheic keratosis,Biopsy
+Seborrheic keratosis,Wound care management
+Seborrheic keratosis,Other diagnostic procedures on skin and subcutaneous tissue
+Seborrheic keratosis,Other therapeutic procedures
+Seborrheic keratosis,Other non-OR therapeutic procedures on skin and breast
+Burn,Plain x-ray (X ray)
+Burn,Wound care management
+Burn,X-ray computed tomography (Scan ct)
+Burn,Application of splint (Splinting)
+Burn,CAT scan of head (Head ct)
+Burn,Suturing of wound
+Burn,Blood alcohol
+Burn,Toxicology screen
+Spontaneous abortion,Hematologic tests (Blood test)
+Spontaneous abortion,Complete blood count (Cbc)
+Spontaneous abortion,Radiographic imaging procedure
+Spontaneous abortion,Urinalysis
+Spontaneous abortion,Standard pregnancy test
+Spontaneous abortion,Intravenous fluid replacement
+Spontaneous abortion,Pelvis exam
+Spontaneous abortion,Kidney function tests (Kidney function test)
+Genital herpes,Urinalysis
+Genital herpes,Pelvis exam
+Genital herpes,Complete physical skin exam performed (ML)
+Genital herpes,Standard pregnancy test
+Genital herpes,Chlamydia test
+Genital herpes,Lipid panel
+Genital herpes,Examination of breast
+Genital herpes,HIV screen (Hiv test)
+Adjustment reaction,Psychotherapy
+Adjustment reaction,Mental health counseling
+Adjustment reaction,Depression screen (Depression screening)
+Adjustment reaction,Toxicology screen
+Adjustment reaction,Blood alcohol
+Adjustment reaction,Psychological and psychiatric evaluation and therapy
+Adjustment reaction,Other physical therapy and rehabilitation
+Adjustment reaction,Other OR upper GI therapeutic procedures
+Gallstone,Hematologic tests (Blood test)
+Gallstone,Complete blood count (Cbc)
+Gallstone,Radiographic imaging procedure
+Gallstone,Urinalysis
+Gallstone,Kidney function tests (Kidney function test)
+Gallstone,Intravenous fluid replacement
+Gallstone,Glucose measurement (Glucose level)
+Gallstone,Electrolytes panel
+Multiple sclerosis,Magnetic resonance imaging (Mri)
+Multiple sclerosis,Physical therapy exercises (Exercises)
+Multiple sclerosis,Other diagnostic procedures (interview; evaluation; consultation)
+Multiple sclerosis,Referral to home health care service
+Multiple sclerosis,Other therapeutic procedures
+Multiple sclerosis,Occupational therapy assessment (Speech therapy)
+Multiple sclerosis,Debridement of wound; infection or burn
+Multiple sclerosis,Diagnostic spinal tap (Spinal tap)
+Zenker diverticulum,Radiographic imaging procedure
+Zenker diverticulum,Plain x-ray (X ray)
+Zenker diverticulum,Glucose measurement (Glucose level)
+Zenker diverticulum,Upper gastrointestinal endoscopy; biopsy
+Zenker diverticulum,Liver function tests (Liver test)
+Zenker diverticulum,Electrocardiogram
+Zenker diverticulum,Esophageal dilatation (Esophageal dilation)
+Zenker diverticulum,Other diagnostic radiology and related techniques
+Fracture of the pelvis,Radiographic imaging procedure
+Fracture of the pelvis,Plain x-ray (X ray)
+Fracture of the pelvis,Hematologic tests (Blood test)
+Fracture of the pelvis,Complete blood count (Cbc)
+Fracture of the pelvis,Kidney function tests (Kidney function test)
+Fracture of the pelvis,Intravenous fluid replacement
+Fracture of the pelvis,X-ray computed tomography (Scan ct)
+Fracture of the pelvis,Electrocardiogram
+Pneumoconiosis,Radiographic imaging procedure
+Pneumoconiosis,Plain x-ray (X ray)
+Pneumoconiosis,Nebulizer therapy
+Pneumoconiosis,Influenzavirus antibody assay
+Pneumoconiosis,Depression screen (Depression screening)
+Pneumoconiosis,Biopsy
+Pneumoconiosis,Blood alcohol
+Pneumoconiosis,Toxicology screen
+Hyperlipidemia,Hematologic tests (Blood test)
+Hyperlipidemia,Lipid panel
+Hyperlipidemia,Glucose measurement (Glucose level)
+Hyperlipidemia,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Hyperlipidemia,Complete physical skin exam performed (ML)
+Hyperlipidemia,Ultrasonography (Ultrasound)
+Hyperlipidemia,Prostate specific antigen measurement (Prostate specific antigen test)
+Hyperlipidemia,Examination of foot
+Ulcerative colitis,Hematologic tests (Blood test)
+Ulcerative colitis,Complete blood count (Cbc)
+Ulcerative colitis,Sigmoidoscopy or colonoscopy
+Ulcerative colitis,Glucose measurement (Glucose level)
+Ulcerative colitis,Intravenous fluid replacement
+Ulcerative colitis,Electrolytes panel
+Ulcerative colitis,X-ray computed tomography (Scan ct)
+Ulcerative colitis,Liver function tests (Liver test)
+Male genitalia infection,Urinalysis
+Male genitalia infection,Kidney function tests (Kidney function test)
+Male genitalia infection,Incision and drainage (I d)
+Male genitalia infection,Blood culture
+Male genitalia infection,X-ray computed tomography (Scan ct)
+Male genitalia infection,Wound care management
+Male genitalia infection,Other diagnostic procedures (interview; evaluation; consultation)
+Male genitalia infection,Liver function tests (Liver test)
+HPV,Pelvis exam
+HPV,Biopsy
+HPV,Examination of breast
+HPV,Human papillomavirus DNA detection
+HPV,Other diagnostic procedures; female organs
+HPV,Standard pregnancy test
+HPV,Pap smear
+HPV,Rectal examination
+Angina,Electrocardiogram
+Angina,Hematologic tests (Blood test)
+Angina,Radiographic imaging procedure
+Angina,Complete blood count (Cbc)
+Angina,Plain x-ray (X ray)
+Angina,Cardiac enzymes measurement (Cardiac enzymes test)
+Angina,Kidney function tests (Kidney function test)
+Angina,Intravenous fluid replacement
+Injury to the spinal cord,Radiographic imaging procedure
+Injury to the spinal cord,Plain x-ray (X ray)
+Injury to the spinal cord,Physical therapy exercises (Exercises)
+Injury to the spinal cord,X-ray computed tomography (Scan ct)
+Injury to the spinal cord,Intravenous fluid replacement
+Injury to the spinal cord,Occupational therapy assessment (Speech therapy)
+Injury to the spinal cord,CAT scan of head (Head ct)
+Injury to the spinal cord,Cardiac monitoring (Cardiac monitor)
+Nasal polyp,X-ray computed tomography (Scan ct)
+Nasal polyp,Excision (Removal)
+Nasal polyp,Diagnostic procedures on nose; mouth and pharynx
+Nasal polyp,Other diagnostic procedures (interview; evaluation; consultation)
+Nasal polyp,Magnetic resonance imaging (Mri)
+Nasal polyp,Other non-OR therapeutic procedures on nose; mouth and pharynx
+Nasal polyp,Other OR therapeutic procedures on nose; mouth and pharynx
+Nasal polyp,Other diagnostic procedures on skin and subcutaneous tissue
+Lichen simplex,Complete physical skin exam performed (ML)
+Lichen simplex,Pelvis exam
+Lichen simplex,Wound care management
+Lichen simplex,Biopsy
+Lichen simplex,Excision (Removal)
+Lichen simplex,Other diagnostic procedures on skin and subcutaneous tissue
+Lichen simplex,Excision of skin lesion
+Lichen simplex,Pap smear
+Trichiasis,Other therapeutic procedures on eyelids; conjunctiva; cornea
+Trichiasis,Nonoperative removal of foreign body
+Trichiasis,Ophthalmic examination and evaluation (Eye exam)
+Trichiasis,Corneal transplant
+Trichiasis,Procedures on spleen (Spleen operation)
+Trichiasis,Removal of ectopic pregnancy
+Trichiasis,Tracheostomy; temporary and permanent
+Trichiasis,Diagnostic endocrine procedures
+Acariasis,Complete physical skin exam performed (ML)
+Acariasis,Liver function tests (Liver test)
+Acariasis,Corneal transplant
+Acariasis,Procedures on spleen (Spleen operation)
+Acariasis,Removal of ectopic pregnancy
+Acariasis,Tracheostomy; temporary and permanent
+Acariasis,Diagnostic endocrine procedures
+Acariasis,CT scan chest (Ct chest)
+Colorectal cancer,Hematologic tests (Blood test)
+Colorectal cancer,Complete blood count (Cbc)
+Colorectal cancer,Glucose measurement (Glucose level)
+Colorectal cancer,Electrolytes panel
+Colorectal cancer,Complete physical skin exam performed (ML)
+Colorectal cancer,X-ray computed tomography (Scan ct)
+Colorectal cancer,Rectal examination
+Colorectal cancer,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Skin pigmentation disorder,Complete physical skin exam performed (ML)
+Skin pigmentation disorder,Excision (Removal)
+Skin pigmentation disorder,Biopsy
+Skin pigmentation disorder,Excision of skin lesion
+Skin pigmentation disorder,Wound care management
+Skin pigmentation disorder,Other diagnostic procedures on skin and subcutaneous tissue
+Skin pigmentation disorder,Other therapeutic procedures
+Skin pigmentation disorder,Other non-OR therapeutic procedures on skin and breast
+Factitious disorder,Mental health counseling
+Factitious disorder,Psychotherapy
+Factitious disorder,Psychological and psychiatric evaluation and therapy
+Factitious disorder,Echocardiography
+Factitious disorder,Blood alcohol
+Factitious disorder,Toxicology screen
+Factitious disorder,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Factitious disorder,Ultrasonography (Ultrasound)
+Lymphogranuloma venereum,Arterial blood gases (ABGs)
+Lymphogranuloma venereum,Blood culture
+Lymphogranuloma venereum,Liver function tests (Liver test)
+Lymphogranuloma venereum,Cardiac enzymes measurement (Cardiac enzymes test)
+Lymphogranuloma venereum,X-ray computed tomography (Scan ct)
+Lymphogranuloma venereum,Kidney function tests (Kidney function test)
+Lymphogranuloma venereum,Intravenous fluid replacement
+Lymphogranuloma venereum,Electrolytes panel
+Galactorrhea of unknown cause,Hematologic tests (Blood test)
+Galactorrhea of unknown cause,Examination of breast
+Galactorrhea of unknown cause,Pelvis exam
+Galactorrhea of unknown cause,Complete physical skin exam performed (ML)
+Galactorrhea of unknown cause,Standard pregnancy test
+Galactorrhea of unknown cause,Mammography (Mammogram)
+Galactorrhea of unknown cause,Lipid panel
+Galactorrhea of unknown cause,Depression screen (Depression screening)
+G6PD enzyme deficiency,Hematologic tests (Blood test)
+G6PD enzyme deficiency,Complete blood count (Cbc)
+G6PD enzyme deficiency,Other diagnostic procedures (interview; evaluation; consultation)
+G6PD enzyme deficiency,Ultrasonography (Ultrasound)
+G6PD enzyme deficiency,Other vascular catheterization; not heart
+G6PD enzyme deficiency,Other therapeutic procedures on eyelids; conjunctiva; cornea
+G6PD enzyme deficiency,Ophthalmologic and otologic diagnosis and treatment
+G6PD enzyme deficiency,Other therapeutic procedures
+Nerve impingement near the shoulder,Radiographic imaging procedure
+Nerve impingement near the shoulder,Physical therapy exercises (Exercises)
+Nerve impingement near the shoulder,Plain x-ray (X ray)
+Nerve impingement near the shoulder,Magnetic resonance imaging (Mri)
+Nerve impingement near the shoulder,Other non-OR therapeutic procedures on musculoskeletal system
+Nerve impingement near the shoulder,Other therapeutic procedures
+Nerve impingement near the shoulder,Occupational therapy assessment (Speech therapy)
+Nerve impingement near the shoulder,Other therapeutic procedures on muscles and tendons
+Toxoplasmosis,Mental health counseling
+Toxoplasmosis,Other therapeutic procedures on eyelids; conjunctiva; cornea
+Toxoplasmosis,Ophthalmologic and otologic diagnosis and treatment
+Toxoplasmosis,Pap smear
+Toxoplasmosis,Depression screen (Depression screening)
+Toxoplasmosis,Magnetic resonance imaging (Mri)
+Toxoplasmosis,Other diagnostic procedures (interview; evaluation; consultation)
+Toxoplasmosis,Corneal transplant
+Fibroadenoma,Examination of breast
+Fibroadenoma,Radiographic imaging procedure
+Fibroadenoma,Mammography (Mammogram)
+Fibroadenoma,Biopsy
+Fibroadenoma,Ultrasonography (Ultrasound)
+Fibroadenoma,Complete physical skin exam performed (ML)
+Fibroadenoma,Pelvis exam
+Fibroadenoma,Breast biopsy and other diagnostic procedures on breast
+Open wound of the hand,Suturing of wound
+Open wound of the hand,Plain x-ray (X ray)
+Open wound of the hand,Wound care management
+Open wound of the hand,Application of splint (Splinting)
+Open wound of the hand,Nonoperative removal of foreign body
+Open wound of the hand,Culture wound
+Open wound of the hand,Suture of skin and subcutaneous tissue
+Open wound of the hand,Occupational therapy assessment (Speech therapy)
+Missed abortion,Radiographic imaging procedure
+Missed abortion,Hematologic tests (Blood test)
+Missed abortion,Complete blood count (Cbc)
+Missed abortion,Urinalysis
+Missed abortion,Pelvis exam
+Missed abortion,Glucose measurement (Glucose level)
+Missed abortion,Standard pregnancy test
+Missed abortion,Electrolytes panel
+Diabetic ketoacidosis,Hematologic tests (Blood test)
+Diabetic ketoacidosis,Intravenous fluid replacement
+Diabetic ketoacidosis,Complete blood count (Cbc)
+Diabetic ketoacidosis,Glucose measurement (Glucose level)
+Diabetic ketoacidosis,Electrolytes panel
+Diabetic ketoacidosis,Urinalysis
+Diabetic ketoacidosis,Kidney function tests (Kidney function test)
+Diabetic ketoacidosis,Radiographic imaging procedure
+Granuloma inguinale,Pelvis exam
+Granuloma inguinale,Urinalysis
+Granuloma inguinale,Complete blood count (Cbc)
+Granuloma inguinale,Hematologic tests (Blood test)
+Granuloma inguinale,Human papillomavirus DNA detection
+Granuloma inguinale,Traction; splints; and other wound care
+Granuloma inguinale,Chlamydia test
+Granuloma inguinale,Examination of breast
+Hemorrhagic fever,Corneal transplant
+Hemorrhagic fever,Transurethral resection of prostate (TURP) (Turp)
+Hemorrhagic fever,Coronary thrombolysis
+Hemorrhagic fever,Control of epistaxis
+Hemorrhagic fever,CT scan abdomen (Ct of abdomen)
+Hemorrhagic fever,Procedures on spleen (Spleen operation)
+Hemorrhagic fever,Bone marrow transplant (Bmt)
+Hemorrhagic fever,Removal of ectopic pregnancy
+Obsessive compulsive disorder (OCD),Psychotherapy
+Obsessive compulsive disorder (OCD),Mental health counseling
+Obsessive compulsive disorder (OCD),Depression screen (Depression screening)
+Obsessive compulsive disorder (OCD),Psychological and psychiatric evaluation and therapy
+Obsessive compulsive disorder (OCD),Occupational therapy assessment (Speech therapy)
+Obsessive compulsive disorder (OCD),Electroencephalogram (EEG) (Eeg)
+Obsessive compulsive disorder (OCD),Diagnostic spinal tap (Spinal tap)
+Injury of the ankle,Radiographic imaging procedure
+Injury of the ankle,Plain x-ray (X ray)
+Injury of the ankle,Application of splint (Splinting)
+Injury of the ankle,Examination of foot
+Injury of the ankle,Physical therapy exercises (Exercises)
+Injury of the ankle,Magnetic resonance imaging (Mri)
+Injury of the ankle,Orthopedic casting
+Injury of the ankle,Physical therapy exercises; manipulation; and other procedures
+Hyponatremia,Hematologic tests (Blood test)
+Hyponatremia,Complete blood count (Cbc)
+Hyponatremia,Radiographic imaging procedure
+Hyponatremia,Intravenous fluid replacement
+Hyponatremia,Electrolytes panel
+Hyponatremia,Glucose measurement (Glucose level)
+Hyponatremia,Kidney function tests (Kidney function test)
+Hyponatremia,Urinalysis
+Stricture of the esophagus,Complete blood count (Cbc)
+Stricture of the esophagus,Intravenous fluid replacement
+Stricture of the esophagus,Upper gastrointestinal endoscopy; biopsy
+Stricture of the esophagus,Plain x-ray (X ray)
+Stricture of the esophagus,Esophageal dilatation (Esophageal dilation)
+Stricture of the esophagus,Electrocardiogram
+Stricture of the esophagus,Biopsy
+Stricture of the esophagus,Sigmoidoscopy or colonoscopy
+Fracture of the ankle,Radiographic imaging procedure
+Fracture of the ankle,Plain x-ray (X ray)
+Fracture of the ankle,Application of splint (Splinting)
+Fracture of the ankle,Orthopedic casting
+Fracture of the ankle,Physical therapy exercises (Exercises)
+Fracture of the ankle,Examination of foot
+Fracture of the ankle,Wound care management
+Fracture of the ankle,Traction; splints; and other wound care
+Soft tissue sarcoma,Complete physical skin exam performed (ML)
+Soft tissue sarcoma,Biopsy
+Soft tissue sarcoma,Excision (Removal)
+Soft tissue sarcoma,Wound care management
+Soft tissue sarcoma,Magnetic resonance imaging (Mri)
+Soft tissue sarcoma,Other diagnostic procedures on skin and subcutaneous tissue
+Soft tissue sarcoma,Excision of skin lesion
+Soft tissue sarcoma,Therapeutic radiology for cancer treatment (Irradiation)
+Bone disorder,Radiographic imaging procedure
+Bone disorder,Hematologic tests (Blood test)
+Bone disorder,Examination of breast
+Bone disorder,Complete physical skin exam performed (ML)
+Bone disorder,Lipid panel
+Bone disorder,Bone density scan
+Bone disorder,Pelvis exam
+Bone disorder,Mammography (Mammogram)
+Epilepsy,Hematologic tests (Blood test)
+Epilepsy,Complete blood count (Cbc)
+Epilepsy,X-ray computed tomography (Scan ct)
+Epilepsy,Other diagnostic procedures (interview; evaluation; consultation)
+Epilepsy,Magnetic resonance imaging (Mri)
+Epilepsy,CAT scan of head (Head ct)
+Epilepsy,Electroencephalogram (EEG) (Eeg)
+Epilepsy,Toxicology screen
+Personality disorder,Psychotherapy
+Personality disorder,Mental health counseling
+Personality disorder,Depression screen (Depression screening)
+Personality disorder,Toxicology screen
+Personality disorder,Psychological and psychiatric evaluation and therapy
+Personality disorder,Blood alcohol
+Personality disorder,Occupational therapy assessment (Speech therapy)
+Personality disorder,Alcohol and drug rehabilitation/detoxification
+Shingles (herpes zoster),Complete physical skin exam performed (ML)
+Shingles (herpes zoster),Other non-OR or closed therapeutic nervous system procedures
+Tourette syndrome,Psychotherapy
+Tourette syndrome,Mental health counseling
+Tourette syndrome,Other diagnostic procedures (interview; evaluation; consultation)
+Tourette syndrome,Depression screen (Depression screening)
+Tourette syndrome,Magnetic resonance imaging (Mri)
+Tourette syndrome,Psychological and psychiatric evaluation and therapy
+Tourette syndrome,Electroencephalogram (EEG) (Eeg)
+Tourette syndrome,Colonoscopy and biopsy
+Avascular necrosis,Radiographic imaging procedure
+Avascular necrosis,Plain x-ray (X ray)
+Avascular necrosis,Complete physical skin exam performed (ML)
+Avascular necrosis,Magnetic resonance imaging (Mri)
+Avascular necrosis,Physical therapy exercises (Exercises)
+Avascular necrosis,Other diagnostic procedures (interview; evaluation; consultation)
+Avascular necrosis,Lipid panel
+Avascular necrosis,Prostate specific antigen measurement (Prostate specific antigen test)
+Strep throat,Influenzavirus antibody assay
+Strep throat,Tonsillectomy and/or adenoidectomy
+Strep throat,Other respiratory therapy
+Spinocerebellar ataxia,Hematologic tests (Blood test)
+Spinocerebellar ataxia,Magnetic resonance imaging (Mri)
+Spinocerebellar ataxia,Other diagnostic procedures (interview; evaluation; consultation)
+Spinocerebellar ataxia,Occupational therapy assessment (Speech therapy)
+Spinocerebellar ataxia,Physical therapy exercises (Exercises)
+Spinocerebellar ataxia,Physical therapy exercises; manipulation; and other procedures
+Spinocerebellar ataxia,Cancer chemotherapy (Chemotherapy)
+Spinocerebellar ataxia,Other therapeutic procedures
+Osteomyelitis,Wound care management
+Osteomyelitis,Complete physical skin exam performed (ML)
+Osteomyelitis,Glucose measurement (Glucose level)
+Osteomyelitis,Traction; splints; and other wound care
+Osteomyelitis,Examination of foot
+Osteomyelitis,Debridement of wound; infection or burn
+Osteomyelitis,Excision (Removal)
+Osteomyelitis,Magnetic resonance imaging (Mri)
+Sjogren syndrome,Complete physical skin exam performed (ML)
+Sjogren syndrome,Mammography (Mammogram)
+Sjogren syndrome,Examination of foot
+Sjogren syndrome,Hip replacement; total and partial
+Sjogren syndrome,Other therapeutic procedures on eyelids; conjunctiva; cornea
+Sjogren syndrome,Bone density scan
+Adhesive capsulitis of the shoulder,Physical therapy exercises (Exercises)
+Adhesive capsulitis of the shoulder,Plain x-ray (X ray)
+Adhesive capsulitis of the shoulder,Magnetic resonance imaging (Mri)
+Adhesive capsulitis of the shoulder,Other non-OR therapeutic procedures on musculoskeletal system
+Adhesive capsulitis of the shoulder,Other therapeutic procedures
+Adhesive capsulitis of the shoulder,Bone density scan
+Adhesive capsulitis of the shoulder,Other therapeutic procedures on muscles and tendons
+Adhesive capsulitis of the shoulder,Other diagnostic radiology and related techniques
+Viral hepatitis,Hematologic tests (Blood test)
+Viral hepatitis,Complete blood count (Cbc)
+Viral hepatitis,Complete physical skin exam performed (ML)
+Viral hepatitis,Lipid panel
+Viral hepatitis,Ultrasonography (Ultrasound)
+Viral hepatitis,Other diagnostic procedures (interview; evaluation; consultation)
+Viral hepatitis,Mental health counseling
+Viral hepatitis,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Tonsillar hypertrophy,Excision (Removal)
+Tonsillar hypertrophy,Tonsillectomy and/or adenoidectomy
+Tonsillar hypertrophy,Other diagnostic procedures (interview; evaluation; consultation)
+Tonsillar hypertrophy,Ophthalmologic and otologic diagnosis and treatment
+Tonsillar hypertrophy,Tracheoscopy and laryngoscopy with biopsy
+Tonsillar hypertrophy,Other OR therapeutic procedures on nose; mouth and pharynx
+Tonsillar hypertrophy,Ophthalmic examination and evaluation (Eye exam)
+Tonsillar hypertrophy,Occupational therapy assessment (Speech therapy)
+Gastritis,Hematologic tests (Blood test)
+Gastritis,Complete blood count (Cbc)
+Gastritis,Urinalysis
+Gastritis,Intravenous fluid replacement
+Gastritis,Glucose measurement (Glucose level)
+Gastritis,Kidney function tests (Kidney function test)
+Gastritis,Electrolytes panel
+Gastritis,Liver function tests (Liver test)
+Skin cancer,Complete physical skin exam performed (ML)
+Skin cancer,Excision (Removal)
+Skin cancer,Biopsy
+Skin cancer,Wound care management
+Skin cancer,Other diagnostic procedures on skin and subcutaneous tissue
+Skin cancer,Excision of skin lesion
+Skin cancer,Other therapeutic procedures
+Skin cancer,Other non-OR therapeutic procedures on skin and breast
+Rheumatic fever,Echocardiography
+Rheumatic fever,Mental health counseling
+Rheumatic fever,Ultrasonography (Ultrasound)
+Rheumatic fever,Electrocardiogram
+Rheumatic fever,Complete physical skin exam performed (ML)
+Rheumatic fever,Corneal transplant
+Rheumatic fever,Transurethral resection of prostate (TURP) (Turp)
+Rheumatic fever,Coronary thrombolysis
+Aphthous ulcer,Other diagnostic procedures (interview; evaluation; consultation)
+Aphthous ulcer,Biopsy
+Aphthous ulcer,Upper gastrointestinal endoscopy; biopsy
+Tonsillitis,Excision (Removal)
+Tonsillitis,Tonsillectomy and/or adenoidectomy
+Tonsillitis,Other diagnostic procedures (interview; evaluation; consultation)
+Tonsillitis,Biopsy
+Tonsillitis,Ophthalmologic and otologic diagnosis and treatment
+Tonsillitis,Other OR therapeutic procedures on nose; mouth and pharynx
+Tonsillitis,Diagnostic procedures on ear
+Tonsillitis,Diagnostic procedures on nose; mouth and pharynx
+Intestinal cancer,Hematologic tests (Blood test)
+Intestinal cancer,Complete blood count (Cbc)
+Intestinal cancer,Radiographic imaging procedure
+Intestinal cancer,Glucose measurement (Glucose level)
+Intestinal cancer,X-ray computed tomography (Scan ct)
+Intestinal cancer,Urinalysis
+Intestinal cancer,Electrolytes panel
+Intestinal cancer,Electrocardiogram
+Rocky Mountain spotted fever,Corneal transplant
+Rocky Mountain spotted fever,Transurethral resection of prostate (TURP) (Turp)
+Rocky Mountain spotted fever,Coronary thrombolysis
+Rocky Mountain spotted fever,Control of epistaxis
+Rocky Mountain spotted fever,CT scan abdomen (Ct of abdomen)
+Rocky Mountain spotted fever,Procedures on spleen (Spleen operation)
+Rocky Mountain spotted fever,Bone marrow transplant (Bmt)
+Rocky Mountain spotted fever,Removal of ectopic pregnancy
+Stomach cancer,Hematologic tests (Blood test)
+Stomach cancer,Complete blood count (Cbc)
+Stomach cancer,Radiographic imaging procedure
+Stomach cancer,Electrolytes panel
+Stomach cancer,Glucose measurement (Glucose level)
+Stomach cancer,X-ray computed tomography (Scan ct)
+Stomach cancer,Kidney function tests (Kidney function test)
+Stomach cancer,Cardiac enzymes measurement (Cardiac enzymes test)
+Developmental disability,Psychotherapy
+Developmental disability,Mental health counseling
+Developmental disability,Occupational therapy assessment (Speech therapy)
+Developmental disability,Other diagnostic procedures (interview; evaluation; consultation)
+Developmental disability,Magnetic resonance imaging (Mri)
+Developmental disability,Ophthalmologic and otologic diagnosis and treatment
+Developmental disability,Physical therapy exercises (Exercises)
+Developmental disability,Psychological and psychiatric evaluation and therapy
+Acute stress reaction,Mental health counseling
+Acute stress reaction,Electrocardiogram
+Acute stress reaction,Psychotherapy
+Acute stress reaction,Depression screen (Depression screening)
+Acute stress reaction,Blood alcohol
+Acute stress reaction,Toxicology screen
+Acute stress reaction,Dental procedures (Care dental)
+Acute stress reaction,Psychological and psychiatric evaluation and therapy
+Delirium,Hematologic tests (Blood test)
+Delirium,Complete blood count (Cbc)
+Delirium,Glucose measurement (Glucose level)
+Delirium,Urinalysis
+Delirium,Electrolytes panel
+Delirium,Electrocardiogram
+Delirium,X-ray computed tomography (Scan ct)
+Delirium,Kidney function tests (Kidney function test)
+Callus,Complete physical skin exam performed (ML)
+Callus,Excision (Removal)
+Callus,Wound care management
+Callus,Examination of foot
+Callus,Debridement of wound; infection or burn
+Callus,Excision of skin lesion
+Callus,Other diagnostic procedures on skin and subcutaneous tissue
+Callus,Biopsy
+Guillain Barre syndrome,Urinalysis
+Guillain Barre syndrome,Magnetic resonance imaging (Mri)
+Guillain Barre syndrome,Other therapeutic procedures
+Guillain Barre syndrome,Physical therapy exercises (Exercises)
+Guillain Barre syndrome,Human papillomavirus DNA detection
+Guillain Barre syndrome,Echocardiography
+Guillain Barre syndrome,Chlamydia test
+Guillain Barre syndrome,Insertion of catheter into urinary bladder
+Lumbago,Radiographic imaging procedure
+Lumbago,Plain x-ray (X ray)
+Lumbago,Physical therapy exercises (Exercises)
+Lumbago,Magnetic resonance imaging (Mri)
+Lumbago,Other therapeutic procedures
+Lumbago,Insertion of catheter or spinal stimulator and injection into spinal canal
+Lumbago,Physical therapy exercises; manipulation; and other procedures
+Lumbago,Other physical therapy and rehabilitation
+Deviated nasal septum,X-ray computed tomography (Scan ct)
+Deviated nasal septum,Plastic procedures on nose (Rhinoplasty)
+Deviated nasal septum,Other diagnostic procedures (interview; evaluation; consultation)
+Deviated nasal septum,Excision (Removal)
+Deviated nasal septum,Other OR therapeutic procedures on nose; mouth and pharynx
+Deviated nasal septum,Diagnostic procedures on nose; mouth and pharynx
+Deviated nasal septum,Tracheoscopy and laryngoscopy with biopsy
+Deviated nasal septum,Ophthalmologic and otologic diagnosis and treatment
+Hemangioma,Complete physical skin exam performed (ML)
+Hemangioma,Excision (Removal)
+Hemangioma,Excision of skin lesion
+Hemangioma,Biopsy
+Hemangioma,Wound care management
+Hemangioma,Other diagnostic procedures (interview; evaluation; consultation)
+Hemangioma,Other diagnostic procedures on skin and subcutaneous tissue
+Hemangioma,Magnetic resonance imaging (Mri)
+Patau syndrome,Pap smear
+Patau syndrome,Depression screen (Depression screening)
+Patau syndrome,Mammography (Mammogram)
+Patau syndrome,Examination of breast
+Patau syndrome,Lipid panel
+Patau syndrome,Pelvis exam
+Patau syndrome,Complete physical skin exam performed (ML)
+Patau syndrome,Urinalysis
+Peripheral arterial disease,Wound care management
+Peripheral arterial disease,Complete physical skin exam performed (ML)
+Peripheral arterial disease,Ultrasonography (Ultrasound)
+Peripheral arterial disease,Lipid panel
+Peripheral arterial disease,Examination of foot
+Peripheral arterial disease,Debridement of wound; infection or burn
+Peripheral arterial disease,Hemoglobin A1c measurement (Hemoglobin a1c test)
+Peripheral arterial disease,Echocardiography
+Chronic back pain,Radiographic imaging procedure
+Chronic back pain,Plain x-ray (X ray)
+Chronic back pain,X-ray computed tomography (Scan ct)
+Chronic back pain,Magnetic resonance imaging (Mri)
+Chronic back pain,Physical therapy exercises (Exercises)
+Chronic back pain,Insertion of catheter or spinal stimulator and injection into spinal canal
+Chronic back pain,Other therapeutic procedures
+Chronic back pain,Other physical therapy and rehabilitation
+Heart failure,Hematologic tests (Blood test)
+Heart failure,Radiographic imaging procedure
+Heart failure,Complete blood count (Cbc)
+Heart failure,Electrocardiogram
+Heart failure,Plain x-ray (X ray)
+Heart failure,Glucose measurement (Glucose level)
+Heart failure,Electrolytes panel
+Heart failure,Kidney function tests (Kidney function test)
+Conjunctivitis,Ophthalmic examination and evaluation (Eye exam)
+Conjunctivitis,Influenzavirus antibody assay
+Conjunctivitis,Nonoperative removal of foreign body
+Conjunctivitis,Other OR therapeutic nervous system procedures
+Conjunctivitis,Other therapeutic ear procedures
+Conjunctivitis,Other extraocular muscle and orbit therapeutic procedures
+Conjunctivitis,Other non-OR therapeutic procedures on nose; mouth and pharynx
+Herniated disk,Radiographic imaging procedure
+Herniated disk,Magnetic resonance imaging (Mri)
+Herniated disk,Physical therapy exercises (Exercises)
+Herniated disk,Other diagnostic procedures (interview; evaluation; consultation)
+Herniated disk,Insertion of catheter or spinal stimulator and injection into spinal canal
+Herniated disk,Other therapeutic procedures
+Herniated disk,Excision (Removal)
+Herniated disk,Depression screen (Depression screening)
+Rhabdomyolysis,Hematologic tests (Blood test)
+Rhabdomyolysis,Complete blood count (Cbc)
+Rhabdomyolysis,Intravenous fluid replacement
+Rhabdomyolysis,Kidney function tests (Kidney function test)
+Rhabdomyolysis,Radiographic imaging procedure
+Rhabdomyolysis,Cardiac enzymes measurement (Cardiac enzymes test)
+Rhabdomyolysis,Urinalysis
+Rhabdomyolysis,Electrolytes panel
+Breast infection (mastitis),Examination of breast
+Breast infection (mastitis),Glucose measurement (Glucose level)
+Breast infection (mastitis),Wound care management
+Breast infection (mastitis),Electrolytes panel
+Breast infection (mastitis),Kidney function tests (Kidney function test)
+Breast infection (mastitis),Mammography (Mammogram)
+Breast infection (mastitis),Ultrasonography (Ultrasound)
+Breast infection (mastitis),Blood culture
+Abdominal aortic aneurysm,Radiographic imaging procedure
+Abdominal aortic aneurysm,Hematologic tests (Blood test)
+Abdominal aortic aneurysm,X-ray computed tomography (Scan ct)
+Abdominal aortic aneurysm,Complete blood count (Cbc)
+Abdominal aortic aneurysm,Ultrasonography (Ultrasound)
+Abdominal aortic aneurysm,Electrocardiogram
+Abdominal aortic aneurysm,Electrolytes panel
+Abdominal aortic aneurysm,Kidney function tests (Kidney function test)
+Pulmonary embolism,Hematologic tests (Blood test)
+Pulmonary embolism,Radiographic imaging procedure
+Pulmonary embolism,Complete blood count (Cbc)
+Pulmonary embolism,Electrocardiogram
+Pulmonary embolism,Plain x-ray (X ray)
+Pulmonary embolism,X-ray computed tomography (Scan ct)
+Pulmonary embolism,Glucose measurement (Glucose level)
+Pulmonary embolism,Kidney function tests (Kidney function test)
+Conduct disorder,Mental health counseling
+Conduct disorder,Psychotherapy
+Conduct disorder,Toxicology screen
+Conduct disorder,Blood alcohol
+Conduct disorder,Psychological and psychiatric evaluation and therapy
+Conduct disorder,Occupational therapy assessment (Speech therapy)
+Conduct disorder,Electroencephalogram (EEG) (Eeg)
+Conduct disorder,Ophthalmologic and otologic diagnosis and treatment
+Air embolism,Corneal transplant
+Air embolism,Transurethral resection of prostate (TURP) (Turp)
+Air embolism,Coronary thrombolysis
+Air embolism,Control of epistaxis
+Air embolism,CT scan abdomen (Ct of abdomen)
+Air embolism,Procedures on spleen (Spleen operation)
+Air embolism,Bone marrow transplant (Bmt)
+Air embolism,Removal of ectopic pregnancy
+Mastectomy,Examination of breast
+Mastectomy,Complete blood count (Cbc)
+Mastectomy,Mammography (Mammogram)
+Mastectomy,Complete physical skin exam performed (ML)
+Mastectomy,Glucose measurement (Glucose level)
+Mastectomy,Wound care management
+Mastectomy,Magnetic resonance imaging (Mri)
+Mastectomy,Other diagnostic procedures (interview; evaluation; consultation)
+Epididymitis,Urinalysis
+Epididymitis,Radiographic imaging procedure
+Epididymitis,Ultrasonography (Ultrasound)
+Epididymitis,Rectal examination
+Epididymitis,Prostate specific antigen measurement (Prostate specific antigen test)
+Epididymitis,Blood culture
+Epididymitis,Insertion of catheter into urinary bladder
+Epididymitis,Microscopic examination (bacterial smear; culture; toxicology)
+Premature rupture of amniotic membrane,Hematologic tests (Blood test)
+Premature rupture of amniotic membrane,Complete blood count (Cbc)
+Premature rupture of amniotic membrane,Urinalysis
+Premature rupture of amniotic membrane,Intravenous fluid replacement
+Premature rupture of amniotic membrane,Arterial blood gases (ABGs)
+Premature rupture of amniotic membrane,Prothrombin time assay (Prothrombin time)
+Premature rupture of amniotic membrane,Pelvis exam
+Premature rupture of amniotic membrane,Fetal monitoring
+Molluscum contagiosum,Complete physical skin exam performed (ML)
+Molluscum contagiosum,Excision (Removal)
+Molluscum contagiosum,Excision of skin lesion
+Molluscum contagiosum,Other therapeutic procedures
+Molluscum contagiosum,Chlamydia test
+Molluscum contagiosum,Examination of foot
+Necrotizing fasciitis,Complete physical skin exam performed (ML)
+Necrotizing fasciitis,Complete blood count (Cbc)
+Necrotizing fasciitis,Wound care management
+Necrotizing fasciitis,Kidney function tests (Kidney function test)
+Necrotizing fasciitis,Electrolytes panel
+Necrotizing fasciitis,Glucose measurement (Glucose level)
+Necrotizing fasciitis,Blood culture
+Necrotizing fasciitis,Cardiac monitoring (Cardiac monitor)
+Benign vaginal discharge (leukorrhea),Urinalysis
+Benign vaginal discharge (leukorrhea),Pelvis exam
+Benign vaginal discharge (leukorrhea),Standard pregnancy test
+Benign vaginal discharge (leukorrhea),Chlamydia test
+Benign vaginal discharge (leukorrhea),Examination of breast
+Benign vaginal discharge (leukorrhea),Microscopic examination (bacterial smear; culture; toxicology)
+Benign vaginal discharge (leukorrhea),Pap smear
+Benign vaginal discharge (leukorrhea),Human papillomavirus DNA detection
+Bladder obstruction,Urinalysis
+Bladder obstruction,Rectal examination
+Bladder obstruction,Prostate specific antigen measurement (Prostate specific antigen test)
+Bladder obstruction,Ultrasonography (Ultrasound)
+Bladder obstruction,Other diagnostic procedures (interview; evaluation; consultation)
+Bladder obstruction,Insertion of catheter into urinary bladder
+Bladder obstruction,Excision (Removal)
+Bladder obstruction,Nonoperative urinary system measurements
+Melanoma,Complete physical skin exam performed (ML)
+Melanoma,Excision (Removal)
+Melanoma,Wound care management
+Melanoma,Biopsy
+Melanoma,Other diagnostic procedures on skin and subcutaneous tissue
+Melanoma,Excision of skin lesion
+Melanoma,Lipid panel
+Melanoma,Magnetic resonance imaging (Mri)
+Cervical disorder,Pelvis exam
+Cervical disorder,Examination of breast
+Cervical disorder,Biopsy
+Cervical disorder,Excision (Removal)
+Cervical disorder,Ultrasonography (Ultrasound)
+Cervical disorder,Other diagnostic procedures; female organs
+Cervical disorder,Mammography (Mammogram)
+Cervical disorder,Pap smear
+Laryngitis,Other diagnostic procedures (interview; evaluation; consultation)
+Laryngitis,Tracheoscopy and laryngoscopy with biopsy
+Laryngitis,Occupational therapy assessment (Speech therapy)
+Laryngitis,Upper gastrointestinal endoscopy; biopsy
+Laryngitis,Other OR upper GI therapeutic procedures
+Laryngitis,Diagnostic procedures on ear
+Laryngitis,Injections and aspirations of muscles; tendons; bursa; joints and soft tissue
+Laryngitis,Other diagnostic radiology and related techniques
+Dyshidrosis,Complete physical skin exam performed (ML)
+Dyshidrosis,Depression screen (Depression screening)
+Dyshidrosis,Examination of foot
+Dyshidrosis,Excision of skin lesion
+Dyshidrosis,Excision (Removal)
+Dyshidrosis,Bone density scan
+Dyshidrosis,Corneal transplant
+Dyshidrosis,Procedures on spleen (Spleen operation)
+Poisoning due to opioids,Hematologic tests (Blood test)
+Poisoning due to opioids,Intravenous fluid replacement
+Poisoning due to opioids,Complete blood count (Cbc)
+Poisoning due to opioids,Urinalysis
+Poisoning due to opioids,Electrocardiogram
+Poisoning due to opioids,Kidney function tests (Kidney function test)
+Poisoning due to opioids,Radiographic imaging procedure
+Poisoning due to opioids,Glucose measurement (Glucose level)
+Diaper rash,Complete physical skin exam performed (ML)
+Diaper rash,Other diagnostic procedures (interview; evaluation; consultation)
+Diaper rash,Rectal examination
+Diaper rash,Influenzavirus antibody assay
+Diaper rash,Prophylactic vaccinations and inoculations
+Diaper rash,Nonoperative urinary system measurements
+Lichen planus,Complete physical skin exam performed (ML)
+Lichen planus,Pelvis exam
+Lichen planus,Depression screen (Depression screening)
+Lichen planus,Biopsy
+Lichen planus,Rectal examination
+Lichen planus,Other OR therapeutic procedures on nose; mouth and pharynx
+Lichen planus,Human papillomavirus DNA detection
+Lichen planus,Microscopic examination (bacterial smear; culture; toxicology)
+Gastroduodenal ulcer,Hematologic tests (Blood test)
+Gastroduodenal ulcer,Complete blood count (Cbc)
+Gastroduodenal ulcer,Radiographic imaging procedure
+Gastroduodenal ulcer,Glucose measurement (Glucose level)
+Gastroduodenal ulcer,Intravenous fluid replacement
+Gastroduodenal ulcer,Electrolytes panel
+Gastroduodenal ulcer,Urinalysis
+Gastroduodenal ulcer,Kidney function tests (Kidney function test)
+Inguinal hernia,Complete physical skin exam performed (ML)
+Inguinal hernia,Other OR therapeutic nervous system procedures
+Inguinal hernia,Other diagnostic procedures (interview; evaluation; consultation)
+Inguinal hernia,Wound care management
+Inguinal hernia,Prostate specific antigen measurement (Prostate specific antigen test)
+Inguinal hernia,Rectal examination
+Inguinal hernia,Excision (Removal)
+Inguinal hernia,Sigmoidoscopy or colonoscopy
+Eczema,Complete physical skin exam performed (ML)
+Eczema,Wound care management
+Eczema,Other diagnostic procedures (interview; evaluation; consultation)
+Eczema,Excision (Removal)
+Eczema,Biopsy
+Eczema,Examination of foot
+Eczema,Excision of skin lesion
+Eczema,Other diagnostic procedures on skin and subcutaneous tissue
+Asperger syndrome,Psychotherapy
+Asperger syndrome,Mental health counseling
+Asperger syndrome,Occupational therapy assessment (Speech therapy)
+Asperger syndrome,Depression screen (Depression screening)
+Asperger syndrome,Electroencephalogram (EEG) (Eeg)
+Asperger syndrome,Psychological and psychiatric evaluation and therapy
+Mucositis,Therapeutic radiology for cancer treatment (Irradiation)
+Paronychia,Wound care management
+Paronychia,Incision and drainage (I d)
+Paronychia,Culture wound
+Paronychia,Examination of foot
+Paronychia,Excision (Removal)
+Paronychia,Other non-OR therapeutic procedures on skin and breast
+Paronychia,Microscopic examination (bacterial smear; culture; toxicology)
+Paronychia,Other diagnostic procedures on musculoskeletal system
+Open wound of the jaw,Suturing of wound
+Open wound of the jaw,Wound care management
+Open wound of the jaw,X-ray computed tomography (Scan ct)
+Open wound of the jaw,CAT scan of head (Head ct)
+Open wound of the jaw,Culture wound
+Open wound of the jaw,Suture of skin and subcutaneous tissue
+White blood cell disease,Hematologic tests (Blood test)
+White blood cell disease,Complete blood count (Cbc)
+White blood cell disease,Radiographic imaging procedure
+White blood cell disease,Glucose measurement (Glucose level)
+White blood cell disease,Intravenous fluid replacement
+White blood cell disease,Urinalysis
+White blood cell disease,Electrolytes panel
+White blood cell disease,Kidney function tests (Kidney function test)
+Kaposi sarcoma,Glucose measurement (Glucose level)
+Kaposi sarcoma,Complete physical skin exam performed (ML)
+Kaposi sarcoma,Mental health counseling
+Kaposi sarcoma,Cancer chemotherapy (Chemotherapy)
+Kaposi sarcoma,Excision (Removal)
+Kaposi sarcoma,CAT scan of head (Head ct)
+Kaposi sarcoma,Psychotherapy
+Kaposi sarcoma,Corneal transplant
+Spondylolisthesis,Radiographic imaging procedure
+Spondylolisthesis,Plain x-ray (X ray)
+Spondylolisthesis,Physical therapy exercises (Exercises)
+Spondylolisthesis,Magnetic resonance imaging (Mri)
+Spondylolisthesis,Other diagnostic procedures (interview; evaluation; consultation)
+Spondylolisthesis,Insertion of catheter or spinal stimulator and injection into spinal canal
+Spondylolisthesis,Other therapeutic procedures
+Spondylolisthesis,Bone density scan
+Pseudotumor cerebri,Intravenous fluid replacement
+Pseudotumor cerebri,Magnetic resonance imaging (Mri)
+Pseudotumor cerebri,Ophthalmic examination and evaluation (Eye exam)
+Pseudotumor cerebri,Standard pregnancy test
+Pseudotumor cerebri,Diagnostic spinal tap (Spinal tap)
+Pseudotumor cerebri,Other therapeutic procedures on eyelids; conjunctiva; cornea
+Pseudotumor cerebri,Other therapeutic procedures
+Pseudotumor cerebri,Other OR Rx procedures on respiratory system and mediastinum
+Conjunctivitis due to virus,Ophthalmic examination and evaluation (Eye exam)
+Conjunctivitis due to virus,Influenzavirus antibody assay
+Conjunctivitis due to virus,Referral to home health care service
+Open wound of the nose,Suturing of wound
+Open wound of the nose,Wound care management
+Open wound of the nose,Plain x-ray (X ray)
+Open wound of the nose,X-ray computed tomography (Scan ct)
+Open wound of the nose,CAT scan of head (Head ct)
+Open wound of the nose,Culture wound
+Open wound of the nose,Blood alcohol
+Open wound of the nose,Other therapeutic procedures

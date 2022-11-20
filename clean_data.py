@@ -9,7 +9,7 @@ Created on Thu Nov 10 09:36:20 2022
 """
 import csv
 
-# file_path = input("Please enter dataset filepath: ")
+file_path = input("Please enter dataset filepath: ")
 
 nums = ['0','1','2','3','4','5','6','7','8','9']
 
@@ -34,53 +34,46 @@ big_lis.append(['Disease','Desciption'])
 
 with open(file_path, 'r') as dataset:
     data = csv.reader(x.replace('\0', '') for x in dataset)    
-    for line in data:
-        dis = []
-        for i,string in enumerate(line):
-            if(i!=0):  
-                if('"symptoms":' in line[i-1]) and ('"symptoms":' not in string):
-                    dis.append(line[1])
-                    if("We will add more content to this page if enough people like you show interest." in string):
-                        dis.append("None")
-                    else:
-                        dis.append(string.replace('\t', '').replace("   ", ' ').replace("  "," "))
+#     for line in data:
+#         dis = []
+#         for i,string in enumerate(line):
+#             if(i!=0):  
+#                 if('"symptoms":' in line[i-1]) and ('"symptoms":' not in string):
+#                     dis.append(line[1])
+#                     if("We will add more content to this page if enough people like you show interest." in string):
+#                         dis.append("None")
+#                     else:
+#                         dis.append(string.replace('\t', '').replace("   ", ' ').replace("  "," "))
                     
-                    big_lis.append(dis)
-    print(big_lis)
+#                     big_lis.append(dis)
+#     print(big_lis)
     
-with open("disease_table.csv", 'w',newline='') as f:
-    w = csv.writer(f)
-    w.writerows(big_lis)
-    print('\ndone')
+# with open("disease_table.csv", 'w',newline='') as f:
+#     w = csv.writer(f)
+#     w.writerows(big_lis)
+#     print('\ndone')
             
             
-                
-                
-                
-            
-                
     
     
-    
-    
-    # for line in data:
-    #     proc = []
-    #     i = 0
-    #     for string in line:
-    #         if(i==1):
-    #             disease = string    
-    #         if('"commonTestsAndProcedures":' in string):
-    #             flag = True
-    #             proc.append(disease)
-    #             proc.append(string[27:len(string)-2].replace('"','').replace(':',''))
+    for line in data:
+        proc = []
+        i = 0
+        for string in line:
+            if(i==1):
+                disease = string    
+            if('"commonTestsAndProcedures":' in string):
+                flag = True
+                proc.append(disease)
+                proc.append(string[27:len(string)-2].replace('"','').replace(':',''))
                 
-    #         i+=1
+            i+=1
                 
-    #         if(flag):
-    #             if(proc not in proc_final):
-    #                 proc_final.append(proc)
-    #             flag = False
-    # print(proc_final)
+            if(flag):
+                if(proc not in proc_final):
+                    proc_final.append(proc)
+                flag = False
+    print(proc_final)
     
 
 
@@ -91,12 +84,7 @@ with open("commonTests_disease_mapping.csv",'w',newline='') as f:
         for j in range(1,len(proc_final[i]),2):
             w.writerow([proc_final[i][0],proc_final[i][j]])       
         
-with open("disease_symptoms.csv", "w") as f:
-    w = csv.writer(f)
 
-    w.writerow(["Name","Description"])
-    for row in w:
-        w.writerow(row[1], row[3])
 
 
 # Disease Map Generated via this:
