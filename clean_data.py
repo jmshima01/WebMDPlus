@@ -9,7 +9,7 @@ Created on Thu Nov 10 09:36:20 2022
 """
 import csv
 
-file_path = input("Please enter dataset filepath: ")
+# file_path = input("Please enter dataset filepath: ")
 
 nums = ['0','1','2','3','4','5','6','7','8','9']
 
@@ -91,14 +91,12 @@ with open("commonTests_disease_mapping.csv",'w',newline='') as f:
         for j in range(1,len(proc_final[i]),2):
             w.writerow([proc_final[i][0],proc_final[i][j]])       
         
-    
+with open("disease_symptoms.csv", "w") as f:
+    w = csv.writer(f)
 
-
-
-
-
-
-
+    w.writerow(["Name","Description"])
+    for row in w:
+        w.writerow(row[1], row[3])
 
 
 # Disease Map Generated via this:
