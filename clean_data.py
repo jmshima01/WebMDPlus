@@ -49,7 +49,7 @@ with open(file_path, 'r') as dataset:
                         dis.append(string.replace('\t', '').replace("   ", ' ').replace("  "," ").replace(',',''))
                     if(dis not in repeats):
                         n = [dis[0],dis[-1]]
-                        big_lis.append(dis)
+                        big_lis.append(n)
                     repeats.append(dis)
     print(big_lis)
     
