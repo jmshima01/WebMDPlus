@@ -36,6 +36,8 @@ CREATE TABLE tests_and_procedures(
     test_procedure TEXT
 );
 
+
+
 -- ==================================
 -- COPYING DATA INTO TABLES
 \copy disease FROM 'disease_desc.csv' WITH(HEADER true, FORMAT csv);
