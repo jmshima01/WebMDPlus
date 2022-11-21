@@ -42,7 +42,7 @@ CREATE TABLE testsAndProcedures(
 \copy disease FROM 'disease_desc.csv' WITH(HEADER true, FORMAT csv);
 \copy symptoms FROM 'symptoms.csv' WITH(HEADER true, FORMAT csv);
 \copy disease_symptoms FROM 'symptoms_disease.csv' WITH(HEADER true, FORMAT csv);
-\copy testsAndProcedures FROM 'commonTests_disease.csv' WITH(HEADER true, FORMAT csv);
+\copy testsAndProcedures FROM 'commonTests_disease_mapping.csv' WITH(HEADER true, FORMAT csv);
 \copy medication FROM 'medication_disease.csv' WITH(HEADER true, FORMAT csv);
 
 
