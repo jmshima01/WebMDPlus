@@ -13,7 +13,8 @@ secret = getpass.getpass()
 db = pg8000.connect(user=user, password=secret, host='codd.mines.edu', port=5433, database='csci403')
 cursor = db.cursor()
 # immediate
-cursor.execute("SET search_path TO f22_group6")
-results = cursor.fetchall()
-print(results)
+cursor.execute("SELECT * FROM disease")
 
+results = cursor.fetchall()
+for i in results:
+    print(i)
