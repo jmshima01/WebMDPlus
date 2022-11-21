@@ -9,7 +9,12 @@ def run_ui():
     conn = db.get_conn()
     cursor = db.get_cursor(conn)
 
-    symptoms = queries.get_all_symptoms(cursor)
+    symptomsObj = queries.get_all_symptoms(cursor)
+    symptoms = []
+    for row in symptomsObj:
+        name = row[0]
+        symptoms.append(name)
+
     # Create an instance of window
     window=Tk()
     # Set the geometry of the window
@@ -23,6 +28,7 @@ def run_ui():
 
     var = StringVar()
     var.set("one")
+
 
     cb=Combobox(window, values=symptoms)
     cb.place(x=60, y=150)
