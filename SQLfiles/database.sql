@@ -36,7 +36,23 @@ CREATE TABLE tests_and_procedures(
     test_procedure TEXT
 );
 
+DROP TABLE IF EXISTS patient_symptoms CASCADE;
+CREATE TABLE patient_symptoms(
+    patient_id SERIAL,
+    symptom TEXT
+);
 
+DROP TABLE IF EXISTS patient_medications CASCADE;
+CREATE TABLE patient_medications(
+    patient_id SERIAL,
+    medication TEXT
+);
+
+DROP TABLE IF EXISTS patient_procedures CASCADE;
+CREATE TABLE patient_procedures(
+    patient_id SERIAL,
+    procedure TEXT
+);
 
 -- ==================================
 -- COPYING DATA INTO TABLES
@@ -57,36 +73,17 @@ ALTER TABLE disease_symptoms ADD PRIMARY KEY (disease_name, symptom);
 ALTER TABLE tests_and_procedures ADD CONSTRAINT disease_procedure_fk FOREIGN KEY (disease_name) REFERENCES disease(name);
 ALTER TABLE tests_and_procedures ADD PRIMARY KEY (disease_name, test_procedure);
 
+
 ALTER TABLE medication ADD CONSTRAINT disease_medication_fk FOREIGN KEY (disease_name) REFERENCES disease(name);
 ALTER TABLE medication ADD PRIMARY KEY (disease_name, medication_name);
 
 ALTER TABLE patient ADD PRIMARY KEY (id);
 
+ALTER TABLE patient_medications ADD CONSTRAINT patient_medication_fk FOREIGN KEY (patient_id) REFERENCES patient(id);
+ALTER TABLE patient_medications ADD PRIMARY KEY (patient_id, medication);
 
--- DO NOT DELETE BELOW CODE!!!!!!
+ALTER TABLE patient_symptoms ADD CONSTRAINT patient_medication_fk FOREIGN KEY (patient_id) REFERENCES patient(id);
+ALTER TABLE patient_symptoms ADD PRIMARY KEY (patient_id, symptom);
 
--- DROP TABLE IF EXISTS payment CASCADE;
--- CREATE TABLE payment(
---     payment_id SERIAL PRIMARY KEY,
---     user_id SERIAL,
---     name TEXT,
---     cost double precision,  -- might change to save space 
---     category_name TEXT,
---     subscription_type TEXT,
---     due_date DATE,
---     FOREIGN KEY (user_id) REFERENCES person(id),
---     FOREIGN KEY (category_name) REFERENCES category(name)
-
--- );
-
--- DROP TABLE IF EXISTS saving_goals CASCADE;
--- CREATE TABLE saving_goals(
---     user_id SERIAL DEFAULT NULL,
---     name TEXT,
---     amount double precision,
---     dead_line date,
---     FOREIGN KEY (user_id) REFERENCES person(id)
--- );
-
--- INSERT INTO saving_goals(name,amount,dead_line)
---     VALUES('bob','22.22','2022-02-22');
+ALTER TABLE patient_procedures ADD CONSTRAINT patient_medication_fk FOREIGN KEY (patient_id) REFERENCES patient(id);
+ALTER TABLE patient_procedures ADD PRIMARY KEY (patient_id, procedure);
