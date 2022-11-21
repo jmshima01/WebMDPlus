@@ -44,6 +44,22 @@ CREATE TABLE tests_and_procedures(
 \copy tests_and_procedures FROM 'commonTests_disease_mapping.csv' WITH(HEADER true, FORMAT csv);
 \copy medication FROM 'medication_disease.csv' WITH(HEADER true, FORMAT csv);
 
+-- CREATING PRIMARY AND FOREIGN KEYS
+ALTER TABLE disease ADD PRIMARY KEY (name);
+ALTER TABLE symptoms ADD PRIMARY KEY (name);
+
+ALTER TABLE disease_symptoms ADD CONSTRAINT disease_fk FOREIGN KEY (disease_name) REFERENCES disease(name);
+ALTER TABLE disease_symptoms ADD CONSTRAINT symptom_fk FOREIGN KEY (symptom) REFERENCES symptom(name);
+ALTER TABLE disease_symptoms ADD PRIMARY KEY (disease_name, symptom);
+
+ALTER TABLE tests_and_procedures ADD CONSTRAINT disease_procedure_fk FOREIGN KEY (disease_name) REFERENCES disease(name);
+ALTER TABLE tests_and_procedures ADD PRIMARY KEY (disease_name, test_procedure);
+
+ALTER TABLE medication ADD CONSTRAINT disease_medication_fk FOREIGN KEY (disease_name) REFERENCES disease(name);
+ALTER TABLE medication ADD PRIMARY KEY (disease_name, medication_name);
+
+ALTER TABLE patient ADD PRIMARY KEY (id);
+
 
 -- DO NOT DELETE BELOW CODE!!!!!!
 
