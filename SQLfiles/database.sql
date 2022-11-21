@@ -1,22 +1,24 @@
+-- TABLE CREATION
 DROP TABLE IF EXISTS symptoms CASCADE;
 CREATE TABLE symptoms(
-    disease_name TEXT,
     name TEXT
     );
 
 DROP TABLE IF EXISTS disease CASCADE;
 CREATE TABLE disease(
-    code SERIAL,
     name TEXT,
-    description TEXT,
-    symptoms_name TEXT,
-    death_rate double precision
+    description TEXT
+);
+
+CREATE TABLE disease_symptoms(
+    disease_name TEXT,
+    symptom TEXT
 );
 
 DROP TABLE IF EXISTS medication CASCADE;
 CREATE TABLE medication(
     disease_name TEXT,
-    name TEXT
+    medication_name TEXT
 );
 
 DROP TABLE IF EXISTS patient CASCADE;
@@ -29,12 +31,19 @@ CREATE TABLE patient(
 
 );
 
-DROP TABLE IF EXISTS commonTestAndProcedures CASCADE;
-CREATE TABLE commonTestsAndProcedures(
-    name TEXT,
-    disease_name TEXT
+DROP TABLE IF EXISTS testsAndProcedures CASCADE;
+CREATE TABLE testsAndProcedures(
+    disease_name TEXT,
+    test_procedure TEXT
 );
 
+-- ==================================
+-- COPYING DATA INTO TABLES
+\copy disease FROM 'disease_desc.csv' WITH(HEADER true, FORMAT csv);
+\copy symptoms FROM 'symptoms.csv' WITH(HEADER true, FORMAT csv);
+\copy disease_symptoms FROM 'symptoms_disease.csv' WITH(HEADER true, FORMAT csv);
+\copy testsAndProcedures FROM 'commonTests_disease.csv' WITH(HEADER true, FORMAT csv);
+\copy medication FROM 'medication_disease.csv' WITH(HEADER true, FORMAT csv);
 
 
 -- DO NOT DELETE BELOW CODE!!!!!!
