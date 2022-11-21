@@ -23,16 +23,15 @@ CREATE TABLE medication(
 
 DROP TABLE IF EXISTS patient CASCADE;
 CREATE TABLE patient(
-    user_id SERIAL,
-    disease_name TEXT,
-    symptoms_name TEXT,
-    death TEXT,
-    user_medication_name TEXT
+    id SERIAL,
+    name TEXT,
+    age INTEGER,
+    sex TEXT
 
 );
 
-DROP TABLE IF EXISTS testsAndProcedures CASCADE;
-CREATE TABLE testsAndProcedures(
+DROP TABLE IF EXISTS tests_and_procedures CASCADE;
+CREATE TABLE tests_and_procedures(
     disease_name TEXT,
     test_procedure TEXT
 );
@@ -42,7 +41,7 @@ CREATE TABLE testsAndProcedures(
 \copy disease FROM 'disease_desc.csv' WITH(HEADER true, FORMAT csv);
 \copy symptoms FROM 'symptoms.csv' WITH(HEADER true, FORMAT csv);
 \copy disease_symptoms FROM 'symptoms_disease.csv' WITH(HEADER true, FORMAT csv);
-\copy testsAndProcedures FROM 'commonTests_disease_mapping.csv' WITH(HEADER true, FORMAT csv);
+\copy tests_and_procedures FROM 'commonTests_disease_mapping.csv' WITH(HEADER true, FORMAT csv);
 \copy medication FROM 'medication_disease.csv' WITH(HEADER true, FORMAT csv);
 
 
