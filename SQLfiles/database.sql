@@ -10,6 +10,7 @@ CREATE TABLE disease(
     description TEXT
 );
 
+DROP TABLE IF EXISTS disease_symptoms CASCADE;
 CREATE TABLE disease_symptoms(
     disease_name TEXT,
     symptom TEXT
@@ -67,7 +68,7 @@ ALTER TABLE disease ADD PRIMARY KEY (name);
 ALTER TABLE symptoms ADD PRIMARY KEY (name);
 
 ALTER TABLE disease_symptoms ADD CONSTRAINT disease_fk FOREIGN KEY (disease_name) REFERENCES disease(name);
-ALTER TABLE disease_symptoms ADD CONSTRAINT symptom_fk FOREIGN KEY (symptom) REFERENCES symptom(name);
+ALTER TABLE disease_symptoms ADD CONSTRAINT symptom_fk FOREIGN KEY (symptom) REFERENCES symptoms(name);
 ALTER TABLE disease_symptoms ADD PRIMARY KEY (disease_name, symptom);
 
 ALTER TABLE tests_and_procedures ADD CONSTRAINT disease_procedure_fk FOREIGN KEY (disease_name) REFERENCES disease(name);

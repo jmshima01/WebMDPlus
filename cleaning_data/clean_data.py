@@ -8,6 +8,7 @@ Created on Thu Nov 10 09:36:20 2022
 @author: James Shima, Michael Maggiore
 """
 import csv
+from collections import defaultdict
 
 file_path = input("Please enter dataset filepath: ")
 
@@ -21,6 +22,95 @@ meds = []
 dis = []
 desc = []
 flag = False
+
+
+with open("symptoms_disease.csv", 'r') as f:
+    r = csv.reader(f)
+    
+    data = defaultdict(list)
+    
+    for i,lis in enumerate(r):
+        if i ==0:
+            continue
+        
+        data[lis[0]].append(lis[1])
+    
+    bi = []
+    bi.append(['disease','symptom_1','symptom_2','symptom_3','symptom_4','symptom_5','symptom_6','symptom_7','symptom_8','symptom_9','symptom_10','symptom_11','symptom_12'])
+    for i in data:
+        temp = []
+        temp.append(i)
+        for j in data[i]:
+            temp.append(j)
+        bi.append(temp)
+    print(bi)
+    
+
+    
+    
+
+    
+
+with open("learning_data.csv",'w',newline='') as f:
+    r = csv.writer(f)
+    r.writerows(bi)
+
+    
+    
+    
+    
+    
+    
+    
+    
+    # counter = dict()
+    # for item in r:
+    #     key = item[0]
+    #     counter[key] = counter.get(key, 0) + 1 #If the key doesn't exist, initialize its count to 0
+        
+    # max_ = []
+    # for i in counter:
+    #     max_.append(counter[i])
+    
+    # print(max(max_))
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# remove dups:
+# nodups = []
+# with open (file_path, 'r') as f:
+#     r = csv.reader(f)
+#     for i in r:
+#         if i not in nodups:
+#             nodups.append(i)
+            
+# with open("symptoms_disease.csv", 'w',newline='') as f:
+#     w = csv.writer(f)
+#     w.writerows(nodups)
+    
+
+
+
+
+
+
+
 
 
 
@@ -43,34 +133,34 @@ flag = False
 #         w.writerow(i)
 
 #diseases
-big_lis = []
-big_lis.append(['Disease','Desciption'])
+# big_lis = []
+# big_lis.append(['Disease','Desciption'])
 
-repeats = []
+# repeats = []
 
-with open(file_path, 'r') as dataset:
-    data = csv.reader(x.replace('\0', '') for x in dataset)    
-    for line in data:
-        dis = []
-        for i,string in enumerate(line):
-            if(i!=0):  
-                if('"symptoms":' in line[i-1]) and ('"symptoms":' not in string):
-                    dis.append(line[1])
+# with open(file_path, 'r') as dataset:
+#     data = csv.reader(x.replace('\0', '') for x in dataset)    
+#     for line in data:
+#         dis = []
+#         for i,string in enumerate(line):
+#             if(i!=0):  
+#                 if('"symptoms":' in line[i-1]) and ('"symptoms":' not in string):
+#                     dis.append(line[1])
                     
-                    if("We will add more content to this page if enough people like you show interest." in string):
-                        dis.append("None")
-                    else:
-                        dis.append(string.replace('\t', '').replace("   ", ' ').replace("  "," ").replace(',','').encode('utf-8','ignore').decode("utf-8"))
-                    if(dis not in repeats):
-                        n = [dis[0],dis[-1]]
-                        big_lis.append(n)
-                    repeats.append(dis)
-    print(big_lis)
+#                     if("We will add more content to this page if enough people like you show interest." in string):
+#                         dis.append("None")
+#                     else:
+#                         dis.append(string.replace('\t', '').replace("   ", ' ').replace("  "," ").replace(',','').encode('utf-8','ignore').decode("utf-8"))
+#                     if(dis not in repeats):
+#                         n = [dis[0],dis[-1]]
+#                         big_lis.append(n)
+#                     repeats.append(dis)
+#     print(big_lis)
     
-with open("disease_table.csv", 'w',newline='',encoding='utf-8') as f:
-    w = csv.writer(f)
-    w.writerows(big_lis)
-    print('\ndone')
+# with open("disease_table.csv", 'w',newline='',encoding='utf-8') as f:
+#     w = csv.writer(f)
+#     w.writerows(big_lis)
+#     print('\ndone')
             
             
     
