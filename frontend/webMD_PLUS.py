@@ -84,7 +84,7 @@ def set_sex():
 
 def set_age():
     global ageVar
-    ageVar = age_entry.get()
+    ageVar = int(age_entry.get())
 
 def set_fname():
     global first
@@ -98,24 +98,31 @@ def set_symptom():
     global symptomStr
     symptomStr = symptomVar.get()
 
-def submitClickEvent():
+def set_input_vars():
     set_sex()
     set_age()
     set_fname()
     set_lname()
     set_symptom()
 
+def submitClickEvent():
+    set_input_vars()
+
     if isValidInput():
-        sx = ""
-        if sex == 0:
-            sx = "male"
-        elif sex == 1:
-            sx = "female"
-        print("Sex: " + sx)
-        print("Age: " + str(ageVar.get()))
+        print("Sex: " + str(sex))
+        print("Age: " + str(ageVar))
         print("First: " + first)
         print("Last: " + last)
         print("Symptoms: " + symptomStr)
+
+        full_name = first + " " + last
+
+        queries.create_new_patient(cursor, full_name, age, sex)
+        print(queries.get_patientID_by_name(cursor, full_name))
+    
+    
+
+
     
 def run_ui(): 
     window.geometry("1200x800")

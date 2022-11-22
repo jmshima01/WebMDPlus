@@ -3,14 +3,15 @@ import getpass
 import pg8000
 
 def get_conn():
-    user = input("Username: ")
-    secret = getpass.getpass()
+    user = "gstookey" #input("Username: ")
+    secret = "@Collin0820" #getpass.getpass()
     conn = pg8000.connect(user=user, password=secret, host='codd.mines.edu', port=5433, database='csci403')
     return conn
 
 def get_cursor(conn):
     cursor = conn.cursor()
     cursor.execute("set search_path to f22_group6")
+    cursor.execute("set role to f22_group6")
     return cursor
 
 # "prepared"

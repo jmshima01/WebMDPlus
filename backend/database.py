@@ -11,9 +11,22 @@ cursor = db_conn.get_cursor(conn)
 
 # print(cursor.rowcount)
 
-symptoms = db_queries.get_all_symptoms(cursor)
-for row in symptoms:
-    name = row
-    print(name)
+# symptoms = db_queries.get_all_symptoms(cursor)
+# for row in symptoms:
+#     name = row
+#     print(name)
 
-print("Row count:" + cursor.rowcount)
+# name = "Daffy Duck"
+# db_queries.create_new_patient(cursor, name, 38, 0)
+# query = "SELECT * FROM patient WHERE name=%s"
+# cursor.execute(query, (name,))
+# results = cursor.fetchall()
+# print(results)
+
+patients = db_queries.get_all_patients(cursor)
+
+for row in patients:
+    name = row
+    print(patients)
+
+print("Row count:" + str(cursor.rowcount))
