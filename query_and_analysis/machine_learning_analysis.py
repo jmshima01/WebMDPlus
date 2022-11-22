@@ -100,7 +100,7 @@ label = simp['disease']
 simp = simp.drop("disease",axis=1) # data
 
     
-clf = RandomForestClassifier()
+clf = RandomForestClassifier(class_weight = "balanced")
 x_train, x_test, y_train, y_test = train_test_split(simp.values, label.values, train_size = 0.90)
 clf.fit(x_train,y_train)
 
