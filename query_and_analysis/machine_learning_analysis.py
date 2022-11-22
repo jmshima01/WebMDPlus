@@ -40,12 +40,12 @@ for row in results:
 
 
 # Random number simulating a fake patient chosing up to 15 diff symptoms:
-num_of_symptoms = secrets.randbelow(15)
+num_of_symptoms = secrets.randbelow(4)+1
 symptoms_chosen = []
 for i in range(num_of_symptoms):
     symptoms_chosen.append(symptoms[secrets.randbelow(len(symptoms)-2)+1])
 
-
+print(symptoms_chosen)
 
 # finding all diseases that have listed symptoms:
 possible_diseases = []
@@ -115,10 +115,21 @@ result = clf.predict(x_test)
 
 # rand prediction:
 prediction = []
-for i in range(376):
-    if i == 375 or i == 370:
+s = list(simp.columns.values)
+indexes_of_chosen_symps = []
+
+for i,v in enumerate(s):
+    for j in symptoms_chosen:
+        if v == j:
+            indexes_of_chosen_symps.append(i)
+            
+for i in range(len(s)):
+    if i in indexes_of_chosen_symps:
         prediction.append(1)
     else:
         prediction.append(0)
+        
 print("I think you have...")
 print(clf.predict([prediction])[0])
+print("Out of...")
+print(possible_diseases)
