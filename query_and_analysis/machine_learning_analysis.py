@@ -16,7 +16,7 @@ import csv
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import f1_score, accuracy_score, confusion_matrix ,classification_report
-#from imblearn.ensemble import BalancedRandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
 
 warnings.simplefilter("ignore")
 
@@ -40,10 +40,11 @@ for row in results:
 
 
 # Random number simulating a fake patient chosing up to 15 diff symptoms:
-num_of_symptoms = secrets.randbelow(4)+1
+num_of_symptoms = 5
 symptoms_chosen = []
 for i in range(num_of_symptoms):
     symptoms_chosen.append(symptoms[secrets.randbelow(len(symptoms)-2)+1])
+
 
 print(symptoms_chosen)
 
@@ -57,6 +58,7 @@ for i in symptoms_chosen:
         possible_diseases.append(row[0])
 
 #print(possible_diseases)
+
 
 # ========= Analysis using Random Forrest ==============
 
@@ -95,23 +97,20 @@ simp = simp.drop("symptoms",axis=1)
 
 label = simp['disease']
 
-
-
 simp = simp.drop("disease",axis=1) # data
 
+
+# adding weights:
+for i,sy in enumerate(symptoms_chosen):
+    simp = simp.replace({sy:{1:len(symptoms_chosen)-i}})
     
-clf = RandomForestClassifier(class_weight = "balanced")
-x_train, x_test, y_train, y_test = train_test_split(simp.values, label.values, train_size = 0.90)
+   
+
+
+clf = RandomForestClassifier()
+x_train, x_test, y_train, y_test = train_test_split(simp, label)
 clf.fit(x_train,y_train)
-
 result = clf.predict(x_test)
-#print(clf)
-#print(classification_report(y_true=y_test, y_pred=result))
-#print('F1-score% =', f1_score(y_test, result, average='macro')*100, '|', 'Accuracy% =', accuracy_score(y_test, result)*100)
-
-
-
-#cross_val_score(clf,x_train,y_train).mean()
 
 # rand prediction:
 prediction = []
@@ -133,3 +132,4 @@ print("I think you have...")
 print(clf.predict([prediction])[0])
 print("Out of...")
 print(possible_diseases)
+    
