@@ -3,8 +3,8 @@ import getpass
 import pg8000
 
 def get_conn():
-    user = "gstookey" #input("Username: ")
-    secret = "@Collin0820" #getpass.getpass()
+    user = input("Username: ")
+    secret = getpass.getpass()
     conn = pg8000.connect(user=user, password=secret, host='codd.mines.edu', port=5433, database='csci403')
     return conn
 

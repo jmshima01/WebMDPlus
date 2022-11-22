@@ -44,7 +44,8 @@ symptomVar = StringVar()
 symptomVar.set("--select a symptom--")
 symptoms_dropdown=Combobox(window, values=symptoms, textvariable=symptomVar, width=30, state="readonly")
 
-age_entry = Entry(window)
+ageVar = IntVar()
+age_entry = Entry(window, )
 
 def validatestring(input):   
     if input.isalpha():
@@ -62,7 +63,7 @@ def isValidSymptom():
     return symptomStr != "--select a symptom--"
 
 def isValidInput():
-    if not validateint(age):
+    if not validateint(ageVar):
         messagebox.showerror(title="Invalid Input", message="Please use a number for age")
         return False
     elif not validatestring(first) :
@@ -82,8 +83,8 @@ def set_sex():
     sex = sexVar.get()
 
 def set_age():
-    global age
-    age = int(age_entry.get())
+    global ageVar
+    ageVar = age_entry.get()
 
 def set_fname():
     global first
@@ -111,7 +112,7 @@ def submitClickEvent():
         elif sex == 1:
             sx = "female"
         print("Sex: " + sx)
-        print("Age: " + str(age))
+        print("Age: " + str(ageVar.get()))
         print("First: " + first)
         print("Last: " + last)
         print("Symptoms: " + symptomStr)
@@ -155,15 +156,4 @@ def run_ui():
     window.mainloop()
 
 
-
-
-# def clicked():
-
-#     res = "Welcome to " + txt.get()
-
-#     lbl.configure(text= res)
-
-# btn = Button(window, text="Click Me", command=clicked)
-
-# btn.grid(column=2, row=0)
 
