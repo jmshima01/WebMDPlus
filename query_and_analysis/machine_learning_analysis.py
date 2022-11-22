@@ -4,16 +4,23 @@ Created on Sun Nov 20 23:24:37 2022
 
 @author: James Shima
 """
-
+#libs:
 import getpass 
 import pg8000
 import secrets
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
+import warnings
+from sklearn.metrics import classification_report
+import csv
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import f1_score, accuracy_score, confusion_matrix ,classification_report
+#from imblearn.ensemble import BalancedRandomForestClassifier
+
+warnings.simplefilter("ignore")
+
+print("Running...")
 
 #user = input("Username: ")
 #secret = getpass.getpass()
@@ -46,7 +53,6 @@ for i in symptoms_chosen:
     query = "SELECT disease_name FROM disease_symptoms WHERE symptom = %s"
     cursor.execute(query,(i,))
     results = cursor.fetchall()
-    print('==================')
     for row in results:
         possible_diseases.append(row[0])
 
@@ -55,7 +61,6 @@ for i in symptoms_chosen:
 # ========= Analysis using Random Forrest ==============
 
 df = pd.read_csv("learning_data.csv")
-print(df.head())
 
 df["symptoms"] = 0
 
@@ -88,75 +93,32 @@ for i in symps:
 simp["disease"] = df["disease"]
 simp = simp.drop("symptoms",axis=1)
 
+label = simp['disease']
 
-train, test = train_test_split(simp,test_size=0.2)
-X_train = train.drop("disease",axis=1)
-y_train = train["disease"].copy()
-X_test = test.drop("disease",axis=1)
-y_test = test["disease"].copy()
 
+
+simp = simp.drop("disease",axis=1) # data
+
+    
 clf = RandomForestClassifier()
-clf.fit(X_train,y_train)
+x_train, x_test, y_train, y_test = train_test_split(simp.values, label.values, train_size = 0.90)
+clf.fit(x_train,y_train)
+
+result = clf.predict(x_test)
+#print(clf)
+#print(classification_report(y_true=y_test, y_pred=result))
+#print('F1-score% =', f1_score(y_test, result, average='macro')*100, '|', 'Accuracy% =', accuracy_score(y_test, result)*100)
+
+
 
 #cross_val_score(clf,x_train,y_train).mean()
 
-
-from sklearn import metrics 
-
-
-y_pred = clf.predict(X_test)
-# using metrics module for accuracy calculation
-print("ACCURACY OF THE MODEL: ", metrics.accuracy_score(y_test, y_pred))
-
-
+# rand prediction:
 prediction = []
 for i in range(376):
-    if i % 2 == 0:
-        prediction.append(0)
-    else:
+    if i == 375 or i == 370:
         prediction.append(1)
-
-print(clf.predict([prediction]))
-
-
-# print(data.describe())
-# d = pd.get_dummies(data)
-
-# # Remove the labels from the features
-# # axis 1 refers to the columns
-# labels = np.array(data['disease']) # target
-
-# # Remove the labels from the features
-# # axis 1 refers to the columns
-# data= data.drop('disease', axis = 1)
-# # Saving feature names for later use
-# data_cols = list(data.columns)
-# # Convert to numpy array
-# #data = np.array(data)
-
-# # Split the data into training and testing sets
-# train_features, test_features, train_labels, test_labels = train_test_split(data, labels, test_size = 0.25, random_state = 42)
-
-# # Import the model we are using
-# clf = RandomForestClassifier(n_estimators = 100) 
-# clf.fit(train_features, train_labels);
-
-# predictions = clf.predict(test_features)
-
-# from sklearn import metrics 
-# print()
- 
-# # using metrics module for accuracy calculation
-# print("ACCURACY OF THE MODEL: ", metrics.accuracy_score(test_features, predictions))
-
-# #rf_clf = RandomForestClassifier(criterion='entropy')  
-
-        
-    
-    
-    
-    
-
-
-    
-
+    else:
+        prediction.append(0)
+print("I think you have...")
+print(clf.predict([prediction])[0])
