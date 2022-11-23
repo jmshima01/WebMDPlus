@@ -14,9 +14,14 @@ sex = -1
 age = -1
 first = ""
 last = ""
-symptomStr = ""
+symptomStr_1 = ""
+symptomStr_2 = ""
+symptomStr_3 = ""
+symptomStr_4 = ""
+symptomStr_5 = ""
 isValidAge = False
 isValidName = False
+patient_symptoms = []
 
 # Window Globals
 window=Tk()
@@ -40,9 +45,22 @@ f_name = Entry(window)
 lastVar = StringVar()
 l_name = Entry(window)
 
-symptomVar = StringVar()
-symptomVar.set("--select a symptom--")
-symptoms_dropdown=Combobox(window, values=symptoms, textvariable=symptomVar, width=30, state="readonly")
+symptomVar_1 = StringVar()
+symptomVar_1.set("--select a symptom--")
+symptomVar_2 = StringVar()
+symptomVar_2.set("--select a symptom--")
+symptomVar_3 = StringVar()
+symptomVar_3.set("--select a symptom--")
+symptomVar_4 = StringVar()
+symptomVar_4.set("--select a symptom--")
+symptomVar_5 = StringVar()
+symptomVar_5.set("--select a symptom--")
+
+symptoms_dropdown_1=Combobox(window, values=symptoms, textvariable=symptomVar_1, width=30, state="readonly")
+symptoms_dropdown_2=Combobox(window, values=symptoms, textvariable=symptomVar_2, width=30, state="readonly")
+symptoms_dropdown_3=Combobox(window, values=symptoms, textvariable=symptomVar_3, width=30, state="readonly")
+symptoms_dropdown_4=Combobox(window, values=symptoms, textvariable=symptomVar_4, width=30, state="readonly")
+symptoms_dropdown_5=Combobox(window, values=symptoms, textvariable=symptomVar_5, width=30, state="readonly")
 
 ageVar = IntVar()
 age_entry = Entry(window, )
@@ -60,7 +78,7 @@ def validateint(input):
         return False
 
 def isValidSymptom():
-    return symptomStr != "--select a symptom--"
+    return symptomStr_1 != "--select a symptom--"
 
 def isValidInput():
     if not validateint(ageVar):
@@ -94,16 +112,39 @@ def set_lname():
     global last
     last = l_name.get()
 
-def set_symptom():
-    global symptomStr
-    symptomStr = symptomVar.get()
+def set_symptoms():
+    global symptomStr_1
+    global symptomStr_2
+    global symptomStr_3
+    global symptomStr_4
+    global symptomStr_5
+
+    symptomStr_1 = symptomVar_1.get()
+    symptomStr_2 = symptomVar_2.get()
+    symptomStr_3 = symptomVar_3.get()
+    symptomStr_4 = symptomVar_4.get()
+    symptomStr_5 = symptomVar_5.get()
+
+    patient_symptoms.append(symptomStr_1)
+    patient_symptoms.append(symptomStr_2)
+    patient_symptoms.append(symptomStr_3)
+    patient_symptoms.append(symptomStr_4)
+    patient_symptoms.append(symptomStr_5)
 
 def set_input_vars():
     set_sex()
     set_age()
     set_fname()
     set_lname()
-    set_symptom()
+    set_symptoms()
+
+def build_symptoms_list():
+    symptoms_list = []
+    global patient_symptoms
+    for sym in patient_symptoms:
+        if sym != "--select a symptom--":
+            symptoms_list.append(sym)
+    return symptoms_list
 
 def submitClickEvent():
     set_input_vars()
@@ -113,16 +154,17 @@ def submitClickEvent():
         print("Age: " + str(ageVar))
         print("First: " + first)
         print("Last: " + last)
-        print("Symptoms: " + symptomStr)
+        print("Symptoms: " + symptomStr_1)
+
+        symptoms_list = build_symptoms_list()
 
         full_name = first + " " + last
 
         queries.create_new_patient(cursor, full_name, ageVar, sex)
         conn.commit()
         print(queries.get_patientID_by_name(cursor, full_name))
-    
-    
-
+        for sym in symptoms_list:
+            print(sym)
 
     
 def run_ui(): 
@@ -150,15 +192,32 @@ def run_ui():
     f_name.grid(column=1, row=3, sticky=W)
     l_name.grid(column=1, row=4, sticky=W)
     
-    symptoms_dropdown_label = Label(window, text="Symptoms")
-    symptoms_dropdown_label.grid(column=0, row=5, sticky=W, padx = 100, pady = 2)
-    symptoms_dropdown.grid(column=1, row=5, sticky=W)
+    symptoms_dropdown_label_1 = Label(window, text="Symptom 1:")
+    symptoms_dropdown_label_1.grid(column=0, row=5, sticky=W, padx = 100, pady = 2)
+    symptoms_dropdown_1.grid(column=1, row=5, sticky=W)
 
-    isValidName = window.register(validatestring)
-    isValidAge = window.register(validateint)
+    symptoms_dropdown_label_2 = Label(window, text="Symptom 2:")
+    symptoms_dropdown_label_2.grid(column=0, row=6, sticky=W, padx = 100, pady = 2)
+    symptoms_dropdown_2.grid(column=1, row=6, sticky=W)
+
+    symptoms_dropdown_label_3 = Label(window, text="Symptom 3:")
+    symptoms_dropdown_label_3.grid(column=0, row=7, sticky=W, padx = 100, pady = 2)
+    symptoms_dropdown_3.grid(column=1, row=7, sticky=W)
+
+    symptoms_dropdown_label_4 = Label(window, text="Symptom 4:")
+    symptoms_dropdown_label_4.grid(column=0, row=8, sticky=W, padx = 100, pady = 2)
+    symptoms_dropdown_4.grid(column=1, row=8, sticky=W)
+
+    symptoms_dropdown_label_5 = Label(window, text="Symptom 5:")
+    symptoms_dropdown_label_5.grid(column=0, row=9, sticky=W, padx = 100, pady = 2)
+    symptoms_dropdown_5.grid(column=1, row=9, sticky=W)
+
+
+
+
 
     submit_button = Button(window, text="Submit", command=submitClickEvent)
-    submit_button.grid(column=1, row=6, padx = 100, pady = 2, sticky=W)
+    submit_button.grid(column=1, row=10, padx = 100, pady = 2, sticky=W)
                     
     #Run UI
     window.mainloop()
