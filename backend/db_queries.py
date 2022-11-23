@@ -38,6 +38,12 @@ def get_medication_by_disease_name(cursor, dname):
     results = cursor.fetchall()
     return results
 
+def get_test_procedures_by_disease_name(cursor, dname):
+    query = "SELECT test_procedure FROM tests_and_procedures WHERE disease_name=%s"
+    cursor.execute(query, (dname,))
+    results = cursor.fetchall()
+    return results
+
 def create_new_patient(cursor, name, age, sex):
     sexStr = str()
     sexStr = "male" if sex == 0 else "female"
@@ -51,3 +57,7 @@ def insert_patient_symptoms(cursor, pid, symptom):
 def insert_patient_medications(cursor, pid, medication):
     query = "INSERT INTO patient_medications (patient_id, medication) VALUES (%s, %s)"
     cursor.execute(query,  (pid, medication,))
+
+def insert_patient_procedures(cursor, pid, procedure):
+    query = "INSERT INTO patient_procedures (patient_id, procedure) VALUES (%s, %s)"
+    cursor.execute(query,  (pid, procedure,))

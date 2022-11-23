@@ -187,6 +187,11 @@ def submitClickEvent():
         for med in medications:
             queries.insert_patient_medications(cursor, pid[0][0], med[0])
 
+        procedures = queries.get_test_procedures_by_disease_name(cursor, diagnosis[0])
+
+        for proc in procedures:
+            queries.insert_patient_procedures(cursor, pid[0][0], proc[0])
+
 
         conn.commit()
         # print("Patient ID: " + str(queries.get_patientID_by_name(cursor, full_name)[0]))
