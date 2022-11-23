@@ -10,3 +10,7 @@ Kaggle Link(s):
 
 For those looking at the ERD diagram-
 1) Do not erase names like 'symptom_name' or 'disease_name' from the ERD. These were used to make the creation of tables easier. Will erase later since it is bad SQL practice to leave those relational names there. We will eventually use them to merge one table with another.
+
+To Run User Interface:
+1) Ensure your python environment has the relevant packages installed: pg8000, scikitlearn, pandas, tkinter, etc. 
+2) Run the main.py file to start the UI program
