@@ -117,7 +117,8 @@ def submitClickEvent():
 
         full_name = first + " " + last
 
-        queries.create_new_patient(cursor, full_name, age, sex)
+        queries.create_new_patient(cursor, full_name, ageVar, sex)
+        conn.commit()
         print(queries.get_patientID_by_name(cursor, full_name))
     
     

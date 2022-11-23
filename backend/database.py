@@ -16,12 +16,12 @@ cursor = db_conn.get_cursor(conn)
 #     name = row
 #     print(name)
 
-# name = "Daffy Duck"
-# db_queries.create_new_patient(cursor, name, 38, 0)
-# query = "SELECT * FROM patient WHERE name=%s"
-# cursor.execute(query, (name,))
-# results = cursor.fetchall()
-# print(results)
+name = "Daffy Duck"
+db_queries.create_new_patient(cursor, name, 38, 0)
+query = "SELECT * FROM patient WHERE name=%s"
+cursor.execute(query, (name,))
+results = cursor.fetchall()
+print(results)
 
 patients = db_queries.get_all_patients(cursor)
 
