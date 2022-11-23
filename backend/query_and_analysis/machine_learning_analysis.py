@@ -81,9 +81,9 @@ def randomForestDiseasePrediction(symptoms_chosen):
     
     # unique diseases based on symptoms
     possible_diseases = []
+    db = pg8000.connect(user="jamesshima", password="Snowm@ss", host='codd.mines.edu', port=5433, database='csci403')
+    cursor = db.cursor()
     for i in symptoms_chosen:
-        db = pg8000.connect(user="jamesshima", password="Snowm@ss", host='codd.mines.edu', port=5433, database='csci403')
-        cursor = db.cursor()
         query = "SELECT disease_name FROM disease_symptoms WHERE symptom = %s"
         cursor.execute(query,(i,))
         results = cursor.fetchall()
@@ -95,8 +95,6 @@ def randomForestDiseasePrediction(symptoms_chosen):
     for i in possible_diseases:
         if i not in pos_dis:
             pos_dis.append(i)
-    
-    
     
     # Machine Leaning or learning data I generated in file called "learning_data.csv"
     df = pd.read_csv("learning_data.csv")
@@ -166,5 +164,5 @@ def randomForestDiseasePrediction(symptoms_chosen):
     # print("Out of...")
     # print(possible_diseases)
     
-    return {clf.predict([prediction])[0]:pos_dis}
+    return [clf.predict([prediction])[0],pos_dis]
     
