@@ -24,15 +24,14 @@ isValidAge = False
 isValidName = False
 patient_symptoms = []
 
-# Window Globals
+# UI Globals
 window=Tk()
 
 symptomsObj = queries.get_all_symptoms(cursor)
 symptoms = []
 
-for row in symptomsObj:
-    name = row[0]
-    symptoms.append(name)
+for symp in symptomsObj:
+    symptoms.append(symp[0])
 
 sexVar=IntVar()
 sexVar.set(0)
@@ -71,7 +70,6 @@ predicted_disease_entry = Entry(window, textvariable=predicted_diagnosis, width=
 disease_list_box = Listbox(window, height = 20,
                             bg = "grey",
                             activestyle = 'dotbox',
-                            font = "Helvetica",
                             fg = "blue")
 
 def validatestring(input):   
@@ -157,51 +155,37 @@ def build_symptoms_list():
 
 def submitClickEvent():
     set_input_vars()
-
     if isValidInput():
         symptoms_list = build_symptoms_list()
         full_name = first + " " + last
-        queries.create_new_patient(cursor, full_name, ageVar, sex)
-        diagnosis = mla.randomForestDiseasePrediction(symptoms_list)
-        
-        #print("Likeliest Disease: " + str(diagnosis[0]))
 
+        # Add new patient to patient table
+        queries.create_new_patient(cursor, full_name, ageVar, sex)
+        # Get list of possible diagnoses from ML Algorithm based on patient symptoms
+        diagnosis = mla.randomForestDiseasePrediction(symptoms_list)
 
         predicted_disease_entry.delete(0,END)
-        
         predicted_diagnosis.set(str(diagnosis[0]))
 
-        
         for disease in diagnosis[1]:
             disease_list_box.insert(END, disease)
-
-        pid = queries.get_patientID_by_name(cursor, full_name)
         
-        # print(pid[0][0])
+        # Get patient ID
+        pid = queries.get_patientID_by_name(cursor, full_name)
 
+        # Update relevant patient tables: patient_symptoms, patient_medications, patient_procedures
         for sym in symptoms_list:
             queries.insert_patient_symptoms(cursor, pid[0][0], sym)
 
-        # patient_symtoms_table = queries.get_all_patient_symptoms(cursor)
-        # for ps in patient_symtoms_table:
-        #     print(ps)
-
         medications = queries.get_medication_by_disease_name(cursor, diagnosis[0])
-
         for med in medications:
             queries.insert_patient_medications(cursor, pid[0][0], med[0])
 
         procedures = queries.get_test_procedures_by_disease_name(cursor, diagnosis[0])
-
         for proc in procedures:
             queries.insert_patient_procedures(cursor, pid[0][0], proc[0])
 
-
         conn.commit()
-        # print("Patient ID: " + str(queries.get_patientID_by_name(cursor, full_name)[0]))
-        # for sym in symptoms_list:
-        #     print(sym)
-
     
 def run_ui(): 
     window.geometry("730x800")
@@ -262,6 +246,3 @@ def run_ui():
                     
     #Run UI
     window.mainloop()
-
-
-
