@@ -164,11 +164,6 @@ def randomForestDiseasePrediction(symptoms_chosen):
     # print("Out of...")
     # print(possible_diseases)
     
-<<<<<<< HEAD
-
-    return [clf.predict([prediction])[0],pos_dis]
-
-=======
     return [clf.predict([prediction])[0], pos_dis]
->>>>>>> d00e1e269e41f7203d3ae6f76037174af7657665
+
     
