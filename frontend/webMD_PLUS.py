@@ -5,6 +5,7 @@ import tkinter.font as font
 from tkinter.ttk import Combobox
 import backend.db_conn as db
 import backend.db_queries as queries
+import backend.machine_learning_analysis as mla
 
 conn = db.get_conn()
 cursor = db.get_cursor(conn)
@@ -36,6 +37,9 @@ for row in symptomsObj:
 sexVar=IntVar()
 sexVar.set(0)
 
+ageVar = IntVar()
+age_entry = Entry(window)
+
 male_radio=Radiobutton(window, text="male", variable=sexVar,value=0)
 female_radio=Radiobutton(window, text="female", variable=sexVar,value=1)
 
@@ -62,8 +66,12 @@ symptoms_dropdown_3=Combobox(window, values=symptoms, textvariable=symptomVar_3,
 symptoms_dropdown_4=Combobox(window, values=symptoms, textvariable=symptomVar_4, width=30, state="readonly")
 symptoms_dropdown_5=Combobox(window, values=symptoms, textvariable=symptomVar_5, width=30, state="readonly")
 
-ageVar = IntVar()
-age_entry = Entry(window, )
+predicted_disease_entry = Entry(window, state="readonly")
+disease_list_box = Listbox(window, height = 20,
+                            bg = "grey",
+                            activestyle = 'dotbox',
+                            font = "Helvetica",
+                            fg = "blue")
 
 def validatestring(input):   
     if input.isalpha():
@@ -150,25 +158,39 @@ def submitClickEvent():
     set_input_vars()
 
     if isValidInput():
-        print("Sex: " + str(sex))
-        print("Age: " + str(ageVar))
-        print("First: " + first)
-        print("Last: " + last)
-        print("Symptoms: " + symptomStr_1)
+        # print("Sex: " + str(sex))
+        # print("Age: " + str(ageVar))
+        # print("First: " + first)
+        # print("Last: " + last)
+        # print("Symptoms: " + symptomStr_1)
 
         symptoms_list = build_symptoms_list()
-
         full_name = first + " " + last
 
         queries.create_new_patient(cursor, full_name, ageVar, sex)
+
+        # likely_disease = ""
+        # likely_disease_list = []
+        # disease_pair = {likely_disease, likely_disease_list}
+        diagnosis = mla.randomForestDiseasePrediction(symptoms_list)
+        
+        print("Likely Disease obj: " + str(diagnosis))
+
+        predicted_disease_entry.delete(0,END)
+        predicted_disease_entry.insert(0, diagnosis[0])
+        
+        for values in diagnosis[1]:
+            disease_list_box.insert(END, values)
+
         conn.commit()
-        print(queries.get_patientID_by_name(cursor, full_name))
-        for sym in symptoms_list:
-            print(sym)
+        print("Patient ID: " + str(queries.get_patientID_by_name(cursor, full_name)[0]))
+        # for sym in symptoms_list:
+        #     print(sym)
 
     
 def run_ui(): 
-    window.geometry("1200x800")
+    window.geometry("700x800")
+    scrollbar = Scrollbar(window)
 
     header=Label(window, text="Welcome to WebMD+", font='Arial 17 bold')
     header.place(relx=0.5, rely=0.05, anchor=CENTER)
@@ -180,7 +202,7 @@ def run_ui():
     sex_label.grid(column=0, row=1, sticky=W, padx = 100, pady = 2)
 
     male_radio.grid(column=1, row=1, pady = 2, sticky=W)
-    female_radio.grid(column=1, row=1, padx = (2, 0), pady = 2)
+    female_radio.grid(column=1, row=1, padx = (1, 0), pady = 2)
 
     Label(window, text="Age:").grid(column=0, row=2, sticky=W, padx = 100, pady = 2)
     age_entry.grid(column=1, row=2, sticky=W)
@@ -212,12 +234,16 @@ def run_ui():
     symptoms_dropdown_label_5.grid(column=0, row=9, sticky=W, padx = 100, pady = 2)
     symptoms_dropdown_5.grid(column=1, row=9, sticky=W)
 
-
-
-
-
     submit_button = Button(window, text="Submit", command=submitClickEvent)
     submit_button.grid(column=1, row=10, padx = 100, pady = 2, sticky=W)
+
+    Label(window, text="Predicted Disease/Affliction:").grid(column=0, row=11, sticky=W, padx=(100,0), pady=2)
+    predicted_disease_entry.grid(column=1, row=11, sticky=W)
+      
+    Label(window, text="Other Possible Diagnoses:").grid(column=0, row=12, sticky=W, padx=100, pady=2)
+    disease_list_box.grid(column=0, row=13, columnspan = 3, padx=100, pady=2, sticky = W+E)
+    disease_list_box.config(yscrollcommand = scrollbar.set)
+    scrollbar.config(command = disease_list_box.yview)
                     
     #Run UI
     window.mainloop()
