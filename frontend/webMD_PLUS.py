@@ -66,7 +66,8 @@ symptoms_dropdown_3=Combobox(window, values=symptoms, textvariable=symptomVar_3,
 symptoms_dropdown_4=Combobox(window, values=symptoms, textvariable=symptomVar_4, width=30, state="readonly")
 symptoms_dropdown_5=Combobox(window, values=symptoms, textvariable=symptomVar_5, width=30, state="readonly")
 
-predicted_disease_entry = Entry(window, state="readonly")
+predicted_diagnosis = StringVar()
+predicted_disease_entry = Entry(window, textvariable=predicted_diagnosis, width=35, state="readonly")
 disease_list_box = Listbox(window, height = 20,
                             bg = "grey",
                             activestyle = 'dotbox',
@@ -158,38 +159,52 @@ def submitClickEvent():
     set_input_vars()
 
     if isValidInput():
-        # print("Sex: " + str(sex))
-        # print("Age: " + str(ageVar))
-        # print("First: " + first)
-        # print("Last: " + last)
-        # print("Symptoms: " + symptomStr_1)
-
         symptoms_list = build_symptoms_list()
         full_name = first + " " + last
-
         queries.create_new_patient(cursor, full_name, ageVar, sex)
-
-        # likely_disease = ""
-        # likely_disease_list = []
-        # disease_pair = {likely_disease, likely_disease_list}
         diagnosis = mla.randomForestDiseasePrediction(symptoms_list)
         
-        print("Likely Disease obj: " + str(diagnosis))
+        #print("Likeliest Disease: " + str(diagnosis[0]))
+
 
         predicted_disease_entry.delete(0,END)
-        predicted_disease_entry.insert(diagnosis[0])
         
-        for values in diagnosis[1]:
-            disease_list_box.insert(END, values)
+        predicted_diagnosis.set(str(diagnosis[0]))
+
+        
+        for disease in diagnosis[1]:
+            disease_list_box.insert(END, disease)
+
+        pid = queries.get_patientID_by_name(cursor, full_name)
+        
+        # print(pid[0][0])
+
+        for sym in symptoms_list:
+            queries.insert_patient_symptoms(cursor, pid[0][0], sym)
+
+        # patient_symtoms_table = queries.get_all_patient_symptoms(cursor)
+        # for ps in patient_symtoms_table:
+        #     print(ps)
+
+        medications = queries.get_medication_by_disease_name(cursor, diagnosis[0])
+
+        for med in medications:
+            queries.insert_patient_medications(cursor, pid[0][0], med[0])
+
+        procedures = queries.get_test_procedures_by_disease_name(cursor, diagnosis[0])
+
+        for proc in procedures:
+            queries.insert_patient_procedures(cursor, pid[0][0], proc[0])
+
 
         conn.commit()
-        print("Patient ID: " + str(queries.get_patientID_by_name(cursor, full_name)[0]))
+        # print("Patient ID: " + str(queries.get_patientID_by_name(cursor, full_name)[0]))
         # for sym in symptoms_list:
         #     print(sym)
 
     
 def run_ui(): 
-    window.geometry("700x800")
+    window.geometry("730x800")
     scrollbar = Scrollbar(window)
 
     header=Label(window, text="Welcome to WebMD+", font='Arial 17 bold')
