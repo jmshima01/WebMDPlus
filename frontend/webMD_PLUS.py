@@ -159,23 +159,34 @@ def submitClickEvent():
     set_input_vars()
 
     if isValidInput():
-        # print("Sex: " + str(sex))
-        # print("Age: " + str(ageVar))
-        # print("First: " + first)
-        # print("Last: " + last)
-        # print("Symptoms: " + symptomStr_1)
-
         symptoms_list = build_symptoms_list()
         full_name = first + " " + last
         queries.create_new_patient(cursor, full_name, ageVar, sex)
         diagnosis = mla.randomForestDiseasePrediction(symptoms_list)
         
-        print("Likeliest Disease: " + str(diagnosis[0]))
+        #print("Likeliest Disease: " + str(diagnosis[0]))
 
         predicted_diagnosis.set(str(diagnosis[0]))
         
-        for values in diagnosis[1]:
-            disease_list_box.insert(END, values)
+        for disease in diagnosis[1]:
+            disease_list_box.insert(END, disease)
+
+        pid = queries.get_patientID_by_name(cursor, full_name)
+        
+        # print(pid[0][0])
+
+        for sym in symptoms_list:
+            queries.insert_patient_symptoms(cursor, pid[0][0], sym)
+
+        # patient_symtoms_table = queries.get_all_patient_symptoms(cursor)
+        # for ps in patient_symtoms_table:
+        #     print(ps)
+
+        medications = queries.get_medication_by_disease_name(cursor, diagnosis[0])
+
+        for med in medications:
+            queries.insert_patient_medications(cursor, pid[0][0], med[0])
+
 
         conn.commit()
         # print("Patient ID: " + str(queries.get_patientID_by_name(cursor, full_name)[0]))
