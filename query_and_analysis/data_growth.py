@@ -12,6 +12,18 @@ def main():
 
     #string data type overhead
     avg_data_type_size_array = []
+    total_growth = []
+    current_size = 0
+
+    #projected monthly row growth
+    disease_growth_month = 1
+    symptom_growth_month = 0
+    medication_growth_month = 5
+    patient_growth_month = 50
+    test_procedure_growth_month = 5
+
+
+
 ##################
 #### disease #####
 ##################
@@ -27,16 +39,20 @@ def main():
     avg_data_type_size_array.append(description_avg_data_type_size)
     
     #overhead w/ strings & normal
-    print("Disease")
+    print("[disease] ", end="")
     rows_per_page = common_overhead_calc(num_int_fields, num_text_fields, avg_data_type_size_array)
 
     #table size in pages now
     cursor.execute("SELECT COUNT(*) FROM disease")
     num_rows = int(cursor.fetchone().pop())
-    print("Table size in pages now: " + str(table_size_in_pages(num_rows, rows_per_page)))
+    now = table_size_in_pages(num_rows, rows_per_page)
 
-    #growth size in pages in ten years
-    print("Table size in pages in ten years: " + str(table_size_in_pages_ten_years(rows_per_page, num_rows, 10)))
+    #growth in ten years
+    ltr = table_size_in_pages_ten_years(rows_per_page, num_rows, disease_growth_month)
+    total_growth.append(ltr-now)
+    current_size+=now
+
+    
 ########################
 ### disease_symptoms ###
 ########################
@@ -53,17 +69,18 @@ def main():
     avg_data_type_size_array.append(symptom_avg_data_type_size)
     
     #overhead w/ strings & normal
+    print("\n[disease_symptoms] ", end='')
     rows_per_page = common_overhead_calc(num_int_fields, num_text_fields, avg_data_type_size_array)
 
     #table size in pages now
     cursor.execute("SELECT COUNT(*) FROM disease_symptoms")
     num_rows = int(cursor.fetchone().pop())
-    print("\n\nDisease Symptoms")
-    print("Table size in pages now: " + str(table_size_in_pages(num_rows, rows_per_page)))
+    now = table_size_in_pages(num_rows, rows_per_page)
 
     #growth size in pages in ten years
-    print("Table size in pages in ten years: " + str(table_size_in_pages_ten_years(rows_per_page, num_rows, 10)))
-
+    ltr = (table_size_in_pages_ten_years(rows_per_page, num_rows, disease_growth_month+symptom_growth_month))
+    total_growth.append(ltr-now)
+    current_size+=now
 ########################
 ###### medication ######
 ########################
@@ -80,17 +97,18 @@ def main():
     avg_data_type_size_array.append(medication_name_avg_data_type_size)
     
     #overhead w/ strings & normal
+    print("\n[medication] ", end='')
     rows_per_page = common_overhead_calc(num_int_fields, num_text_fields, avg_data_type_size_array)
 
     #table size in pages now
     cursor.execute("SELECT COUNT(*) FROM medication")
     num_rows = int(cursor.fetchone().pop())
-    print("\n\nMedication")
-    print("Table size in pages now: " + str(table_size_in_pages(num_rows, rows_per_page)))
+    now = table_size_in_pages(num_rows, rows_per_page)
 
     #growth size in pages in ten years
-    print("Table size in pages in ten years: " + str(table_size_in_pages_ten_years(rows_per_page, num_rows, 10)))
-
+    ltr = table_size_in_pages_ten_years(rows_per_page, num_rows, medication_growth_month)
+    total_growth.append(ltr-now)
+    current_size+=now
 #####################
 ###### patient ######
 #####################
@@ -107,17 +125,18 @@ def main():
     avg_data_type_size_array.append(sex_avg_data_type_size)
     
     #overhead w/ strings & normal
+    print("\n[patient] ", end='')
     rows_per_page = common_overhead_calc(num_int_fields, num_text_fields, avg_data_type_size_array)
 
     #table size in pages now
     cursor.execute("SELECT COUNT(*) FROM patient")
     num_rows = int(cursor.fetchone().pop())
-    print("\n\nPatient")
-    print("Table size in pages now: " + str(table_size_in_pages(num_rows, rows_per_page)))
+    now = table_size_in_pages(num_rows, rows_per_page)
 
     #growth size in pages in ten years
-    print("Table size in pages in ten years: " + str(table_size_in_pages_ten_years(rows_per_page, num_rows, 20)))
-
+    ltr = table_size_in_pages_ten_years(rows_per_page, num_rows, patient_growth_month)
+    total_growth.append(ltr-now)
+    current_size+=now
 #####################
 ##### symptoms #####
 #####################
@@ -131,18 +150,18 @@ def main():
     avg_data_type_size_array.append(name_avg_data_type_size)
     
     #overhead w/ strings & normal
+    print("\n[symptoms] ", end='')
     rows_per_page = common_overhead_calc(num_int_fields, num_text_fields, avg_data_type_size_array)
 
     #table size in pages now
     cursor.execute("SELECT COUNT(*) FROM symptoms")
     num_rows = int(cursor.fetchone().pop())
-    print("\n\nSymptoms")
-    print("Table size in pages now: " + str(table_size_in_pages(num_rows, rows_per_page)))
+    now = table_size_in_pages(num_rows, rows_per_page)
 
     #growth size in pages in ten years
-    print("Table size in pages in ten years: " + str(table_size_in_pages_ten_years(rows_per_page, num_rows, 1)))
-
-
+    ltr = table_size_in_pages_ten_years(rows_per_page, num_rows, symptom_growth_month)
+    total_growth.append(ltr-now)
+    current_size+=now
 ################################
 ##### tests_and_procedures #####
 ################################
@@ -159,18 +178,34 @@ def main():
     avg_data_type_size_array.append(test_procedure_avg_data_type_size)
 
     #overhead w/ strings & normal
-    print("\n\nTests and Procedures")
+    print("\n[tests_and_procedures] ", end='')
     rows_per_page = common_overhead_calc(num_int_fields, num_text_fields, avg_data_type_size_array)
 
     #table size in pages now
     cursor.execute("SELECT COUNT(*) FROM tests_and_procedures")
     num_rows = int(cursor.fetchone().pop())
     
-    print("Table size in pages now: " + str(table_size_in_pages(num_rows, rows_per_page)))
+    now = table_size_in_pages(num_rows, rows_per_page)
 
     #growth size in pages in ten years
-    print("Table size in pages in ten years: " + str(table_size_in_pages_ten_years(rows_per_page, num_rows, 10)))
+    ltr = table_size_in_pages_ten_years(rows_per_page, num_rows, test_procedure_growth_month)
+    total_growth.append(ltr-now)
+    current_size+=now
 
+    ################
+    # total growth #
+    ################
+    print("\nTotal growth in pages for all tables=", end='')
+    i = 0
+    for page_growth in total_growth:
+        print(str(page_growth), end="")
+        if(i < (len(total_growth)-1)):
+            print("+", end='')
+        i+=1
+    print('=' + str(sum(total_growth)))
+    print('Current total page size: '+ str(current_size))
+    print('Final total page size: ' + str(current_size + sum(total_growth))) 
+    
 
 def common_overhead_calc(num_int_fields, num_text_fields, avg_data_type_size_array):
     page_size = 8192
@@ -183,22 +218,23 @@ def common_overhead_calc(num_int_fields, num_text_fields, avg_data_type_size_arr
         total_overhead = total_overhead + data_type_overhead
 
     R = (page_size - page_overhead) / (total_overhead)
-    print("\tCalc: \n Rows in Page=(8192-" + str(page_overhead) + ")" + "/" + "(" + str(row_overhead) + "+" + str(num_int_fields) + "*4" + "+" + str(num_text_fields) + "*4", end ="")
+    print("Calculations: \nRows per Page=(8192-" + str(page_overhead) + ")" + "/" + "(" + str(row_overhead) + "+" + str(num_int_fields) + "*4" + "+" + str(num_text_fields) + "*4", end ="")
     
     for data_type_overhead in avg_data_type_size_array:
         print( "+" + str(data_type_overhead), end ="")
-    print(")=" + str(R))
+    print(")=" + str("{0:.3f}".format(R)) + '=' + str(math.floor(R)))
     
     return math.floor(R)
 
 
 def table_size_in_pages(num_rows, rows_per_page):
-    print("Table size in pages=" + str(num_rows) + "/" + str(rows_per_page) + "=" + str(num_rows / rows_per_page))
+    print("Current table size in pages=(Rows/Rows Per Page)=" + str(num_rows) + "/" + str(rows_per_page) + "=" + str("{0:.3f}".format(num_rows / rows_per_page)) + "=" + str(math.ceil(num_rows / rows_per_page)))
     return math.ceil(num_rows / rows_per_page)
 
 def table_size_in_pages_ten_years(rows_per_page, num_rows, add_num_rows_month):
-    print("\tCalc: " )
-    return math.ceil((num_rows / rows_per_page) + ((add_num_rows_month*12*10)/rows_per_page))
+    growth = (num_rows / rows_per_page) + ((add_num_rows_month*12*10)/rows_per_page)
+    print("Future table size in pages after growing " + str(add_num_rows_month) + " rows per month=(" + str("{0:.3f}".format(num_rows/rows_per_page)) + "+" + str("{0:.3f}".format(add_num_rows_month*12/rows_per_page)) + "*10)=" + str("{0:.3f}".format(growth)) + "=" + str(math.ceil(growth)))
+    return math.ceil(growth)
 
 main()
 
