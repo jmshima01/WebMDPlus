@@ -137,6 +137,84 @@ def main():
     ltr = table_size_in_pages_ten_years(rows_per_page, num_rows, patient_growth_month)
     total_growth.append(ltr-now)
     current_size+=now
+#################################
+###### patient_medications ######
+#################################
+    num_int_fields = 1
+    num_text_fields = 1
+    avg_data_type_size_array.clear()
+
+    #overhead for strings
+    cursor.execute("SELECT CEIL(AVG(pg_column_size(medication))) FROM patient_medications")
+    medication_avg_data_type_size = int(cursor.fetchone().pop())
+    avg_data_type_size_array.append(medication_avg_data_type_size)
+    
+    #overhead w/ strings & normal
+    print("\n[patient_medications] ", end='')
+    rows_per_page = common_overhead_calc(num_int_fields, num_text_fields, avg_data_type_size_array)
+
+    #table size in pages now
+    cursor.execute("SELECT COUNT(*) FROM patient_medications")
+    num_rows = int(cursor.fetchone().pop())
+    now = table_size_in_pages(num_rows, rows_per_page)
+
+    #growth size in pages in ten years
+    ltr = table_size_in_pages_ten_years(rows_per_page, num_rows, patient_growth_month)
+    total_growth.append(ltr-now)
+    current_size+=now
+
+#################################
+###### patient_procedures ######
+#################################
+    num_int_fields = 1
+    num_text_fields = 1
+    avg_data_type_size_array.clear()
+
+    #overhead for strings
+    cursor.execute("SELECT CEIL(AVG(pg_column_size(procedure))) FROM patient_procedures")
+    procedure_avg_data_type_size = int(cursor.fetchone().pop())
+    avg_data_type_size_array.append(procedure_avg_data_type_size)
+    
+    #overhead w/ strings & normal
+    print("\n[patient_procedures] ", end='')
+    rows_per_page = common_overhead_calc(num_int_fields, num_text_fields, avg_data_type_size_array)
+
+    #table size in pages now
+    cursor.execute("SELECT COUNT(*) FROM patient_procedures")
+    num_rows = int(cursor.fetchone().pop())
+    now = table_size_in_pages(num_rows, rows_per_page)
+
+    #growth size in pages in ten years
+    ltr = table_size_in_pages_ten_years(rows_per_page, num_rows, patient_growth_month)
+    total_growth.append(ltr-now)
+    current_size+=now
+
+#################################
+###### patient_symptoms ######
+#################################
+    num_int_fields = 1
+    num_text_fields = 1
+    avg_data_type_size_array.clear()
+
+    #overhead for strings
+    cursor.execute("SELECT CEIL(AVG(pg_column_size(symptom))) FROM patient_symptoms")
+    symptom_avg_data_type_size = int(cursor.fetchone().pop())
+    avg_data_type_size_array.append(symptom_avg_data_type_size)
+    
+    #overhead w/ strings & normal
+    print("\n[patient_symptoms] ", end='')
+    rows_per_page = common_overhead_calc(num_int_fields, num_text_fields, avg_data_type_size_array)
+
+    #table size in pages now
+    cursor.execute("SELECT COUNT(*) FROM patient_symptoms")
+    num_rows = int(cursor.fetchone().pop())
+    now = table_size_in_pages(num_rows, rows_per_page)
+
+    #growth size in pages in ten years
+    ltr = table_size_in_pages_ten_years(rows_per_page, num_rows, patient_growth_month)
+    total_growth.append(ltr-now)
+    current_size+=now   
+
 #####################
 ##### symptoms #####
 #####################
