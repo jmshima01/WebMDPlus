@@ -164,5 +164,9 @@ def randomForestDiseasePrediction(symptoms_chosen):
     # print("Out of...")
     # print(possible_diseases)
     
+<<<<<<< HEAD:backend/query_and_analysis/machine_learning_analysis.py
     return [clf.predict([prediction])[0],pos_dis]
+=======
+    return [clf.predict([prediction])[0], pos_dis]
+>>>>>>> b45ae9e621426fa4aa8e74011e458ce2bdc9447b:backend/machine_learning_analysis.py
     
