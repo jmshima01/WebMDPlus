@@ -177,7 +177,7 @@ def submitClickEvent():
         print("Likely Disease obj: " + str(diagnosis))
 
         predicted_disease_entry.delete(0,END)
-        predicted_disease_entry.insert(0, diagnosis[0])
+        predicted_disease_entry.insert(diagnosis[0])
         
         for values in diagnosis[1]:
             disease_list_box.insert(END, values)
