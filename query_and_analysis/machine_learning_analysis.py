@@ -104,15 +104,14 @@ simp = simp.drop("disease",axis=1) # data
 for i,sy in enumerate(symptoms_chosen):
     simp = simp.replace({sy:{1:len(symptoms_chosen)-i}})
     
-   
-
 
 clf = RandomForestClassifier()
+
 x_train, x_test, y_train, y_test = train_test_split(simp, label)
+
 clf.fit(x_train,y_train)
 result = clf.predict(x_test)
 
-# rand prediction:
 prediction = []
 s = list(simp.columns.values)
 indexes_of_chosen_symps = []
