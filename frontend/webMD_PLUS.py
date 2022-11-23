@@ -66,7 +66,8 @@ symptoms_dropdown_3=Combobox(window, values=symptoms, textvariable=symptomVar_3,
 symptoms_dropdown_4=Combobox(window, values=symptoms, textvariable=symptomVar_4, width=30, state="readonly")
 symptoms_dropdown_5=Combobox(window, values=symptoms, textvariable=symptomVar_5, width=30, state="readonly")
 
-predicted_disease_entry = Entry(window, state="readonly")
+predicted_diagnosis = StringVar()
+predicted_disease_entry = Entry(window, textvariable=predicted_diagnosis, width=35, state="readonly")
 disease_list_box = Listbox(window, height = 20,
                             bg = "grey",
                             activestyle = 'dotbox',
@@ -166,30 +167,24 @@ def submitClickEvent():
 
         symptoms_list = build_symptoms_list()
         full_name = first + " " + last
-
         queries.create_new_patient(cursor, full_name, ageVar, sex)
-
-        # likely_disease = ""
-        # likely_disease_list = []
-        # disease_pair = {likely_disease, likely_disease_list}
         diagnosis = mla.randomForestDiseasePrediction(symptoms_list)
         
-        print("Likely Disease obj: " + str(diagnosis))
+        print("Likeliest Disease: " + str(diagnosis[0]))
 
-        predicted_disease_entry.delete(0,END)
-        predicted_disease_entry.insert(0, diagnosis[0])
+        predicted_diagnosis.set(str(diagnosis[0]))
         
         for values in diagnosis[1]:
             disease_list_box.insert(END, values)
 
         conn.commit()
-        print("Patient ID: " + str(queries.get_patientID_by_name(cursor, full_name)[0]))
+        # print("Patient ID: " + str(queries.get_patientID_by_name(cursor, full_name)[0]))
         # for sym in symptoms_list:
         #     print(sym)
 
     
 def run_ui(): 
-    window.geometry("700x800")
+    window.geometry("730x800")
     scrollbar = Scrollbar(window)
 
     header=Label(window, text="Welcome to WebMD+", font='Arial 17 bold')
