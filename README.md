@@ -1,6 +1,6 @@
 # WebM.D.+ 
 
-WebM.D.+ is a backend recreation of WebM.D. to practice design of a structucal relational database using PostgreSQL, data cleansing and machine learning! Python is used for this backend project and can be futher comfigured with a RESTful API to connect with a clean frontend and even hosted on an actual domain
+WebM.D.+ is a backend recreation of WebM.D. to practice design of a structucal relational database using PostgreSQL, data cleansing and machine learning! Python is used for this backend project and can be futher configured with a RESTful API to connect with a clean frontend and even hosted on an actual domain
 
 Data Used -- Kaggle Link(s):
 1) https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=dataset.csv
